@@ -24,6 +24,36 @@
       </tags>
   </entry>
   <entry>
+    <title>技术提升 · LeetCode题库</title>
+    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
+    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
+</div>
+<h1 id="1-两数之和"><a href="#1-两数之和" class="headerlink" title="1. 两数之和"></a>1. 两数之和</h1><details class="folding-tag" yellow><summary> 难度：简单 &nbsp; 考察点：数组 </summary>
+              <div class='content'>
+              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure><ul><li>示例 2：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure><ul><li>示例 3：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" cyan><summary> 个人题解 </summary>
+              <div class='content'>
+              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N <span class="number">2</span>)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</span><br><span class="line"># 空间复杂度：O(<span class="number">1</span>)。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;i, j&#125;;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" green><summary> 优秀题解 </summary>
+              <div class='content'>
+              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素 x，我们可以 O(<span class="number">1</span>) 地寻找 target - x。</span><br><span class="line"></span><br><span class="line"># 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) &#123;</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;hashtable.get(target - nums[i]), i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>技术提升</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo · 安知鱼主题部署</title>
     <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark><br>安知鱼主题官方文档：<a href="https://docs.anheyu.com/">https://docs.anheyu.com/</a></p>
@@ -110,6 +140,53 @@
       </categories>
       <tags>
         <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 健康指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info 作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
+</div>
+<h1 id="1-饮食"><a href="#1-饮食" class="headerlink" title="1. 饮食"></a>1. 饮食</h1><h2 id="1-1-喝茶"><a href="#1-1-喝茶" class="headerlink" title="1.1 喝茶"></a>1.1 喝茶</h2><ul>
+<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。</li>
+</ul>
+<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span class='p red'>心悸</span>、<span class='p red'>失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
+</div>
+ <p class='p center logo large'>茶的种类</p>
+<ol>
+<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p>
+</li>
+<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p>
+</li>
+<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p>
+</li>
+<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p>
+</li>
+<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p>
+</li>
+<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p>
+</li>
+<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p>
+</li>
+<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p>
+</li>
+</ol>
+<h1 id="2-行为习惯"><a href="#2-行为习惯" class="headerlink" title="2. 行为习惯"></a>2. 行为习惯</h1><h2 id="2-1-番茄钟工作法"><a href="#2-1-番茄钟工作法" class="headerlink" title="2.1 番茄钟工作法"></a>2.1 番茄钟工作法</h2><ol>
+<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p>
+</li>
+<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p>
+</li>
+<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p>
+</li>
+<li><p>每25分钟站立办公替代坐姿</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>健康指南</tag>
       </tags>
   </entry>
 </search>
