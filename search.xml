@@ -24,6 +24,36 @@
       </tags>
   </entry>
   <entry>
+    <title>技术提升 · LeetCode题库</title>
+    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
+    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
+</div>
+<h1 id="1-两数之和"><a href="#1-两数之和" class="headerlink" title="1. 两数之和"></a>1. 两数之和</h1><details class="folding-tag" yellow><summary> 难度：简单 &nbsp; 考察点：数组 </summary>
+              <div class='content'>
+              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure><ul><li>示例 2：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure><ul><li>示例 3：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" cyan><summary> 个人题解 </summary>
+              <div class='content'>
+              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N <span class="number">2</span>)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</span><br><span class="line"># 空间复杂度：O(<span class="number">1</span>)。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;i, j&#125;;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details class="folding-tag" green><summary> 优秀题解 </summary>
+              <div class='content'>
+              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素 x，我们可以 O(<span class="number">1</span>) 地寻找 target - x。</span><br><span class="line"></span><br><span class="line"># 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) &#123;</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;hashtable.get(target - nums[i]), i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>技术提升</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo · 安知鱼主题部署</title>
     <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark><br>安知鱼主题官方文档：<a href="https://docs.anheyu.com/">https://docs.anheyu.com/</a></p>
@@ -91,55 +121,49 @@
       </tags>
   </entry>
   <entry>
-    <title>技术提升 · LeetCode题库</title>
-    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
-    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
-</div>
-<h1 id="1-两数之和"><a href="#1-两数之和" class="headerlink" title="1. 两数之和"></a>1. 两数之和</h1><details class="folding-tag" yellow><summary> 难度：简单 &nbsp; 考察点：数组 </summary>
-              <div class='content'>
-              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1：</p></li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure><ul><li>示例 2：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure><ul><li>示例 3：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure>
-              </div>
-            </details>
-
-<details class="folding-tag" cyan><summary> 个人题解 </summary>
-              <div class='content'>
-              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N <span class="number">2</span>)，其中 N 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</span><br><span class="line"># 空间复杂度：O(<span class="number">1</span>)。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target)&#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;i, j&#125;;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-              </div>
-            </details>
-
-<details class="folding-tag" green><summary> 优秀题解 </summary>
-              <div class='content'>
-              <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"># 时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素 x，我们可以 O(<span class="number">1</span>) 地寻找 target - x。</span><br><span class="line"></span><br><span class="line"># 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) &#123;</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) &#123;</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]&#123;hashtable.get(target - nums[i]), i&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
-              </div>
-            </details>
-]]></content>
-      <categories>
-        <category>技术提升</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Node.js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>环境安装 · Git</title>
     <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="1-Windows安装Git"><a href="#1-Windows安装Git" class="headerlink" title="1. Windows安装Git"></a>1. Windows安装Git</h1><h2 id="1-1-下载Git"><a href="#1-1-下载Git" class="headerlink" title="1.1 下载Git"></a>1.1 下载Git</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git官网</div>
+            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
+<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><ul>
+<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
+<li>安装目录：建议其他盘(除C盘以外)</li>
+<li>后续操作选择默认即可</li>
+</ul>
+]]></content>
       <categories>
         <category>环境安装</category>
       </categories>
       <tags>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark> </p>
+<ul>
+<li>Nodejs安装教程：<a href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
       </tags>
   </entry>
   <entry>
