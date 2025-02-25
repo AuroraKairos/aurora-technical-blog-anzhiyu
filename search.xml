@@ -24,52 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · Git</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
-    <content><![CDATA[<h1 id="1-Windows安装Git"><a href="#1-Windows安装Git" class="headerlink" title="1. Windows安装Git"></a>1. Windows安装Git</h1><h2 id="1-1-下载Git"><a href="#1-1-下载Git" class="headerlink" title="1.1 下载Git"></a>1.1 下载Git</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
-          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Git官网</div>
-            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
-<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><ul>
-<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
-<li>安装目录：建议其他盘(除C盘以外)</li>
-<li>后续操作选择默认即可</li>
-</ul>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark> </p>
-<ul>
-<li>Nodejs安装教程：<a href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
-</ul>
-</div>]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Node.js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo · 安知鱼主题部署</title>
     <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark><br>安知鱼主题官方文档：<a href="https://docs.anheyu.com/">https://docs.anheyu.com/</a></p>
@@ -176,6 +130,52 @@
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark> </p>
+<ul>
+<li>Nodejs安装教程：<a href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Git</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
+    <content><![CDATA[<h1 id="1-Windows安装Git"><a href="#1-Windows安装Git" class="headerlink" title="1. Windows安装Git"></a>1. Windows安装Git</h1><h2 id="1-1-下载Git"><a href="#1-1-下载Git" class="headerlink" title="1.1 下载Git"></a>1.1 下载Git</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git官网</div>
+            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
+<h2 id="1-2-安装Git"><a href="#1-2-安装Git" class="headerlink" title="1.2 安装Git"></a>1.2 安装Git</h2><ul>
+<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
+<li>安装目录：建议其他盘(除C盘以外)</li>
+<li>后续操作选择默认即可</li>
+</ul>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
