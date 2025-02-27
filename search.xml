@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo · 博客编写手册</title>
-    <url>/2025/02/22/Hexo%C2%B7%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E6%89%8B%E5%86%8C/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
-<ul>
-<li>安知鱼主题官方文档：https://docs.anheyu.com/</li>
-<li>安知鱼主题标签Tag
-Plugins：https://blog.anheyu.com/posts/d50a.html</li>
-</ul>
-</div>
-<h1 id="页面配置front-matter">1. 页面配置Front-matter</h1>
-<p>转载至：<a
-href="https://docs.anheyu.com/page/front-matter.html">https://docs.anheyu.com/page/front-matter.html</a></p>
-<p>页面配置 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">title: 页面标题</span><br><span class="line">date: 页面创建日期</span><br><span class="line">updated: 页面更新日期</span><br><span class="line">description: 页面描述</span><br><span class="line">keywords: 页面关键字</span><br><span class="line">top<span class="emphasis">_img: 页面顶部图片</span></span><br></pre></td></tr></table></figure></p>
-<h1 id="页面小组件">2. 页面小组件</h1>
-<div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>请参考 安知鱼主题标签Tag Plugins文章：<a
-href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></p>
-</div>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/d50a.html">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">安知鱼主题标签Tag Plugins文章</div>
-            <div class="tag-link-sitename">https://blog.anheyu.com/posts/d50a.html</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<h2 id="数学公式">2.1 数学公式</h2>
-<h3 id="m的n次幂">2.1.1 m的n次幂</h3>
-<p>m<sup>n</sup>编写方式： <span class='p red'>m^n^</span></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
     <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
@@ -179,49 +137,62 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · Git</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
-    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
-<h2 id="下载git">1.1 下载Git</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <title>Hexo · 博客编写手册</title>
+    <url>/2025/02/22/Hexo%C2%B7%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E6%89%8B%E5%86%8C/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
+<ul>
+<li>安知鱼主题官方文档：https://docs.anheyu.com/</li>
+<li>安知鱼主题标签Tag
+Plugins：https://blog.anheyu.com/posts/d50a.html</li>
+</ul>
+</div>
+<h1 id="页面配置front-matter">1. 页面配置Front-matter</h1>
+<p>转载至：<a
+href="https://docs.anheyu.com/page/front-matter.html">https://docs.anheyu.com/page/front-matter.html</a></p>
+<p>页面配置 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">title: 页面标题</span><br><span class="line">date: 页面创建日期</span><br><span class="line">updated: 页面更新日期</span><br><span class="line">description: 页面描述</span><br><span class="line">keywords: 页面关键字</span><br><span class="line">top<span class="emphasis">_img: 页面顶部图片</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="页面小组件">2. 页面小组件</h1>
+<div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>请参考 安知鱼主题标签Tag Plugins文章：<a
+href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></p>
+</div>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/d50a.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
-          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
         </div>
         <div class="tag-link-right">
-            <div class="tag-link-title">Git官网</div>
-            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+            <div class="tag-link-title">安知鱼主题标签Tag Plugins文章</div>
+            <div class="tag-link-sitename">https://blog.anheyu.com/posts/d50a.html</div>
         </div>
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
     </a></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
-<h2 id="安装git">1.2 安装Git</h2>
+<h2 id="数学公式">2.1 数学公式</h2>
+<h3 id="m的n次幂">2.1.1 m的n次幂</h3>
+<p>m<sup>n</sup>编写方式： <span class='p red'>m^n^</span></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
 <ul>
-<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
-<li>安装目录：建议其他盘(除C盘以外)</li>
-<li>后续操作选择默认即可</li>
+<li>Nodejs安装教程：<a
+href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
 </ul>
+</div>
 ]]></content>
       <categories>
         <category>环境安装</category>
       </categories>
       <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理论知识 · JavaSE</title>
-    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaSE/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>JavaSE</tag>
+        <tag>Node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -287,6 +258,40 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
+    <title>环境安装 · Git</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
+    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
+<h2 id="下载git">1.1 下载Git</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git官网</div>
+            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
+<h2 id="安装git">1.2 安装Git</h2>
+<ul>
+<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
+<li>安装目录：建议其他盘(除C盘以外)</li>
+<li>后续操作选择默认即可</li>
+</ul>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理论知识 · MySQL</title>
     <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
     <content><![CDATA[
@@ -299,20 +304,15 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
-<ul>
-<li>Nodejs安装教程：<a
-href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
-</ul>
-</div>
+    <title>理论知识 · JavaSE</title>
+    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaSE/</url>
+    <content><![CDATA[
 ]]></content>
       <categories>
-        <category>环境安装</category>
+        <category>理论知识</category>
       </categories>
       <tags>
-        <tag>Node.js</tag>
+        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
