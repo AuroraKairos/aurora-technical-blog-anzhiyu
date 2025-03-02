@@ -43,50 +43,6 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
       </tags>
   </entry>
   <entry>
-    <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
-    <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
-<ul>
-<li>由于hexo默认支持的hexo-renderer-marked渲染器不支持latex公式。无法很好的显示数学公式，所以需要对应的魔改配置。</li>
-</ul>
-<h1 id="解决方案">2. 解决方案</h1>
-<h2 id="卸载hexo-math和hexo-renderer-marked渲染引擎">2.1
-卸载hexo-math和hexo-renderer-marked渲染引擎</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm un hexo-math</span><br><span class="line">npm un hexo-renderer-marked</span><br></pre></td></tr></table></figure>
-<h2 id="安装hexo-renderer-pandoc渲染器">2.2
-安装hexo-renderer-pandoc渲染器</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure>
-<h2 id="安装mathjax公式引擎">2.3 安装mathjax公式引擎</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-mathjax</span><br></pre></td></tr></table></figure>
-<h2 id="下载pandoc">2.4 下载Pandoc</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://pandoc.org/installing.html#windows">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Pandoc下载地址</div>
-            <div class="tag-link-sitename">https://pandoc.org</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<h2 id="配置pandoc路径和参数">2.5 配置Pandoc路径和参数</h2>
-<blockquote>
-<p>在Hexo的_config.yml的文件中添加以下配置项 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pandoc:</span><br><span class="line">  pandoc_path: C:/Program Files/Pandoc/pandoc.exe  # Pandoc文件位置</span><br><span class="line">  args:</span><br><span class="line">    - &quot;-f&quot;</span><br><span class="line">    - &quot;markdown&quot;</span><br><span class="line">    - &quot;-t&quot;</span><br><span class="line">    - &quot;html&quot;</span><br><span class="line">    - &quot;--mathjax&quot;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="主题配置文件修改">2.6 主题配置文件修改</h2>
-<p>将mathjax中的enable，per_page改为true <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># MathJax</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br></pre></td></tr></table></figure></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo · 安知鱼主题部署</title>
     <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
@@ -158,6 +114,50 @@ hexo
 <div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>请参考 安知鱼主题配置文章：<a
 href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html</a></p>
 </div>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
+    <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
+<ul>
+<li>由于hexo默认支持的hexo-renderer-marked渲染器不支持latex公式。无法很好的显示数学公式，所以需要对应的魔改配置。</li>
+</ul>
+<h1 id="解决方案">2. 解决方案</h1>
+<h2 id="卸载hexo-math和hexo-renderer-marked渲染引擎">2.1
+卸载hexo-math和hexo-renderer-marked渲染引擎</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm un hexo-math</span><br><span class="line">npm un hexo-renderer-marked</span><br></pre></td></tr></table></figure>
+<h2 id="安装hexo-renderer-pandoc渲染器">2.2
+安装hexo-renderer-pandoc渲染器</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure>
+<h2 id="安装mathjax公式引擎">2.3 安装mathjax公式引擎</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-mathjax</span><br></pre></td></tr></table></figure>
+<h2 id="下载pandoc">2.4 下载Pandoc</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://pandoc.org/installing.html#windows">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Pandoc下载地址</div>
+            <div class="tag-link-sitename">https://pandoc.org</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h2 id="配置pandoc路径和参数">2.5 配置Pandoc路径和参数</h2>
+<blockquote>
+<p>在Hexo的_config.yml的文件中添加以下配置项 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pandoc:</span><br><span class="line">  pandoc_path: C:/Program Files/Pandoc/pandoc.exe  # Pandoc文件位置</span><br><span class="line">  args:</span><br><span class="line">    - &quot;-f&quot;</span><br><span class="line">    - &quot;markdown&quot;</span><br><span class="line">    - &quot;-t&quot;</span><br><span class="line">    - &quot;html&quot;</span><br><span class="line">    - &quot;--mathjax&quot;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="主题配置文件修改">2.6 主题配置文件修改</h2>
+<p>将mathjax中的enable，per_page改为true <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># MathJax</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <categories>
         <category>博客</category>
@@ -289,6 +289,40 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
+    <title>环境安装 · Git</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
+    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
+<h2 id="下载git">1.1 下载Git</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git官网</div>
+            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
+<h2 id="安装git">1.2 安装Git</h2>
+<ul>
+<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
+<li>安装目录：建议其他盘(除C盘以外)</li>
+<li>后续操作选择默认即可</li>
+</ul>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>技术提升 · LeetCode题库</title>
     <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
     <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
@@ -368,40 +402,6 @@ href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://b
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · Git</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
-    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
-<h2 id="下载git">1.1 下载Git</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
-          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Git官网</div>
-            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
-<h2 id="安装git">1.2 安装Git</h2>
-<ul>
-<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
-<li>安装目录：建议其他盘(除C盘以外)</li>
-<li>后续操作选择默认即可</li>
-</ul>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理论知识 · JavaSE</title>
     <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaSE/</url>
     <content><![CDATA[
@@ -423,6 +423,59 @@ href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://b
       </categories>
       <tags>
         <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 健康指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info
+作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
+</div>
+<h1 id="饮食">1. 饮食</h1>
+<h2 id="喝茶">1.1 喝茶</h2>
+<ul>
+<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
+<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
+class="p red">心悸</span>、<span
+class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
+</div> <p class='p center logo large'>茶的种类</p></li>
+</ul>
+<ol type="1">
+<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
+<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
+<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
+<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
+<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
+<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
+<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
+<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
+</ol>
+<h1 id="行为习惯">2. 行为习惯</h1>
+<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
+<ol type="1">
+<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
+<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
+<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
+<li><p>每25分钟站立办公替代坐姿</p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>健康指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论知识 · Vue</title>
+    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>理论知识</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
@@ -560,59 +613,6 @@ META-INF/spring/xxx.imports</li>
       </categories>
       <tags>
         <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理论知识 · Vue</title>
-    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 健康指南</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<div class="note info modern"><p>info
-作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
-</div>
-<h1 id="饮食">1. 饮食</h1>
-<h2 id="喝茶">1.1 喝茶</h2>
-<ul>
-<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
-<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
-class="p red">心悸</span>、<span
-class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
-</div> <p class='p center logo large'>茶的种类</p></li>
-</ul>
-<ol type="1">
-<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
-<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
-<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
-<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
-<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
-<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
-<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
-<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
-</ol>
-<h1 id="行为习惯">2. 行为习惯</h1>
-<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
-<ol type="1">
-<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
-<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
-<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
-<li><p>每25分钟站立办公替代坐姿</p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>健康指南</tag>
       </tags>
   </entry>
   <entry>
