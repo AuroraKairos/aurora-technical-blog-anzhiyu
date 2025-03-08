@@ -43,6 +43,50 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
       </tags>
   </entry>
   <entry>
+    <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
+    <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
+<ul>
+<li>由于hexo默认支持的hexo-renderer-marked渲染器不支持latex公式。无法很好的显示数学公式，所以需要对应的魔改配置。</li>
+</ul>
+<h1 id="解决方案">2. 解决方案</h1>
+<h2 id="卸载hexo-math和hexo-renderer-marked渲染引擎">2.1
+卸载hexo-math和hexo-renderer-marked渲染引擎</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm un hexo-math</span><br><span class="line">npm un hexo-renderer-marked</span><br></pre></td></tr></table></figure>
+<h2 id="安装hexo-renderer-pandoc渲染器">2.2
+安装hexo-renderer-pandoc渲染器</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure>
+<h2 id="安装mathjax公式引擎">2.3 安装mathjax公式引擎</h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-mathjax</span><br></pre></td></tr></table></figure>
+<h2 id="下载pandoc">2.4 下载Pandoc</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://pandoc.org/installing.html#windows">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Pandoc下载地址</div>
+            <div class="tag-link-sitename">https://pandoc.org</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h2 id="配置pandoc路径和参数">2.5 配置Pandoc路径和参数</h2>
+<blockquote>
+<p>在Hexo的_config.yml的文件中添加以下配置项 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pandoc:</span><br><span class="line">  pandoc_path: C:/Program Files/Pandoc/pandoc.exe  # Pandoc文件位置</span><br><span class="line">  args:</span><br><span class="line">    - &quot;-f&quot;</span><br><span class="line">    - &quot;markdown&quot;</span><br><span class="line">    - &quot;-t&quot;</span><br><span class="line">    - &quot;html&quot;</span><br><span class="line">    - &quot;--mathjax&quot;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="主题配置文件修改">2.6 主题配置文件修改</h2>
+<p>将mathjax中的enable，per_page改为true <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># MathJax</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo · 安知鱼主题部署</title>
     <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
@@ -114,50 +158,6 @@ hexo
 <div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>请参考 安知鱼主题配置文章：<a
 href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html</a></p>
 </div>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
-    <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
-<ul>
-<li>由于hexo默认支持的hexo-renderer-marked渲染器不支持latex公式。无法很好的显示数学公式，所以需要对应的魔改配置。</li>
-</ul>
-<h1 id="解决方案">2. 解决方案</h1>
-<h2 id="卸载hexo-math和hexo-renderer-marked渲染引擎">2.1
-卸载hexo-math和hexo-renderer-marked渲染引擎</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm un hexo-math</span><br><span class="line">npm un hexo-renderer-marked</span><br></pre></td></tr></table></figure>
-<h2 id="安装hexo-renderer-pandoc渲染器">2.2
-安装hexo-renderer-pandoc渲染器</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure>
-<h2 id="安装mathjax公式引擎">2.3 安装mathjax公式引擎</h2>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-filter-mathjax</span><br></pre></td></tr></table></figure>
-<h2 id="下载pandoc">2.4 下载Pandoc</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://pandoc.org/installing.html#windows">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Pandoc下载地址</div>
-            <div class="tag-link-sitename">https://pandoc.org</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<h2 id="配置pandoc路径和参数">2.5 配置Pandoc路径和参数</h2>
-<blockquote>
-<p>在Hexo的_config.yml的文件中添加以下配置项 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pandoc:</span><br><span class="line">  pandoc_path: C:/Program Files/Pandoc/pandoc.exe  # Pandoc文件位置</span><br><span class="line">  args:</span><br><span class="line">    - &quot;-f&quot;</span><br><span class="line">    - &quot;markdown&quot;</span><br><span class="line">    - &quot;-t&quot;</span><br><span class="line">    - &quot;html&quot;</span><br><span class="line">    - &quot;--mathjax&quot;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<h2 id="主题配置文件修改">2.6 主题配置文件修改</h2>
-<p>将mathjax中的enable，per_page改为true <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># MathJax</span><br><span class="line">mathjax:</span><br><span class="line">  enable: true</span><br><span class="line">  per_page: true</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <categories>
         <category>博客</category>
@@ -277,15 +277,44 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
-    <title>技术提升 · JavaSE</title>
-    <url>/2025/02/27/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
-    <content><![CDATA[
+    <title>理论知识 · ElementPlus</title>
+    <url>/2025/03/08/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Element%20Plus/</url>
+    <content><![CDATA[<h1 id="什么是elementplus">1. 什么是ElementPlus</h1>
+<ul>
+<li>Element:是饿了么团队研发的，基于Vue3，面向设计师和开发者的<span class='p red'>组件</span>库</li>
+<li>组件：组成网页的部件，例如：超链接，按钮，图片，表格，表单，分页条等等。</li>
+<li>官网</li>
+</ul>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://element.eleme.cn/#/zh-CN">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">ElementPlus</div>
+            <div class="tag-link-sitename">https://element.eleme.cn/#/zh-CN</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h2 id="elementplus快速入门">1.1 ElementPlus快速入门</h2>
+<ul>
+<li>准备工作：
+<ul>
+<li>创建一个工程化的Vue项目</li>
+<li>参照官方文档，安装ElementPlus组件库（在当前工程的目录下）
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install element-plus --save</span><br></pre></td></tr></table></figure></li>
+<li>main.js中引入Element Plus组件库（参照官方文档）</li>
+</ul></li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-50-43.png"/></div></div>
 ]]></content>
       <categories>
-        <category>技术提升</category>
+        <category>理论知识</category>
       </categories>
       <tags>
-        <tag>JavaSE</tag>
+        <tag>ElementPlus</tag>
       </tags>
   </entry>
   <entry>
@@ -323,82 +352,15 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
-    <title>技术提升 · LeetCode题库</title>
-    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
-    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
-</div>
-<h1 id="两数之和">1. 两数之和</h1>
-<details class="folding-tag" yellow=""><summary> 难度：简单   考察点：数组 </summary>
-              <div class="content">
-              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值 target 的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure></p></li></ul>
-              </div>
-            </details>
-<details class="folding-tag" cyan=""><summary> 个人题解 </summary>
-              <div class="content">
-              <ul><li>时间复杂度：O(N 2)，其中 N是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</li><li>空间复杂度：O(1)。 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++){</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target){</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{i, j};</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li></ul>
-              </div>
-            </details>
-<details class="folding-tag" green=""><summary> 优秀题解 </summary>
-              <div class="content">
-              <ul><li><p>时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素x，我们可以 O(1) 地寻找 target - x。</p></li><li><p>空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) {</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) {</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{hashtable.get(target - nums[i]), i};</span><br><span class="line">            }</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure></p></li></ul>
-              </div>
-            </details>
-<h1 id="两数相加">2. 两数相加</h1>
-<details class="folding-tag" yellow=""><summary> 难度：中等   考察点：链表 </summary>
-              <div class="content">
-              <ul><li><p>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照逆序 的方式存储的，并且每个节点只能存储 一位 数字。</p></li><li><p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p></li><li><p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p></li><li><p>示例 1： <img src="/images/page_img/addtwonumber1.jpg"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [2,4,3], l2 = [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 = 807.</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [0], l2 = [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]</span><br><span class="line">输出：[8,9,9,9,0,0,0,1]</span><br></pre></td></tr></table></figure></p></li><li><p>提示 每个链表中的节点数在范围 [1, 100] 内 0 &lt;= Node.val &lt;=9 题目数据保证列表表示的数字不含前导零</p></li></ul>
-              </div>
-            </details>
-<details class="folding-tag" green=""><summary> 优秀题解 </summary>
-              <div class="content">
-              <ul><li><p>时间复杂度：O(max(m,n))，其中 m 和 n分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要O(1) 的时间。</p></li><li><p>空间复杂度：O(1)。注意返回值不计入空间复杂度。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> ListNode <span class="title function_">addTwoNumbers</span><span class="params">(ListNode l1, ListNode l2)</span> {</span><br><span class="line">        <span class="type">ListNode</span> <span class="variable">head</span> <span class="operator">=</span> <span class="literal">null</span>, tail = <span class="literal">null</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (l1 != <span class="literal">null</span> || l2 != <span class="literal">null</span>) {</span><br><span class="line">            <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> l1 != <span class="literal">null</span> ? l1.val : <span class="number">0</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> l2 != <span class="literal">null</span> ? l2.val : <span class="number">0</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">            <span class="keyword">if</span> (head == <span class="literal">null</span>) {</span><br><span class="line">                head = tail = <span class="keyword">new</span> <span class="title class_">ListNode</span>(sum % <span class="number">10</span>);</span><br><span class="line">            } <span class="keyword">else</span> {</span><br><span class="line">                tail.next = <span class="keyword">new</span> <span class="title class_">ListNode</span>(sum % <span class="number">10</span>);</span><br><span class="line">                tail = tail.next;</span><br><span class="line">            }</span><br><span class="line">            carry = sum / <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (l1 != <span class="literal">null</span>) {</span><br><span class="line">                l1 = l1.next;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (l2 != <span class="literal">null</span>) {</span><br><span class="line">                l2 = l2.next;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">if</span> (carry &gt; <span class="number">0</span>) {</span><br><span class="line">            tail.next = <span class="keyword">new</span> <span class="title class_">ListNode</span>(carry);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/add-two-numbers/solutions/435246/liang-shu-xiang-jia-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure></p></li></ul>
-              </div>
-            </details>
-<h1 id="无重复字符的最长子串">3. 无重复字符的最长子串</h1>
-<details class="folding-tag" yellow=""><summary> 难度：中等   考察点：字符串 </summary>
-              <div class="content">
-              <ul><li><p>给定一个字符串 s ，请你找出其中不含有重复字符的 最长 子串的长度。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "abcabcbb"</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "bbbbb"</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "pwwkew"</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。</span><br><span class="line">     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p></li><li><p>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></p></li><li><p>s 由英文字母、数字、符号和空格组成</p></li></ul>
-              </div>
-            </details>
-<details class="folding-tag" green=""><summary> 优秀题解 </summary>
-              <div class="content">
-              <ul><li><p>时间复杂度O(N*∣Σ∣)。因为不重复子串区间长度不会超过ASCII码字符集的长度∣Σ∣=128，当N足够大时，时间复杂度接近O(N)。</p></li><li><p>空间复杂度O(1)。跟官方解法相比，这个解法省去了哈希表占用的空间。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="type">int</span> <span class="title function_">lengthOfLongestSubstring</span><span class="params">(String s)</span> {</span><br><span class="line">    <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, length = <span class="number">0</span>, max = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> right=<span class="number">0</span>; right &lt; s.length(); right++){</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> left; k &lt; right; k++){</span><br><span class="line">            <span class="keyword">if</span>(s.charAt(k) == s.charAt(right)){</span><br><span class="line">                left = k+<span class="number">1</span>;</span><br><span class="line">                length = right-left;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        length++;</span><br><span class="line">        <span class="keyword">if</span>(max &lt; length) max = length;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> max;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p></li></ul>
-              </div>
-            </details>
-<h1 id="寻找两个正序数组的中位数">4. 寻找两个正序数组的中位数</h1>
-<details class="folding-tag" yellow=""><summary> 难度：困难   考察点：二分法 </summary>
-              <div class="content">
-              <ul><li><p>给定两个大小分别为 m 和 n 的正序（从小到大）数组 nums1 和nums2。请你找出并返回这两个正序数组的 中位数 。</p></li><li><p>算法的时间复杂度应该为 O(log (m+n)) 。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [1,3], nums2 = [2]</span><br><span class="line">输出：2.00000</span><br><span class="line">解释：合并数组 = [1,2,3] ，中位数 2</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [1,2], nums2 = [3,4]</span><br><span class="line">输出：2.50000</span><br><span class="line">解释：合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p></li><li><p>nums1.length == m</p></li><li><p>nums2.length == n</p></li><li><p>0 &lt;= m &lt;= 1000</p></li><li><p>0 &lt;= n &lt;= 1000</p></li><li><p>1 &lt;= m + n &lt;= 2000</p></li><li><p>-10<sup>6</sup> &lt;= nums1[i], nums2[i] &lt;=10<sup>6</sup></p></li></ul>
-              </div>
-            </details>
-<details class="folding-tag" green=""><summary> 优秀题解 </summary>
-              <div class="content">
-              <ul><li><p>时间复杂度：O(log(m+n))，其中 m 和 n 分别是数组 nums <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.452ex;" xmlns="http://www.w3.org/2000/svg" width="10.243ex" height="2.149ex" role="img" focusable="false" viewBox="0 -750 4527.6 950"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g><g data-mml-node="mi" transform="translate(1008.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">和</text></g><g data-mml-node="mi" transform="translate(2008.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(2608.6,0)"><path data-c="1D462" d="M21 287Q21 295 30 318T55 370T99 420T158 442Q204 442 227 417T250 358Q250 340 216 246T182 105Q182 62 196 45T238 27T291 44T328 78L339 95Q341 99 377 247Q407 367 413 387T427 416Q444 431 463 431Q480 431 488 421T496 402L420 84Q419 79 419 68Q419 43 426 35T447 26Q469 29 482 57T512 145Q514 153 532 153Q551 153 551 144Q550 139 549 130T540 98T523 55T498 17T462 -8Q454 -10 438 -10Q372 -10 347 46Q345 45 336 36T318 21T296 6T267 -6T233 -11Q189 -11 155 7Q103 38 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(3180.6,0)"><path data-c="1D45A" d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(4058.6,0)"><path data-c="1D460" d="M131 289Q131 321 147 354T203 415T300 442Q362 442 390 415T419 355Q419 323 402 308T364 292Q351 292 340 300T328 326Q328 342 337 354T354 372T367 378Q368 378 368 379Q368 382 361 388T336 399T297 405Q249 405 227 379T204 326Q204 301 223 291T278 274T330 259Q396 230 396 163Q396 135 385 107T352 51T289 7T195 -10Q118 -10 86 19T53 87Q53 126 74 143T118 160Q133 160 146 151T160 120Q160 94 142 76T111 58Q109 57 108 57T107 55Q108 52 115 47T146 34T201 27Q237 27 263 38T301 66T318 97T323 122Q323 150 302 164T254 181T195 196T148 231Q131 256 131 289Z"></path></g></g></g></svg></mjx-container>x_{2}的长度。初始时有 k=(m+n)/2 或k=(m+n)/2+1，每一轮循环可以将查找范围减少一半，因此时间复杂度是O(log(m+n))。</p></li><li><p>空间复杂度：O(1)。</p></li></ul><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">findMedianSortedArrays</span><span class="params">(<span class="type">int</span>[] nums1, <span class="type">int</span>[] nums2)</span> {</span><br><span class="line">        <span class="type">int</span> <span class="variable">length1</span> <span class="operator">=</span> nums1.length, length2 = nums2.length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">totalLength</span> <span class="operator">=</span> length1 + length2;</span><br><span class="line">        <span class="keyword">if</span> (totalLength % <span class="number">2</span> == <span class="number">1</span>) {</span><br><span class="line">            <span class="type">int</span> <span class="variable">midIndex</span> <span class="operator">=</span> totalLength / <span class="number">2</span>;</span><br><span class="line">            <span class="type">double</span> <span class="variable">median</span> <span class="operator">=</span> getKthElement(nums1, nums2, midIndex + <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">return</span> median;</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            <span class="type">int</span> <span class="variable">midIndex1</span> <span class="operator">=</span> totalLength / <span class="number">2</span> - <span class="number">1</span>, midIndex2 = totalLength / <span class="number">2</span>;</span><br><span class="line">            <span class="type">double</span> <span class="variable">median</span> <span class="operator">=</span> (getKthElement(nums1, nums2, midIndex1 + <span class="number">1</span>) + getKthElement(nums1, nums2, midIndex2 + <span class="number">1</span>)) / <span class="number">2.0</span>;</span><br><span class="line">            <span class="keyword">return</span> median;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getKthElement</span><span class="params">(<span class="type">int</span>[] nums1, <span class="type">int</span>[] nums2, <span class="type">int</span> k)</span> {</span><br><span class="line">        <span class="comment">/* 主要思路：要找到第 k (k&gt;1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较</span></span><br><span class="line"><span class="comment">         * 这里的 "/" 表示整除</span></span><br><span class="line"><span class="comment">         * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个</span></span><br><span class="line"><span class="comment">         * nums2 中小于等于 pivot2 的元素有 nums2[0 .. k/2-2] 共计 k/2-1 个</span></span><br><span class="line"><span class="comment">         * 取 pivot = min(pivot1, pivot2)，两个数组中小于等于 pivot 的元素共计不会超过 (k/2-1) + (k/2-1) &lt;= k-2 个</span></span><br><span class="line"><span class="comment">         * 这样 pivot 本身最大也只能是第 k-1 小的元素</span></span><br><span class="line"><span class="comment">         * 如果 pivot = pivot1，那么 nums1[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums1 数组</span></span><br><span class="line"><span class="comment">         * 如果 pivot = pivot2，那么 nums2[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums2 数组</span></span><br><span class="line"><span class="comment">         * 由于我们 "删除" 了一些元素（这些元素都比第 k 小的元素要小），因此需要修改 k 的值，减去删除的数的个数</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">length1</span> <span class="operator">=</span> nums1.length, length2 = nums2.length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">index1</span> <span class="operator">=</span> <span class="number">0</span>, index2 = <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">kthElement</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (<span class="literal">true</span>) {</span><br><span class="line">            <span class="comment">// 边界情况</span></span><br><span class="line">            <span class="keyword">if</span> (index1 == length1) {</span><br><span class="line">                <span class="keyword">return</span> nums2[index2 + k - <span class="number">1</span>];</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (index2 == length2) {</span><br><span class="line">                <span class="keyword">return</span> nums1[index1 + k - <span class="number">1</span>];</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (k == <span class="number">1</span>) {</span><br><span class="line">                <span class="keyword">return</span> Math.min(nums1[index1], nums2[index2]);</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">            <span class="comment">// 正常情况</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">half</span> <span class="operator">=</span> k / <span class="number">2</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">newIndex1</span> <span class="operator">=</span> Math.min(index1 + half, length1) - <span class="number">1</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">newIndex2</span> <span class="operator">=</span> Math.min(index2 + half, length2) - <span class="number">1</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pivot1</span> <span class="operator">=</span> nums1[newIndex1], pivot2 = nums2[newIndex2];</span><br><span class="line">            <span class="keyword">if</span> (pivot1 &lt;= pivot2) {</span><br><span class="line">                k -= (newIndex1 - index1 + <span class="number">1</span>);</span><br><span class="line">                index1 = newIndex1 + <span class="number">1</span>;</span><br><span class="line">            } <span class="keyword">else</span> {</span><br><span class="line">                k -= (newIndex2 - index2 + <span class="number">1</span>);</span><br><span class="line">                index2 = newIndex2 + <span class="number">1</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/median-of-two-sorted-arrays/solutions/258842/xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-s-114/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
-              </div>
-            </details>
+    <title>理论知识 · MySQL</title>
+    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
+    <content><![CDATA[
 ]]></content>
       <categories>
-        <category>技术提升</category>
+        <category>理论知识</category>
       </categories>
       <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
-<ul>
-<li>Nodejs安装教程：<a
-href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
-</ul>
-</div>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Node.js</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -414,68 +376,15 @@ href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://b
       </tags>
   </entry>
   <entry>
-    <title>理论知识 · MySQL</title>
-    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
+    <title>技术提升 · JavaSE</title>
+    <url>/2025/02/27/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
     <content><![CDATA[
 ]]></content>
       <categories>
-        <category>理论知识</category>
+        <category>技术提升</category>
       </categories>
       <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 健康指南</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<div class="note info modern"><p>info
-作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
-</div>
-<h1 id="饮食">1. 饮食</h1>
-<h2 id="喝茶">1.1 喝茶</h2>
-<ul>
-<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
-<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
-class="p red">心悸</span>、<span
-class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
-</div> <p class='p center logo large'>茶的种类</p></li>
-</ul>
-<ol type="1">
-<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
-<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
-<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
-<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
-<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
-<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
-<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
-<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
-</ol>
-<h1 id="行为习惯">2. 行为习惯</h1>
-<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
-<ol type="1">
-<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
-<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
-<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
-<li><p>每25分钟站立办公替代坐姿</p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>健康指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理论知识 · Vue</title>
-    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
+        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
@@ -493,6 +402,7 @@ class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水�
 <li>Spring Security:认证授权</li>
 <li>Spring AMQP:消息传递</li>
 <li>Spring Cloud:服务治理</li>
+<li>Spring Validation:参数校验</li>
 </ul></li>
 </ul>
 <div class="note orange anzhiyufont anzhiyu-icon-dengpao modern"><p>为什么诞生SpringBoot?</p>
@@ -607,12 +517,241 @@ META-INF/spring/xxx.imports</li>
 模块，在starter中引入自动配置模块</li>
 </ul></li>
 </ul>
+<h1 id="jwt">7. JWT</h1>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_09-40-24.png"/></div></div>
+<h2 id="jwt生成">7.1 JWT生成</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_09-43-13.png"/></div></div>
+<h2 id="jwt验证">7.2 JWT验证</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_09-46-20.png"/></div></div>
+<h2 id="添加到拦截器">7.3 添加到拦截器</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_09-50-13.png"/></div></div>
+<h1 id="threadlocal">8. ThreadLocal</h1>
+<ul>
+<li>提供线程局部变量
+<ul>
+<li>用来存取数据：set()/get()</li>
+<li>使用ThreadLocal存储的数据，线程安全</li>
+</ul></li>
+</ul>
+<h1 id="springboot集成redis">9. SpringBoot集成Redis</h1>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_10-07-36.png"/></div></div>
 ]]></content>
       <categories>
         <category>理论知识</category>
       </categories>
       <tags>
         <tag>SpringBoot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
+<ul>
+<li>Nodejs安装教程：<a
+href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+</ul>
+</div>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 穿搭指南</title>
+    <url>/2025/03/05/%E7%94%9F%E6%B4%BB%C2%B7%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info 是否还不知道应该穿什么样的衣服，是否逛淘宝店看了半天也不满意</p>
+</div>
+<h1 id="购衣指南">1. 购衣指南</h1>
+<ul>
+<li>面料，版型，特点</li>
+<li>面料 <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-06_20-46-16.png"/></div></div>
+<ul>
+<li>牛仔，皮革：材质偏硬，可以用于拔高视觉比例和平衡头肩比</li>
+<li>棉布，亚麻：垂感很强，肩窄不要尝试</li>
+<li>摇粒绒，针织：视觉上给人温暖，可爱，居家</li>
+</ul></li>
+<li>版型
+<ul>
+<li>上身
+<ul>
+<li>背心：阳光</li>
+<li>卫衣：居家</li>
+<li>毛衣：居家</li>
+<li>夹克</li>
+<li>开衫：年少</li>
+<li>冲锋衣</li>
+<li>polo衫：年少</li>
+<li>衬衫</li>
+<li>风衣：时尚</li>
+</ul></li>
+<li>下身
+<ul>
+<li>背带裤</li>
+<li>工装裤</li>
+<li>紧身裤</li>
+<li>灯笼裤</li>
+<li>喇叭裤</li>
+<li>哈伦裤</li>
+<li>裙裤</li>
+</ul></li>
+</ul></li>
+<li>特点
+<ul>
+<li>反光</li>
+<li>防水</li>
+<li>速干</li>
+</ul></li>
+<li>装饰
+<ul>
+<li>铁链</li>
+<li>飘带</li>
+<li>柳钉</li>
+</ul></li>
+</ul>
+<h2 id="购衣">1.1 购衣</h2>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>穿搭指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>项目实践 · Aurora电商</title>
+    <url>/2025/02/27/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7%E7%94%B5%E5%95%86mall/</url>
+    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
+<h2 id="项目背景介绍">1.1 项目背景介绍</h2>
+<h2 id="技术栈清单">1.2 技术栈清单</h2>
+]]></content>
+      <categories>
+        <category>项目实践</category>
+      </categories>
+      <tags>
+        <tag>Aurora电商</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>技术提升 · LeetCode题库</title>
+    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
+    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
+</div>
+<h1 id="两数之和">1. 两数之和</h1>
+<details class="folding-tag" yellow=""><summary> 难度：简单   考察点：数组 </summary>
+              <div class="content">
+              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值 target 的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" cyan=""><summary> 个人题解 </summary>
+              <div class="content">
+              <ul><li>时间复杂度：O(N 2)，其中 N是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</li><li>空间复杂度：O(1)。 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++){</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target){</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{i, j};</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" green=""><summary> 优秀题解 </summary>
+              <div class="content">
+              <ul><li><p>时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素x，我们可以 O(1) 地寻找 target - x。</p></li><li><p>空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) {</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) {</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{hashtable.get(target - nums[i]), i};</span><br><span class="line">            }</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+<h1 id="两数相加">2. 两数相加</h1>
+<details class="folding-tag" yellow=""><summary> 难度：中等   考察点：链表 </summary>
+              <div class="content">
+              <ul><li><p>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照逆序 的方式存储的，并且每个节点只能存储 一位 数字。</p></li><li><p>请你将两个数相加，并以相同形式返回一个表示和的链表。</p></li><li><p>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。</p></li><li><p>示例 1： <img src="/images/page_img/addtwonumber1.jpg"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [2,4,3], l2 = [5,6,4]</span><br><span class="line">输出：[7,0,8]</span><br><span class="line">解释：342 + 465 = 807.</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [0], l2 = [0]</span><br><span class="line">输出：[0]</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]</span><br><span class="line">输出：[8,9,9,9,0,0,0,1]</span><br></pre></td></tr></table></figure></p></li><li><p>提示 每个链表中的节点数在范围 [1, 100] 内 0 &lt;= Node.val &lt;=9 题目数据保证列表表示的数字不含前导零</p></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" green=""><summary> 优秀题解 </summary>
+              <div class="content">
+              <ul><li><p>时间复杂度：O(max(m,n))，其中 m 和 n分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要O(1) 的时间。</p></li><li><p>空间复杂度：O(1)。注意返回值不计入空间复杂度。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> ListNode <span class="title function_">addTwoNumbers</span><span class="params">(ListNode l1, ListNode l2)</span> {</span><br><span class="line">        <span class="type">ListNode</span> <span class="variable">head</span> <span class="operator">=</span> <span class="literal">null</span>, tail = <span class="literal">null</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">carry</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (l1 != <span class="literal">null</span> || l2 != <span class="literal">null</span>) {</span><br><span class="line">            <span class="type">int</span> <span class="variable">n1</span> <span class="operator">=</span> l1 != <span class="literal">null</span> ? l1.val : <span class="number">0</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">n2</span> <span class="operator">=</span> l2 != <span class="literal">null</span> ? l2.val : <span class="number">0</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> n1 + n2 + carry;</span><br><span class="line">            <span class="keyword">if</span> (head == <span class="literal">null</span>) {</span><br><span class="line">                head = tail = <span class="keyword">new</span> <span class="title class_">ListNode</span>(sum % <span class="number">10</span>);</span><br><span class="line">            } <span class="keyword">else</span> {</span><br><span class="line">                tail.next = <span class="keyword">new</span> <span class="title class_">ListNode</span>(sum % <span class="number">10</span>);</span><br><span class="line">                tail = tail.next;</span><br><span class="line">            }</span><br><span class="line">            carry = sum / <span class="number">10</span>;</span><br><span class="line">            <span class="keyword">if</span> (l1 != <span class="literal">null</span>) {</span><br><span class="line">                l1 = l1.next;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (l2 != <span class="literal">null</span>) {</span><br><span class="line">                l2 = l2.next;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">if</span> (carry &gt; <span class="number">0</span>) {</span><br><span class="line">            tail.next = <span class="keyword">new</span> <span class="title class_">ListNode</span>(carry);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/add-two-numbers/solutions/435246/liang-shu-xiang-jia-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+<h1 id="无重复字符的最长子串">3. 无重复字符的最长子串</h1>
+<details class="folding-tag" yellow=""><summary> 难度：中等   考察点：字符串 </summary>
+              <div class="content">
+              <ul><li><p>给定一个字符串 s ，请你找出其中不含有重复字符的 最长 子串的长度。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "abcabcbb"</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "bbbbb"</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: s = "pwwkew"</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。</span><br><span class="line">     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p></li><li><p>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></p></li><li><p>s 由英文字母、数字、符号和空格组成</p></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" green=""><summary> 优秀题解 </summary>
+              <div class="content">
+              <ul><li><p>时间复杂度O(N*∣Σ∣)。因为不重复子串区间长度不会超过ASCII码字符集的长度∣Σ∣=128，当N足够大时，时间复杂度接近O(N)。</p></li><li><p>空间复杂度O(1)。跟官方解法相比，这个解法省去了哈希表占用的空间。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="type">int</span> <span class="title function_">lengthOfLongestSubstring</span><span class="params">(String s)</span> {</span><br><span class="line">    <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, length = <span class="number">0</span>, max = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> right=<span class="number">0</span>; right &lt; s.length(); right++){</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> left; k &lt; right; k++){</span><br><span class="line">            <span class="keyword">if</span>(s.charAt(k) == s.charAt(right)){</span><br><span class="line">                left = k+<span class="number">1</span>;</span><br><span class="line">                length = right-left;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        length++;</span><br><span class="line">        <span class="keyword">if</span>(max &lt; length) max = length;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> max;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+<h1 id="寻找两个正序数组的中位数">4. 寻找两个正序数组的中位数</h1>
+<details class="folding-tag" yellow=""><summary> 难度：困难   考察点：二分法 </summary>
+              <div class="content">
+              <ul><li><p>给定两个大小分别为 m 和 n 的正序（从小到大）数组 nums1 和nums2。请你找出并返回这两个正序数组的 中位数 。</p></li><li><p>算法的时间复杂度应该为 O(log (m+n)) 。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [1,3], nums2 = [2]</span><br><span class="line">输出：2.00000</span><br><span class="line">解释：合并数组 = [1,2,3] ，中位数 2</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums1 = [1,2], nums2 = [3,4]</span><br><span class="line">输出：2.50000</span><br><span class="line">解释：合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p></li><li><p>nums1.length == m</p></li><li><p>nums2.length == n</p></li><li><p>0 &lt;= m &lt;= 1000</p></li><li><p>0 &lt;= n &lt;= 1000</p></li><li><p>1 &lt;= m + n &lt;= 2000</p></li><li><p>-10<sup>6</sup> &lt;= nums1[i], nums2[i] &lt;=10<sup>6</sup></p></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" green=""><summary> 优秀题解 </summary>
+              <div class="content">
+              <ul><li><p>时间复杂度：O(log(m+n))，其中 m 和 n 分别是数组 nums <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.452ex;" xmlns="http://www.w3.org/2000/svg" width="10.243ex" height="2.149ex" role="img" focusable="false" viewBox="0 -750 4527.6 950"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="TeXAtom" transform="translate(605,-150) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g><g data-mml-node="mi" transform="translate(1008.6,0)"><text data-variant="normal" transform="scale(1,-1)" font-size="884px" font-family="serif">和</text></g><g data-mml-node="mi" transform="translate(2008.6,0)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(2608.6,0)"><path data-c="1D462" d="M21 287Q21 295 30 318T55 370T99 420T158 442Q204 442 227 417T250 358Q250 340 216 246T182 105Q182 62 196 45T238 27T291 44T328 78L339 95Q341 99 377 247Q407 367 413 387T427 416Q444 431 463 431Q480 431 488 421T496 402L420 84Q419 79 419 68Q419 43 426 35T447 26Q469 29 482 57T512 145Q514 153 532 153Q551 153 551 144Q550 139 549 130T540 98T523 55T498 17T462 -8Q454 -10 438 -10Q372 -10 347 46Q345 45 336 36T318 21T296 6T267 -6T233 -11Q189 -11 155 7Q103 38 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(3180.6,0)"><path data-c="1D45A" d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></g><g data-mml-node="mi" transform="translate(4058.6,0)"><path data-c="1D460" d="M131 289Q131 321 147 354T203 415T300 442Q362 442 390 415T419 355Q419 323 402 308T364 292Q351 292 340 300T328 326Q328 342 337 354T354 372T367 378Q368 378 368 379Q368 382 361 388T336 399T297 405Q249 405 227 379T204 326Q204 301 223 291T278 274T330 259Q396 230 396 163Q396 135 385 107T352 51T289 7T195 -10Q118 -10 86 19T53 87Q53 126 74 143T118 160Q133 160 146 151T160 120Q160 94 142 76T111 58Q109 57 108 57T107 55Q108 52 115 47T146 34T201 27Q237 27 263 38T301 66T318 97T323 122Q323 150 302 164T254 181T195 196T148 231Q131 256 131 289Z"></path></g></g></g></svg></mjx-container>x_{2}的长度。初始时有 k=(m+n)/2 或k=(m+n)/2+1，每一轮循环可以将查找范围减少一半，因此时间复杂度是O(log(m+n))。</p></li><li><p>空间复杂度：O(1)。</p></li></ul><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">findMedianSortedArrays</span><span class="params">(<span class="type">int</span>[] nums1, <span class="type">int</span>[] nums2)</span> {</span><br><span class="line">        <span class="type">int</span> <span class="variable">length1</span> <span class="operator">=</span> nums1.length, length2 = nums2.length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">totalLength</span> <span class="operator">=</span> length1 + length2;</span><br><span class="line">        <span class="keyword">if</span> (totalLength % <span class="number">2</span> == <span class="number">1</span>) {</span><br><span class="line">            <span class="type">int</span> <span class="variable">midIndex</span> <span class="operator">=</span> totalLength / <span class="number">2</span>;</span><br><span class="line">            <span class="type">double</span> <span class="variable">median</span> <span class="operator">=</span> getKthElement(nums1, nums2, midIndex + <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">return</span> median;</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            <span class="type">int</span> <span class="variable">midIndex1</span> <span class="operator">=</span> totalLength / <span class="number">2</span> - <span class="number">1</span>, midIndex2 = totalLength / <span class="number">2</span>;</span><br><span class="line">            <span class="type">double</span> <span class="variable">median</span> <span class="operator">=</span> (getKthElement(nums1, nums2, midIndex1 + <span class="number">1</span>) + getKthElement(nums1, nums2, midIndex2 + <span class="number">1</span>)) / <span class="number">2.0</span>;</span><br><span class="line">            <span class="keyword">return</span> median;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getKthElement</span><span class="params">(<span class="type">int</span>[] nums1, <span class="type">int</span>[] nums2, <span class="type">int</span> k)</span> {</span><br><span class="line">        <span class="comment">/* 主要思路：要找到第 k (k&gt;1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较</span></span><br><span class="line"><span class="comment">         * 这里的 "/" 表示整除</span></span><br><span class="line"><span class="comment">         * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个</span></span><br><span class="line"><span class="comment">         * nums2 中小于等于 pivot2 的元素有 nums2[0 .. k/2-2] 共计 k/2-1 个</span></span><br><span class="line"><span class="comment">         * 取 pivot = min(pivot1, pivot2)，两个数组中小于等于 pivot 的元素共计不会超过 (k/2-1) + (k/2-1) &lt;= k-2 个</span></span><br><span class="line"><span class="comment">         * 这样 pivot 本身最大也只能是第 k-1 小的元素</span></span><br><span class="line"><span class="comment">         * 如果 pivot = pivot1，那么 nums1[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums1 数组</span></span><br><span class="line"><span class="comment">         * 如果 pivot = pivot2，那么 nums2[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums2 数组</span></span><br><span class="line"><span class="comment">         * 由于我们 "删除" 了一些元素（这些元素都比第 k 小的元素要小），因此需要修改 k 的值，减去删除的数的个数</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> <span class="variable">length1</span> <span class="operator">=</span> nums1.length, length2 = nums2.length;</span><br><span class="line">        <span class="type">int</span> <span class="variable">index1</span> <span class="operator">=</span> <span class="number">0</span>, index2 = <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">kthElement</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (<span class="literal">true</span>) {</span><br><span class="line">            <span class="comment">// 边界情况</span></span><br><span class="line">            <span class="keyword">if</span> (index1 == length1) {</span><br><span class="line">                <span class="keyword">return</span> nums2[index2 + k - <span class="number">1</span>];</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (index2 == length2) {</span><br><span class="line">                <span class="keyword">return</span> nums1[index1 + k - <span class="number">1</span>];</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">if</span> (k == <span class="number">1</span>) {</span><br><span class="line">                <span class="keyword">return</span> Math.min(nums1[index1], nums2[index2]);</span><br><span class="line">            }</span><br><span class="line">            </span><br><span class="line">            <span class="comment">// 正常情况</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">half</span> <span class="operator">=</span> k / <span class="number">2</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">newIndex1</span> <span class="operator">=</span> Math.min(index1 + half, length1) - <span class="number">1</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">newIndex2</span> <span class="operator">=</span> Math.min(index2 + half, length2) - <span class="number">1</span>;</span><br><span class="line">            <span class="type">int</span> <span class="variable">pivot1</span> <span class="operator">=</span> nums1[newIndex1], pivot2 = nums2[newIndex2];</span><br><span class="line">            <span class="keyword">if</span> (pivot1 &lt;= pivot2) {</span><br><span class="line">                k -= (newIndex1 - index1 + <span class="number">1</span>);</span><br><span class="line">                index1 = newIndex1 + <span class="number">1</span>;</span><br><span class="line">            } <span class="keyword">else</span> {</span><br><span class="line">                k -= (newIndex2 - index2 + <span class="number">1</span>);</span><br><span class="line">                index2 = newIndex2 + <span class="number">1</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/median-of-two-sorted-arrays/solutions/258842/xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-s-114/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+<h1 id="最长回文子串">5. 最长回文子串</h1>
+<details class="folding-tag" yellow=""><summary> 难度：中等   </summary>
+              <div class="content">
+              <ul><li><p>给你一个字符串 s，找到 s 中最长的 回文 子串。</p><ul><li>回文：如果字符串向前和向后读都相同，则它满足 回文性。</li><li>子串：子字符串 是字符串中连续的 非空 字符序列</li></ul></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：s = "babad"</span><br><span class="line">输出："bab"</span><br><span class="line">解释："aba" 同样是符合题意的答案。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：s = "cbbd"</span><br><span class="line">输出："bb"</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p><ul><li>1 &lt;= s.length &lt;= 1000</li><li>s 仅由数字和英文字母组成</li></ul></li></ul>
+              </div>
+            </details>
+<div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1L54y1D7pa">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">官方题解视频</div>
+            <div class="tag-link-sitename"> https://www.bilibili.com/video/BV1L54y1D7pa</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h1 id="z字形转换">6. Z字形转换</h1>
+<details class="folding-tag" yellow=""><summary> 难度：中等   </summary>
+              <div class="content">
+              <ul><li><p>将一个给定字符串 s 根据给定的行数 numRows，以从上往下、从左到右进行 Z 字形排列。</p></li><li><p>比如输入字符串为 “PAYPALISHIRING” 行数为 3 时，排列如下：</p><ul><li>P A H N</li><li>A P L S I I G</li><li>Y I R</li></ul></li><li><p>之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：“PAHNAPLSIIGYIR”。</p></li><li><p>请你实现这个将字符串进行指定行数变换的函数：</p><ul><li>string convert(string s, int numRows);</li></ul></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：s = "PAYPALISHIRING", numRows = 3</span><br><span class="line">输出："PAHNAPLSIIGYIR"</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：s = "PAYPALISHIRING", numRows = 4</span><br><span class="line">输出："PINALSIGYAHRPI"</span><br><span class="line">解释：</span><br><span class="line">P     I    N</span><br><span class="line">A   L S  I G</span><br><span class="line">Y A   H R</span><br><span class="line">P     I</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：s = "A", numRows = 1</span><br><span class="line">输出："A"</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p><ul><li>1 &lt;= s.length &lt;= 1000</li><li>s 由英文字母（小写和大写）、‘,’ 和 ‘.’ 组成</li><li>1 &lt;= numRows &lt;= 1000</li></ul></li></ul>
+              </div>
+            </details>
+<div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1U34y1q7UN">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Bilibili题解视频</div>
+            <div class="tag-link-sitename"> https://www.bilibili.com/video/BV1U34y1q7UN</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h1 id="整数反转">7. 整数反转</h1>
+<details class="folding-tag" yellow=""><summary> 难度：中等   </summary>
+              <div class="content">
+              <ul><li><p>给你一个 32 位的有符号整数 x ，返回将 x中的数字部分反转后的结果。</p></li><li><p>如果反转后整数超过 32 位的有符号整数的范围 [−2<sup>31</sup>,2<sup>31</sup> − 1] ，就返回 0。</p></li><li><p>假设环境不允许存储 64 位整数（有符号或无符号）。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 123</span><br><span class="line">输出：321</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = -123</span><br><span class="line">输出：-321</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 120</span><br><span class="line">输出：21</span><br></pre></td></tr></table></figure></p></li><li><p>示例 4： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：x = 0</span><br><span class="line">输出：0</span><br></pre></td></tr></table></figure></p></li><li><p>提示</p><ul><li>-2<sup>31</sup> &lt;= x &lt;= 2<sup>31</sup> - 1</li></ul></li></ul>
+              </div>
+            </details>
+<div calss="anzhiyu-tag-link"><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1234y1q7XN">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Bilibili题解视频</div>
+            <div class="tag-link-sitename"> https://www.bilibili.com/video/BV1234y1q7XN</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>技术提升</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -633,17 +772,237 @@ href="https://zhuanlan.zhihu.com/p/616138380">https://zhuanlan.zhihu.com/p/61613
       </tags>
   </entry>
   <entry>
-    <title>项目实践 · Aurora电商</title>
-    <url>/2025/02/27/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7%E7%94%B5%E5%95%86mall/</url>
-    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
-<h2 id="项目背景介绍">1.1 项目背景介绍</h2>
-<h2 id="技术栈清单">1.2 技术栈清单</h2>
+    <title>生活 · 健康指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info
+作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
+</div>
+<h1 id="饮食">1. 饮食</h1>
+<h2 id="喝茶">1.1 喝茶</h2>
+<ul>
+<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
+<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
+class="p red">心悸</span>、<span
+class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
+</div> <p class='p center logo large'>茶的种类</p></li>
+</ul>
+<ol type="1">
+<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
+<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
+<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
+<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
+<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
+<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
+<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
+<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
+</ol>
+<h1 id="行为习惯">2. 行为习惯</h1>
+<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
+<ol type="1">
+<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
+<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
+<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
+<li><p>每25分钟站立办公替代坐姿</p></li>
+</ol>
 ]]></content>
       <categories>
-        <category>项目实践</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>Aurora电商</tag>
+        <tag>健康指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论知识 · Vue</title>
+    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
+    <content><![CDATA[<div class="note info modern"><p>前置知识：HTML,CSS,JS</p>
+</div>
+<h1 id="什么是vue">1. 什么是Vue</h1>
+<ul>
+<li>Vue是一款用于<span class='p red'>构建用户界面</span>的渐进式的JavaScript框架</li>
+</ul>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://cn.vuejs.org/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Vue官方网站</div>
+            <div class="tag-link-sitename">https://cn.vuejs.org/</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_11-31-36.png"/></div></div>
+<h1 id="局部使用vue">2. 局部使用Vue</h1>
+<h2 id="快速入门">2.1 快速入门</h2>
+<ul>
+<li>准备
+<ul>
+<li>准备html页面，并引入Vue模块（官方提供）</li>
+<li>创建Vue程序的应用实例</li>
+<li>准备元素（div），被Vue控制</li>
+</ul></li>
+<li>构建用户界面
+<ul>
+<li>准备数据</li>
+<li>通过插值表达式渲染页面</li>
+</ul></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># body体中</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;app&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;&#123;msg&#125;&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;module&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">import</span> &#123;createApp&#125; <span class="keyword">from</span> <span class="string">&#x27;https://unpkg.com/vue@3/dist/vue.esm-browser.js&#x27;</span></span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">createApp</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">data</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">return</span> &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="attr">msg</span>: <span class="string">&quot;hello vue3&quot;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    &#125;).<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>)</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="常用指令">2.2 常用指令</h2>
+<ul>
+<li>指令：HTML标签上带有v-前缀的特殊属性，不同的指令具有不同的含义，可以实现不同的功能</li>
+<li>常用指令：</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_11-57-03.png"/></div></div>
+<h3 id="v-for">2.2.1 v-for</h3>
+<ul>
+<li>作用：列表渲染，遍历容器的元素或者对象的属性</li>
+<li>语法：v-for = “(item,idex) in items”
+<ul>
+<li>参数说明
+<ul>
+<li>items：为遍历的数组</li>
+<li>item:为遍历出来的元素</li>
+<li>index:为索引/下标，从0开始;可以省略，省略index语法：v-for = “item in
+items” <div class="note info modern"><p>注意：遍历的数组，必须在data中定义；要想让哪个标签循环展示多次，就在哪个标签上使用v-for指令</p>
+</div></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="v-bind">2.2.2 v-bind</h3>
+<ul>
+<li>作用：动态为HTML标签绑定属性值，如设置href,src,style样式等</li>
+<li>语法：v-bind:属性名=“属性值”</li>
+<li>简化：:属性名=“属性值”</li>
+</ul>
+<div class="note info modern"><p>注意：v-bind所绑定的数据，必须在data中定义</p>
+</div>
+<h3 id="v-if-v-show">2.2.3 v-if &amp; v-show</h3>
+<ul>
+<li>作用：这两类指令，都是用来控制元素的显示与隐藏的</li>
+<li>v-if
+<ul>
+<li>语法：v-if=“表达式”，表达式值为true,显示:false,隐藏</li>
+<li>其他：可以配合v-else-if/v-else进行链式调用条件判断</li>
+</ul></li>
+<li>v-show
+<ul>
+<li>语法：v-show=“表达式”，表达式值为true，显示：false,隐藏</li>
+<li>原理：基于CSS样式display来控制显示与隐藏</li>
+</ul></li>
+</ul>
+<h3 id="v-on">2.2.4 v-on</h3>
+<ul>
+<li>作用：为html标签绑定事件</li>
+<li>语法：
+<ul>
+<li>v-on：事件名=“函数名”</li>
+<li>简写为 <span class="citation"
+data-cites="事件名">@事件名</span>=“函数名”</li>
+</ul></li>
+</ul>
+<h3 id="v-model">2.2.5 v-model</h3>
+<ul>
+<li>作用：在表单元素上使用，<span class='p red'>双向数据绑定</span>。可以方便的<span class='p red'>获取或设置</span>表单项数据</li>
+<li>语法：v-model=“变量名” <div class="note info modern"><p>注意：v-model中绑定的变量，必须在data中定义</p>
+</div></li>
+</ul>
+<h2 id="生命周期">2.3 生命周期</h2>
+<ul>
+<li>生命周期：指一个对象从创建到销毁的整个过程</li>
+<li>生命周期的八个阶段：每个阶段会自动执行一个生命周期方法（钩子），让开发者有机会在特定的阶段执行自己的代码</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_16-47-24.png"/></div></div>
+<h1 id="axios">3. Axios</h1>
+<ul>
+<li>介绍：Axios对原生的Ajax进行了封装，简化书写，快速开发</li>
+<li>官网： <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.axios-http.cn/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Axios官方网站</div>
+            <div class="tag-link-sitename">https://www.axios-http.cn/</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div></li>
+</ul>
+<h2 id="axios使用步骤">3.1 Axios使用步骤</h2>
+<ul>
+<li>引入Axios的js文件（参照官网）</li>
+<li>使用Axios发送请求，并获取相应结果</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-03-30.png"/></div></div>
+<h2 id="axios-请求方式别名">3.2 Axios-请求方式别名</h2>
+<ul>
+<li>为了方便起见，Axios已经为所有支持的请求方法提供了别名</li>
+<li>格式：axios.请求方式(url [, data[, config]])</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-05-58.png"/></div></div>
+<h1 id="整站使用vue工程化">4. 整站使用Vue(工程化)</h1>
+<h2 id="环境准备">4.1 环境准备</h2>
+<ul>
+<li>介绍:create-vue是Vue官方提供的最新的脚手架工具，用于快速生成一个工程化的Vue项目。</li>
+<li>create-vue提供了如下功能:
+<ul>
+<li>统一的目录结构</li>
+<li>本地调试</li>
+<li>热部署</li>
+<li>单元测试</li>
+<li>集成打包</li>
+</ul></li>
+<li>依赖环境:NodeJS</li>
+</ul>
+<h3 id="安装node.js">4.1.1 安装Node.js</h3>
+<ul>
+<li>Nodejs安装教程：请本站点搜索Node.js安装</li>
+</ul>
+<h2 id="vue项目创建和启动">4.2 Vue项目创建和启动</h2>
+<h3 id="vue项目-创建">4.2.1 Vue项目-创建</h3>
+<ul>
+<li>创建一个工程化的Vue项目，执行指令 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm init vue@latest</span><br></pre></td></tr></table></figure> <div class="note info modern"><p>提示：执行上述指令，将会安装并执行create-vue,它是vue官方的项目脚手架工具</p>
+</div></li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-28-34.png"/></div></div>
+<h3 id="vue项目-安装依赖">4.2.2 Vue项目-安装依赖</h3>
+<ul>
+<li>进入项目目录，执行命令安装当前项目的依赖 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="vue项目-目录结构">4.2.3 Vue项目-目录结构</h3>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-30-55.png"/></div></div>
+<h3 id="vue项目-启动">4.2.4 Vue项目-启动</h3>
+<ul>
+<li>执行命令，就可以启动vue项目 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm run dev</span><br></pre></td></tr></table></figure></li>
+<li>访问项目：打开浏览器，在浏览器地址栏访问 <a
+href="http://localhost:5173">[(http://localhost:5173)]</a></li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-34-03.png"/></div></div>
+<h2 id="vue项目开发流程">4.3 Vue项目开发流程</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-36-42.png"/></div></div>
+<ul>
+<li>.vue是Vue项目中的组件文件，在Vue项目中也称为单文件组件（SFC,Single-File
+Components）。</li>
+<li>Vue的单文件组件会将一个组件的逻辑（JS）,模板(HTML)和样式（CSS）封装在同一个文件里（*.vue）。</li>
+</ul>
+<h2 id="api风格">4.4 API风格</h2>
+<ul>
+<li>Vue的组件有两种不同的风格：组合式API和选项式API</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-40-04.png"/></div></div>
+<h3 id="组合式api">4.4.1 组合式API</h3>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-08_17-40-50.png"/></div></div>
+]]></content>
+      <categories>
+        <category>理论知识</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
       </tags>
   </entry>
 </search>
