@@ -43,20 +43,6 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
       </tags>
   </entry>
   <entry>
-    <title>副业探索 · AI</title>
-    <url>/2025/03/01/%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%C2%B7AI/</url>
-    <content><![CDATA[<ul>
-<li>视频号橱窗：零食，书籍</li>
-</ul>
-]]></content>
-      <categories>
-        <category>副业探索</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
     <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
@@ -98,18 +84,6 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>技术提升 · JavaSE</title>
-    <url>/2025/02/27/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>技术提升</category>
-      </categories>
-      <tags>
-        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
@@ -190,6 +164,20 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>副业探索 · AI</title>
+    <url>/2025/03/01/%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%C2%B7AI/</url>
+    <content><![CDATA[<ul>
+<li>视频号橱窗：零食，书籍</li>
+</ul>
+]]></content>
+      <categories>
+        <category>副业探索</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -310,23 +298,6 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </categories>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
-<ul>
-<li>Nodejs安装教程：<a
-href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
-</ul>
-</div>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -502,6 +473,23 @@ href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://b
       </tags>
   </entry>
   <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
+<ul>
+<li>Nodejs安装教程：<a
+href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+</ul>
+</div>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理论知识 · ElementPlus</title>
     <url>/2025/03/08/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Element%20Plus/</url>
     <content><![CDATA[<h1 id="什么是elementplus">1. 什么是ElementPlus</h1>
@@ -552,6 +540,30 @@ href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://b
       </categories>
       <tags>
         <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论知识 · MySQL</title>
+    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
+    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/ub8e2xuaoizm0cys">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Mysql笔记-宋红康</div>
+            <div class="tag-link-sitename">https://www.yuque.com/u21711743/wol4hq/ub8e2xuaoizm0cys</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>理论知识</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -708,180 +720,6 @@ META-INF/spring/xxx.imports</li>
       </categories>
       <tags>
         <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 头发呵护</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%A4%B4%E5%8F%91%E5%91%B5%E6%8A%A4%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1 id="洗发水">1. 洗发水</h1>
-<ul>
-<li>短发，每天洗（建议2-3天洗）：成分推荐：第二位：月桂醇XX胺，XXX牛磺酸钠，月桂酰肌氨酸钠，月桂酰胺丙基甜菜碱
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_20-21-03.png"/></div></div>
-<ul>
-<li>超级种子-雪松头皮清洁洗发水</li>
-<li>施华蔻-氨基酸赋活修复洗发露</li>
-<li>缕灵-丰盈蓬松空气感洗发水</li>
-</ul></li>
-<li>短发（2-3天洗）：
-<ul>
-<li>丝蓓绮的沁润臻致修护洗发露</li>
-<li>滋源的无患子控油轻盈洗头水(油性)</li>
-<li>卡诗的耀光凝色晶透洗发水（价格高）</li>
-<li>爱马仕橘绿之泉二合一洗发沐浴啫喱（价格高）</li>
-</ul></li>
-<li>短发（2-3天洗）+头屑多
-<ul>
-<li>珂岸的氨基酸控油净澈洗发水</li>
-<li>海飞丝头皮专研洗发露控油抑屑型</li>
-</ul></li>
-<li>长发（&lt;3天洗/油性）
-<ul>
-<li>蓝吕舒爽清润净澈去屑洗发水</li>
-</ul></li>
-<li>长发（&gt;=3天洗/干性）
-<ul>
-<li>水之密语浸润臻养洗发露(倍润型) <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_21-02-05.png"/></div></div></li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>头发呵护</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理论知识 · MySQL</title>
-    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 健康指南</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<div class="note info modern"><p>info
-作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
-</div>
-<h1 id="饮食">1. 饮食</h1>
-<h2 id="喝茶">1.1 喝茶</h2>
-<ul>
-<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
-<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
-class="p red">心悸</span>、<span
-class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
-</div> <p class='p center logo large'>茶的种类</p></li>
-</ul>
-<ol type="1">
-<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
-<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
-<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
-<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
-<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
-<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
-<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
-<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
-</ol>
-<h1 id="行为习惯">2. 行为习惯</h1>
-<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
-<ol type="1">
-<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
-<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
-<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
-<li><p>每25分钟站立办公替代坐姿</p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>健康指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 恋爱</title>
-    <url>/2025/03/09/%E7%94%9F%E6%B4%BB%C2%B7%E6%81%8B%E7%88%B1/</url>
-    <content><![CDATA[<div class="note info modern"><p>info 恋爱指南</p>
-</div>
-<h1 id="恋爱提升">1. 恋爱提升</h1>
-<ul>
-<li>朋友圈 图片，个人图片，展示区</li>
-<li>健身：腹肌，瘦腿，方便拍照</li>
-<li>穿搭</li>
-<li>发型</li>
-<li>唱歌</li>
-</ul>
-<h1 id="恋爱技巧">2. 恋爱技巧</h1>
-<h2 id="说话">2.1 说话</h2>
-<pre><code>* 说话：传递关系，情绪，态度，需要走心
-* 升级关系：
-    * 日常：1/4 星座，瞎扯，做了什么之类的
-    * 对方的感兴趣点，主动开启的话题 1/4
-    * 自己价值的展示（优秀点，生活，细节） 1/4: 每周半天体验生活，商圈，网红点之类的，装修风格好的地点
-    * 升级关系 1/4
-* 说客套话，认真的话：需要认真走心仔细的解释，走心
-* 所有的拒绝都是在给机会，给你一个解决问题的机会，要不会把你拉黑的</code></pre>
-<h2 id="情感中的升级关系">2.2 情感中的升级关系</h2>
-<ul>
-<li>面子，自尊心，牌坊丢掉，全部给她</li>
-<li>表达好感，解决对方疑虑，解析对方想法，只求过程不求结果的人</li>
-</ul>
-<h1 id="朋友圈建设">3. 朋友圈建设</h1>
-<h2 id="头像建设">3.1 头像建设</h2>
-<ul>
-<li>可以自拍（凸显帅气，稳重）</li>
-<li>可以人物头像</li>
-<li>不要用沙雕头像</li>
-</ul>
-<h2 id="朋友圈背景">3.2 朋友圈背景</h2>
-<ul>
-<li>如果可以炫富，可以放到这里</li>
-<li>人物元素要少</li>
-<li>展示优点</li>
-</ul>
-<h2 id="个性签名">3.3 个性签名</h2>
-<ul>
-<li>可以文艺，幽默</li>
-</ul>
-<h2 id="朋友圈的展示内容">3.4 朋友圈的展示内容</h2>
-<ul>
-<li><p>一个月一条，一周一条</p></li>
-<li><p>美食</p>
-<ul>
-<li>不要有垃圾饮食，需要拍出来好看，价值</li>
-</ul></li>
-<li><p>社交</p>
-<ul>
-<li>展示积极生活状态</li>
-<li>社交合照 合影，最好有女生，生活丰富有趣</li>
-</ul></li>
-<li><p>工作</p>
-<ul>
-<li>展示上进心，表达对未来的期待</li>
-</ul></li>
-<li><p>英文歌+文案（文艺）</p></li>
-<li><p>旅游打卡+定位</p></li>
-<li><p>健身房 对境自拍，撸铁照片</p></li>
-<li><p>路边猫猫狗狗</p></li>
-<li><p>发朋友圈时应该避开的3个坑</p>
-<ul>
-<li>过分浮夸</li>
-<li>太端着装文艺</li>
-<li>用网图照片</li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>恋爱</tag>
       </tags>
   </entry>
   <entry>
@@ -1078,6 +916,168 @@ Components）。</li>
       </tags>
   </entry>
   <entry>
+    <title>生活 · 健康指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info
+作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
+</div>
+<h1 id="饮食">1. 饮食</h1>
+<h2 id="喝茶">1.1 喝茶</h2>
+<ul>
+<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
+<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
+class="p red">心悸</span>、<span
+class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
+</div> <p class='p center logo large'>茶的种类</p></li>
+</ul>
+<ol type="1">
+<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
+<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
+<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
+<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
+<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
+<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
+<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
+<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
+</ol>
+<h1 id="行为习惯">2. 行为习惯</h1>
+<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
+<ol type="1">
+<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
+<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
+<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
+<li><p>每25分钟站立办公替代坐姿</p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>健康指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 头发呵护</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%A4%B4%E5%8F%91%E5%91%B5%E6%8A%A4%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="洗发水">1. 洗发水</h1>
+<ul>
+<li>短发，每天洗（建议2-3天洗）：成分推荐：第二位：月桂醇XX胺，XXX牛磺酸钠，月桂酰肌氨酸钠，月桂酰胺丙基甜菜碱
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_20-21-03.png"/></div></div>
+<ul>
+<li>超级种子-雪松头皮清洁洗发水</li>
+<li>施华蔻-氨基酸赋活修复洗发露</li>
+<li>缕灵-丰盈蓬松空气感洗发水</li>
+</ul></li>
+<li>短发（2-3天洗）：
+<ul>
+<li>丝蓓绮的沁润臻致修护洗发露</li>
+<li>滋源的无患子控油轻盈洗头水(油性)</li>
+<li>卡诗的耀光凝色晶透洗发水（价格高）</li>
+<li>爱马仕橘绿之泉二合一洗发沐浴啫喱（价格高）</li>
+</ul></li>
+<li>短发（2-3天洗）+头屑多
+<ul>
+<li>珂岸的氨基酸控油净澈洗发水</li>
+<li>海飞丝头皮专研洗发露控油抑屑型</li>
+</ul></li>
+<li>长发（&lt;3天洗/油性）
+<ul>
+<li>蓝吕舒爽清润净澈去屑洗发水</li>
+</ul></li>
+<li>长发（&gt;=3天洗/干性）
+<ul>
+<li>水之密语浸润臻养洗发露(倍润型) <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_21-02-05.png"/></div></div></li>
+</ul></li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>头发呵护</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 恋爱</title>
+    <url>/2025/03/09/%E7%94%9F%E6%B4%BB%C2%B7%E6%81%8B%E7%88%B1/</url>
+    <content><![CDATA[<div class="note info modern"><p>info 恋爱指南</p>
+</div>
+<h1 id="恋爱提升">1. 恋爱提升</h1>
+<ul>
+<li>朋友圈 图片，个人图片，展示区</li>
+<li>健身：腹肌，瘦腿，方便拍照</li>
+<li>穿搭</li>
+<li>发型</li>
+<li>唱歌</li>
+</ul>
+<h1 id="恋爱技巧">2. 恋爱技巧</h1>
+<h2 id="说话">2.1 说话</h2>
+<pre><code>* 说话：传递关系，情绪，态度，需要走心
+* 升级关系：
+    * 日常：1/4 星座，瞎扯，做了什么之类的
+    * 对方的感兴趣点，主动开启的话题 1/4
+    * 自己价值的展示（优秀点，生活，细节） 1/4: 每周半天体验生活，商圈，网红点之类的，装修风格好的地点
+    * 升级关系 1/4
+* 说客套话，认真的话：需要认真走心仔细的解释，走心
+* 所有的拒绝都是在给机会，给你一个解决问题的机会，要不会把你拉黑的</code></pre>
+<h2 id="情感中的升级关系">2.2 情感中的升级关系</h2>
+<ul>
+<li>面子，自尊心，牌坊丢掉，全部给她</li>
+<li>表达好感，解决对方疑虑，解析对方想法，只求过程不求结果的人</li>
+</ul>
+<h1 id="朋友圈建设">3. 朋友圈建设</h1>
+<h2 id="头像建设">3.1 头像建设</h2>
+<ul>
+<li>可以自拍（凸显帅气，稳重）</li>
+<li>可以人物头像</li>
+<li>不要用沙雕头像</li>
+</ul>
+<h2 id="朋友圈背景">3.2 朋友圈背景</h2>
+<ul>
+<li>如果可以炫富，可以放到这里</li>
+<li>人物元素要少</li>
+<li>展示优点</li>
+</ul>
+<h2 id="个性签名">3.3 个性签名</h2>
+<ul>
+<li>可以文艺，幽默</li>
+</ul>
+<h2 id="朋友圈的展示内容">3.4 朋友圈的展示内容</h2>
+<ul>
+<li><p>一个月一条，一周一条</p></li>
+<li><p>美食</p>
+<ul>
+<li>不要有垃圾饮食，需要拍出来好看，价值</li>
+</ul></li>
+<li><p>社交</p>
+<ul>
+<li>展示积极生活状态</li>
+<li>社交合照 合影，最好有女生，生活丰富有趣</li>
+</ul></li>
+<li><p>工作</p>
+<ul>
+<li>展示上进心，表达对未来的期待</li>
+</ul></li>
+<li><p>英文歌+文案（文艺）</p></li>
+<li><p>旅游打卡+定位</p></li>
+<li><p>健身房 对境自拍，撸铁照片</p></li>
+<li><p>路边猫猫狗狗</p></li>
+<li><p>发朋友圈时应该避开的3个坑</p>
+<ul>
+<li>过分浮夸</li>
+<li>太端着装文艺</li>
+<li>用网图照片</li>
+</ul></li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>恋爱</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>生活 · 穿搭指南</title>
     <url>/2025/03/05/%E7%94%9F%E6%B4%BB%C2%B7%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<div class="note info modern"><p>info 是否还不知道应该穿什么样的衣服，是否逛淘宝店看了半天也不满意</p>
@@ -1136,6 +1136,65 @@ Components）。</li>
       </categories>
       <tags>
         <tag>穿搭指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试宝典 · JavaSE</title>
+    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>面试宝典</category>
+      </categories>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试宝典 · MySQL</title>
+    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7MySQL/</url>
+    <content><![CDATA[<h1 id="mysql中有哪几种锁">1. MySQL中有哪几种锁?</h1>
+<details class="folding-tag" cyan><summary> MySQL中有哪几种锁? </summary>
+              <div class='content'>
+              <ul><li>1、表级锁:开销小，加锁快;不会出现死锁;锁定粒度大，发生锁冲突的概率最高，并发度最低。</li><li>2、行级锁:开销大，加锁慢;会出现死锁;锁定粒度最小，发生锁冲突的概率最低，并发度也最高。</li><li>3、页面锁:开销和加锁时间界于表锁和行锁之间;会出现死锁;锁定粒度界于表锁和行锁之间，并发度一般。</li></ul>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>面试宝典</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试宝典 · 面试算法题库</title>
+    <url>/2025/03/13/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7%E9%9D%A2%E8%AF%95%E7%AE%97%E6%B3%95%E9%A2%98%E5%BA%93/</url>
+    <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录面试算法题库内容，包含各类题库</p>
+</div>
+<h1 id="难度简单">1.难度：简单</h1>
+<h2 id="两数之和">1.1 两数之和</h2>
+<details class="folding-tag" yellow=""><summary> 难度：简单   考察点：数组 </summary>
+              <div class="content">
+              <ul><li><p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值 target 的那 两个 整数，并返回它们的数组下标。</p></li><li><p>你可以假设每种输入只会对应一个答案，并且你不能使用两次相同的元素。</p></li><li><p>你可以按任意顺序返回答案。</p></li><li><p>示例 1： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [2,7,11,15], target = 9</span><br><span class="line">输出：[0,1]</span><br><span class="line">解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。</span><br></pre></td></tr></table></figure></p></li><li><p>示例 2： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,2,4], target = 6</span><br><span class="line">输出：[1,2]</span><br></pre></td></tr></table></figure></p></li><li><p>示例 3： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入：nums = [3,3], target = 6</span><br><span class="line">输出：[0,1]</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" cyan=""><summary> 个人题解 </summary>
+              <div class="content">
+              <ul><li>时间复杂度：O(N 2)，其中 N是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。</li><li>空间复杂度：O(1)。 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;i &lt; nums.length; i++){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> i + <span class="number">1</span>; j &lt; nums.length; j++){</span><br><span class="line">                <span class="keyword">if</span>(nums[i] + nums[j] == target){</span><br><span class="line">                    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{i, j};</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li></ul>
+              </div>
+            </details>
+<details class="folding-tag" green=""><summary> 优秀题解 </summary>
+              <div class="content">
+              <ul><li><p>时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素x，我们可以 O(1) 地寻找 target - x。</p></li><li><p>空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] twoSum(<span class="type">int</span>[] nums, <span class="type">int</span> target) {</span><br><span class="line">        Map&lt;Integer, Integer&gt; hashtable = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length; ++i) {</span><br><span class="line">            <span class="keyword">if</span> (hashtable.containsKey(target - nums[i])) {</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[]{hashtable.get(target - nums[i]), i};</span><br><span class="line">            }</span><br><span class="line">            hashtable.put(nums[i], i);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">0</span>];</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">作者：力扣官方题解</span><br><span class="line">链接：https:<span class="comment">//leetcode.cn/problems/two-sum/solutions/434597/liang-shu-zhi-he-by-leetcode-solution/</span></span><br><span class="line">来源：力扣（LeetCode）</span><br><span class="line">著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</span><br></pre></td></tr></table></figure></p></li></ul>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>面试宝典</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
