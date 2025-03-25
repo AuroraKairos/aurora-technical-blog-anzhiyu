@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo · 博客编写手册</title>
-    <url>/2025/02/22/Hexo%C2%B7%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E6%89%8B%E5%86%8C/</url>
+    <url>/2025/02/22/Hexo/Hexo%C2%B7%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E6%89%8B%E5%86%8C/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
 <ul>
 <li>安知鱼主题官方文档：https://docs.anheyu.com/</li>
@@ -44,7 +44,7 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
   </entry>
   <entry>
     <title>Hexo · 安知鱼主题-魔改-配置LaTeX数学公式</title>
-    <url>/2025/02/26/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
+    <url>/2025/02/26/Hexo/Hexo%C2%B7%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98-%E9%AD%94%E6%94%B9-%E9%85%8D%E7%BD%AE%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="魔改原因">1. 魔改原因</h1>
 <ul>
 <li>由于hexo默认支持的hexo-renderer-marked渲染器不支持latex公式。无法很好的显示数学公式，所以需要对应的魔改配置。</li>
@@ -87,8 +87,22 @@ href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50
       </tags>
   </entry>
   <entry>
+    <title>副业探索 · AI</title>
+    <url>/2025/03/01/%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2/%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%C2%B7AI/</url>
+    <content><![CDATA[<ul>
+<li>视频号橱窗：零食，书籍</li>
+</ul>
+]]></content>
+      <categories>
+        <category>副业探索</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo · 安知鱼主题部署</title>
-    <url>/2025/02/23/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
+    <url>/2025/02/23/Hexo/Hexo%C2%B7%E9%83%A8%E7%BD%B2%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
 <p>安知鱼主题官方文档：<a
 href="https://docs.anheyu.com">https://docs.anheyu.com</a></p>
@@ -168,7 +182,7 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
   </entry>
   <entry>
     <title>实用工具 · AI</title>
-    <url>/2025/03/01/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%C2%B7AI/</url>
+    <url>/2025/03/01/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%C2%B7AI/</url>
     <content><![CDATA[<ul>
 <li>AI工具一览表
 <ul>
@@ -287,22 +301,20 @@ href="https://docs.anheyu.com/initall.html">https://docs.anheyu.com/initall.html
       </tags>
   </entry>
   <entry>
-    <title>副业探索 · AI</title>
-    <url>/2025/03/01/%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%C2%B7AI/</url>
-    <content><![CDATA[<ul>
-<li>视频号橱窗：零食，书籍</li>
-</ul>
+    <title>开发工具 · IDEA</title>
+    <url>/2025/03/25/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%C2%B7IDEA/</url>
+    <content><![CDATA[<h1 id="安装idea">1. 安装IDEA</h1>
 ]]></content>
       <categories>
-        <category>副业探索</category>
+        <category>开发工具</category>
       </categories>
       <tags>
-        <tag>AI</tag>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
     <title>开发工具 · VMwareStation</title>
-    <url>/2025/03/21/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%C2%B7VMwareStation/</url>
+    <url>/2025/03/21/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%C2%B7VMware%20Station/</url>
     <content><![CDATA[<h1 id="vmwarestation-安装linux">1. VMwareStation 安装Linux</h1>
 <h1 id="linux安装">2. Linux安装</h1>
 <blockquote>
@@ -324,36 +336,12 @@ https://blog.csdn.net/weixin_43356161/article/details/142785050</p>
         <category>开发工具</category>
       </categories>
       <tags>
-        <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>架构设计·从架构层面看设计模式</title>
-    <url>/2025/03/21/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E4%BB%8E%E6%9E%B6%E6%9E%84%E5%B1%82%E9%9D%A2%E7%9C%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>架构设计</category>
-      </categories>
-      <tags>
-        <tag>从架构层面看设计模式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>架构设计·Java内存模型-JMM</title>
-    <url>/2025/03/16/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B-JMM/</url>
-    <content><![CDATA[
-]]></content>
-      <categories>
-        <category>架构设计</category>
-      </categories>
-      <tags>
-        <tag>Java内存模型-JMM</tag>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
     <title>技术提升 · LeetCode题库</title>
-    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
+    <url>/2025/02/24/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87/%E6%8A%80%E6%9C%AF%E6%8F%90%E5%8D%87%C2%B7LeetCode%E9%A2%98%E5%BA%93/</url>
     <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录LeetCode题库内容，每日更新一道算法题</p>
 </div>
 <h1 id="两数之和">1. 两数之和</h1>
@@ -490,8 +478,1191 @@ https://blog.csdn.net/weixin_43356161/article/details/142785050</p>
       </tags>
   </entry>
   <entry>
+    <title>环境安装 · Docker</title>
+    <url>/2025/03/21/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Docker/</url>
+    <content><![CDATA[<h1 id="linux系统安装docker">1. Linux系统安装Docker</h1>
+<p>环境安装：</p>
+<blockquote>
+<p>yum -y install gcc-c++</p>
+</blockquote>
+<p>第一步：安装必要的一些系统工具</p>
+<blockquote>
+<p>yum install -y yum-utils device-mapper-persistent-data lvm2</p>
+</blockquote>
+<p>第二步：添加软件源信息</p>
+<blockquote>
+<p>yum-config-manager –add-repo <a
+href="http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo"
+title="http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo">http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</a></p>
+</blockquote>
+<p>第三步：更新并安装Docker-CE</p>
+<blockquote>
+<p>yum makecache fast yum -y install docker-ce</p>
+</blockquote>
+<p>第四步：开启Docker服务</p>
+<blockquote>
+<p>service docker start systemctl enable docker</p>
+</blockquote>
+<p>第五步：测试是否安装成功</p>
+<blockquote>
+<p>docker -v</p>
+</blockquote>
+<p>第六步：配置镜像加速器</p>
+<p>您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器</p>
+<blockquote>
+<p>sudo mkdir -p /etc/docker</p>
+</blockquote>
+<p>新建daemon.json文件内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;registry-mirrors&quot;</span>:[<span class="string">&quot;https://docker.mirrors.ustc.edu.cn&quot;</span>,<span class="string">&quot;http://hubmirror.c.163.com&quot;</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果以上镜像不能使用了，可以使用阿里云的镜像！ <a
+href="https://help.aliyun.com/document_detail/60750.html?spm=a2c4g.60743.0.i1">官方镜像加速
+(aliyun.com)</a></p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/docker001.png"/></div></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;registry-mirrors&quot;:[&quot;https://q0awbeqk.mirror.aliyuncs.com&quot;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>sudo systemctl daemon-reload sudo systemctl daemon-reload sudo
+systemctl restart docker</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Git</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
+    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
+<h2 id="下载git">1.1 下载Git</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git官网</div>
+            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
+<h2 id="安装git">1.2 安装Git</h2>
+<ul>
+<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
+<li>安装目录：建议其他盘(除C盘以外)</li>
+<li>后续操作选择默认即可</li>
+</ul>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · JavaSE</title>
+    <url>/2025/03/25/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7JavaSE/</url>
+    <content><![CDATA[<h1 id="windows安装javase">1. Windows安装JavaSE</h1>
+<p>JavaSE 8版本下载地址：</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Java Archive Downloads - Java SE 8 (oracle.com) </div>
+            <div class="tag-link-sitename">https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<div class="note success no-icon flat"><p>由于官网下载需要登陆账号，所以可以下载下面的文件</p>
+<ul>
+<li><a
+href="https://pan.baidu.com/s/1vLltv8DtQvEEV9AUDNn-Kg?pwd=bav5">jdk-8u212-windows-x64.exe</a></li>
+</ul>
+</div>
+<h2 id="细节说明">1.2 细节说明</h2>
+<ul>
+<li>安装路径不要有中文或者特殊符号如空格等。</li>
+</ul>
+<h2 id="环境变量配置">1.3 环境变量配置</h2>
+<h3 id="配置原因">1.3.1 配置原因</h3>
+<ul>
+<li>同题:将来我们需要创建一个java文件写代码,然后编译和运行的时候需要打开此java文件所在的目录,java文件的目录如果和javac以及java命令所在的bin目录不一致,那么javac和java命令就用不了了,毕竟javac和java命令在bin目录下,所以难道我们将来必须将所有的java文件都放到bin目录下吗?</li>
+<li>那么我们能不能在任意目录下都能使用javac和java命令呢?</li>
+<li>配置环境变量的目的:在任意路径下都可以随意使用javac和java命令进行对java代码的编译和运行</li>
+</ul>
+<h3 id="配置方式">1.3.2 配置方式</h3>
+<h4 id="方式一不推荐">1.3.2.1 方式一（不推荐）</h4>
+<ul>
+<li>直接将jdk的bin路径粘贴到path中 <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-25_22-04-24.png"/></div></div></li>
+</ul>
+<h4 id="方式二">1.3.2.2 方式二</h4>
+<ul>
+<li>配置JAVA_HOME <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-25_22-05-30.png"/></div></div></li>
+</ul>
+<h1 id="linux安装javase">2. Linux安装JavaSE</h1>
+<h2 id="宝塔安装">2.1 宝塔安装</h2>
+<h2 id="yum安装">2.2 yum安装</h2>
+<h3 id="安装yum">2.2.1 安装yum</h3>
+<ul>
+<li>yum install java-1.8.0-openjdk.x86_64 ### 2.2.2 查看是否安装好</li>
+<li>java -version</li>
+</ul>
+<h2 id="linux系统本地安装">2.3 linux系统本地安装</h2>
+<h3 id="下载tar.gz安装包">2.3.1 下载tar.gz安装包</h3>
+<div class="note success no-icon flat"><p>由于官网下载需要登陆账号，所以可以下载下面的文件</p>
+<ul>
+<li><a
+href="https://pan.baidu.com/s/1HvFtOCXXKApdc-gA3MF4MQ?pwd=bav5">jdk-8u212-linux-x64.tar.gz</a></li>
+</ul>
+</div>
+<h3 id="打开安装目录">2.3.2 打开安装目录</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir /usr/local/java/</span><br></pre></td></tr></table></figure>
+<h3 id="解压tar.gz安装包">2.3.3 解压tar.gz安装包</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar -zxvf jdk-8u333-linux-x64.tar.gz -C /usr/local/java/</span><br></pre></td></tr></table></figure>
+<h3 id="配置环境变量">2.3.4 配置环境变量</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">export JAVA_HOME=/usr/local/java/jdk1.8.0_333</span><br><span class="line">export JRE_HOME=$&#123;JAVA_HOME&#125;/jre</span><br><span class="line">export CLASSPATH=.:$&#123;JAVA_HOME&#125;/lib:$&#123;JRE_HOME&#125;/lib</span><br><span class="line">export PATH=$&#123;JAVA_HOME&#125;/bin:$PATH</span><br></pre></td></tr></table></figure>
+<h3 id="使环境变量生效">2.3.5 使环境变量生效</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure>
+<h3 id="检查java版本">2.3.6 检查java版本</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">java -version</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Minio</title>
+    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Minio/</url>
+    <content><![CDATA[<h1 id="linux系统安装miniodocker版">1. Linux系统安装Minio(Docker版)</h1>
+<h2 id="minio介绍">1.1 Minio介绍</h2>
+<p>官网：https://www.minio.org.cn/</p>
+<p>MinIO是一个开源的分布式对象存储服务器，支持S3协议并且可以在多节点上实现数据的高可用和容错。它采用Go语言开发，拥有轻量级、高性能、</p>
+<p>易部署等特点，并且可以自由选择底层存储介质。</p>
+<p>MinIO的主要特点包括：</p>
+<p>1、高性能：MinIO基于GO语言编写，具有高速、轻量级、高并发等性能特点，还支持多线程和缓存等机制进行优化，可以快速地处理大规模数据。</p>
+<p>2、可扩展性：MinIO采用分布式存储模式，支持水平扩展，通过增加节点数量来扩展存储容量和性能，支持自动数据迁移和负载均衡。</p>
+<p>3、安全性：MinIO提供了多种安全策略，如访问控制列表（ACL）、服务端加密（SSE）、传输层安全性（TLS）等，可以保障数据安全和隐私。</p>
+<p>4、兼容性：MinIO兼容AWS S3
+API，还支持其他云服务提供商的API，比如GCP、Azure等，可以通过简单的配置实现互操作性。</p>
+<p>5、简单易用：MinIO的部署和管理非常简单，只需要运行一个二进制包即可启动服务，同时提供了Web界面和命令行工具等方便的管理工具。</p>
+<p><strong>S3协议</strong>是Amazon Web Services (AWS)
+提供的对象存储服务（Simple Storage Service）的API协议。它是一种
+RESTful风格的Web服务接口，使</p>
+<p>用HTTP/HTTPS协议进行通信，支持多种编程语言和操作系统，并实现了数据的可靠存储、高扩展性以及良好的可用性。</p>
+<p>已安装或能访问忽略</p>
+<h2 id="minio安装docker版">1.2 Minio安装（Docker版）</h2>
+<p>第一步：拉取镜像</p>
+<blockquote>
+<p>docker pull minio/minio</p>
+</blockquote>
+<p>第二步：启动</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run \</span><br><span class="line">-p 9000:9000 \</span><br><span class="line">-p 9001:9001 \</span><br><span class="line">--name=share_minio \</span><br><span class="line">-d --restart=always \</span><br><span class="line">-e &quot;MINIO_ROOT_USER=admin&quot; \</span><br><span class="line">-e &quot;MINIO_ROOT_PASSWORD=admin123456&quot; \</span><br><span class="line">-v share_minio-data:/data \</span><br><span class="line">-v share_minio-config:/root/.minio \</span><br><span class="line">minio/minio server /data --console-address &quot;:9001&quot;</span><br></pre></td></tr></table></figure>
+<p>浏览器访问：<a
+href="http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录"
+title="http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录">http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录</a></p>
+<p><strong>注意</strong>：文件上传时，需要调整一下linux
+服务器的时间与windows 时间一致！</p>
+<blockquote>
+<p>第一步：安装ntp服务 yum -y install ntp 第二步：开启开机启动服务
+systemctl enable ntpd 第三步：启动服务 systemctl start ntpd
+第四步：更改时区 timedatectl set-timezone Asia/Shanghai
+第五步：启用ntp同步 timedatectl set-ntp yes 第六步：同步时间 ntpq -p</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Minio</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · MongoDB</title>
+    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7MongoDB/</url>
+    <content><![CDATA[<h1 id="linux系统安装mongodbdocker版">1.
+Linux系统安装MongoDB(Docker版)</h1>
+<p><strong>第一步 拉取镜像</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull mongo:7.0.0</span><br></pre></td></tr></table></figure>
+<p><strong>第二步 创建和启动容器</strong></p>
+<p>需要在宿主机建立文件夹</p>
+<blockquote>
+<p>rm -rf /opt/mongo</p>
+<p>mkdir -p /opt/mongo/data/db</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d --restart=always -p 27017:27017 --name mongo -v /opt/mongo/data/db:/data/db mongo:7.0.0</span><br></pre></td></tr></table></figure>
+<p><strong>第三步 进入容器</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker exec -it mongo mongosh</span><br><span class="line">docker exec -it mongo-yapi mongo -- 现有的容器</span><br></pre></td></tr></table></figure>
+<h3 id="环境测试">3.8、环境测试</h3>
+<p>使用mysql/redis客户端工具远程连接mysql/redis测试</p>
+<p>nacos控制台访问测试: <code>http://虚拟机IP:8848/nacos</code>
+账号密码：nacos/nacos</p>
+<p>rabbitmq控制台访问测试：<code>http://虚拟机IP:15672</code>
+账号密码：guest/guest</p>
+<p>minio控制台访问测试：<code>http://虚拟机IP:9001</code>
+账号密码：admin/admin123456</p>
+<p><strong>注意：如果访问失败</strong></p>
+<p>1、检查容器是否创建启动成功，可能是端口号占用导致，需要先关闭占用端口号的进程或修改当前容器的端口号</p>
+<p>2、检查防火墙是否关闭，如果未关闭，可以执行<code>systemctl  stop firewalld.service</code>,
+<code>systemctl disable firewalld.service</code> 关闭</p>
+<p>3、配置虚拟机允许IPv4地址跳转</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">修改配置文件：</span></span><br><span class="line">vim /usr/lib/sysctl.d/00-system.conf</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加</span></span><br><span class="line">net.ipv4.ip_forward=1</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">保存退出 重启网络</span></span><br><span class="line">systemctl restart network</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">重启docker</span></span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>MongoDB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · MySQL</title>
+    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Mysql/</url>
+    <content><![CDATA[<h1 id="linux系统安装mysqldocker版">1. Linux系统安装MySQL(Docker版)</h1>
+<p>第一步：拉取镜像</p>
+<blockquote>
+<p>docker pull mysql:8.0.29</p>
+</blockquote>
+<p>第二步：启动</p>
+<blockquote>
+<p>docker run –name share_mysql –restart=always -v
+mysql-data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d
+mysql:8.0.29</p>
+</blockquote>
+<p>第三步：测试mysql</p>
+<p>进入容器：</p>
+<blockquote>
+<p>docker exec -it share_mysql /bin/bash</p>
+</blockquote>
+<p>登录mysql：</p>
+<blockquote>
+<p>mysql -u root -p</p>
+<p>输入密码：root</p>
+</blockquote>
+<p>如果顺利进入，安装成功</p>
+<blockquote>
+<p>#修改默认密码校验方式 ALTER USER ‘root’@‘%’ IDENTIFIED WITH
+mysql_native_password BY ‘root’;</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Nacos</title>
+    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Nacos/</url>
+    <content><![CDATA[<h1 id="linux系统安装nacosdocker版">1. Linux系统安装Nacos(Docker版)</h1>
+<p>第一步：拉取镜像</p>
+<blockquote>
+<p>docker pull nacos/nacos-server:v2.1.1</p>
+</blockquote>
+<p>第二步：启动</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">-e MODE=standalone \</span><br><span class="line">-p 8848:8848 \</span><br><span class="line">-p 9848:9848 \</span><br><span class="line">-p 9849:9849 \</span><br><span class="line">--name share_nacos2.1.1 \</span><br><span class="line">--restart=always \</span><br><span class="line">nacos/nacos-server:v2.1.1</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Nacos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · RabbitMQ</title>
+    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7RabbitMQ/</url>
+    <content><![CDATA[<h1 id="linux系统安装rabbitmqdocker版">1.
+Linux系统安装RabbitMQ(Docker版)</h1>
+<p>第一步：拉取镜像</p>
+<blockquote>
+<p>docker pull rabbitmq:3.12.0-management</p>
+</blockquote>
+<p>第二步：启动</p>
+<blockquote>
+<p>docker run -d –name=share_rabbitmq -p 5672:5672 -p 15672:15672
+rabbitmq:3.12.0-management</p>
+</blockquote>
+<p>第三步：安装延迟队列插件</p>
+<ol type="1">
+<li><p>首先下载rabbitmq_delayed_message_exchange-3.12.0.ez文件上传到RabbitMQ所在服务器，下载地址：https://www.rabbitmq.com/community-plugins.html</p>
+<p><strong>注意：也可以使用课件资料/rabbitmq插件目录中下载好的</strong></p></li>
+<li><p>切换到插件所在目录，执行<code>docker cp rabbitmq_delayed_message_exchange-3.12.0.ez share_rabbitmq:/plugins</code>命令，将刚插件拷贝到容器内plugins目录下</p></li>
+<li><p>执行<code>docker exec -it share_rabbitmq /bin/bash</code>命令进入到容器内部</p></li>
+<li><p>执行<code>cd plugins</code>进入plugins目录,然后执行<code>ls -l|grep delay</code>命令查看插件是否copy成功</p></li>
+<li><p>在容器内plugins目录下，执行<code>rabbitmq-plugins enable rabbitmq_delayed_message_exchange</code>命令启用插件</p></li>
+<li><p>exit命令退出RabbitMQ容器内部，然后执行<code>docker restart share_rabbitmq</code>命令重启RabbitMQ容器</p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>RabbitMQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 头发呵护指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB/%E7%94%9F%E6%B4%BB%C2%B7%E5%A4%B4%E5%8F%91%E5%91%B5%E6%8A%A4%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<h1 id="洗发水">1. 洗发水</h1>
+<ul>
+<li>短发，每天洗（建议2-3天洗）：成分推荐：第二位：月桂醇XX胺，XXX牛磺酸钠，月桂酰肌氨酸钠，月桂酰胺丙基甜菜碱
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_20-21-03.png"/></div></div>
+<ul>
+<li>超级种子-雪松头皮清洁洗发水</li>
+<li>施华蔻-氨基酸赋活修复洗发露</li>
+<li>缕灵-丰盈蓬松空气感洗发水</li>
+</ul></li>
+<li>短发（2-3天洗）：
+<ul>
+<li>丝蓓绮的沁润臻致修护洗发露</li>
+<li>滋源的无患子控油轻盈洗头水(油性)</li>
+<li>卡诗的耀光凝色晶透洗发水（价格高）</li>
+<li>爱马仕橘绿之泉二合一洗发沐浴啫喱（价格高）</li>
+</ul></li>
+<li>短发（2-3天洗）+头屑多
+<ul>
+<li>珂岸的氨基酸控油净澈洗发水</li>
+<li>海飞丝头皮专研洗发露控油抑屑型</li>
+</ul></li>
+<li>长发（&lt;3天洗/油性）
+<ul>
+<li>蓝吕舒爽清润净澈去屑洗发水</li>
+</ul></li>
+<li>长发（&gt;=3天洗/干性）
+<ul>
+<li>水之密语浸润臻养洗发露(倍润型) <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_21-02-05.png"/></div></div></li>
+</ul></li>
+</ul>
+<h1 id="洗面奶">2. 洗面奶</h1>
+<ul>
+<li>氨基酸洗面奶
+<ul>
+<li>Xx酰xX氨酸钠/钾</li>
+<li>前四位：Xx酰xX氨酸钠/钾</li>
+<li>干皮：最好后面也 Xx酰xX氨酸钠/钾</li>
+<li>油皮：椰油酰股丙基甜菜碱</li>
+</ul></li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>头发呵护指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 健康指南</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info
+作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
+</div>
+<h1 id="饮食">1. 饮食</h1>
+<h2 id="喝茶">1.1 喝茶</h2>
+<ul>
+<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
+<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
+class="p red">心悸</span>、<span
+class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
+</div> <p class='p center logo large'>茶的种类</p></li>
+</ul>
+<ol type="1">
+<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
+<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
+<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
+<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
+<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
+<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
+<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
+<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
+</ol>
+<h1 id="行为习惯">2. 行为习惯</h1>
+<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
+<ol type="1">
+<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
+<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
+<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
+<li><p>每25分钟站立办公替代坐姿</p></li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>健康指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>环境安装 · Node.js</title>
+    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
+<ul>
+<li>Nodejs安装教程：<a
+href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+</ul>
+</div>
+]]></content>
+      <categories>
+        <category>环境安装</category>
+      </categories>
+      <tags>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>架构设计·Java内存模型-JMM</title>
+    <url>/2025/03/16/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B-JMM/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>架构设计</category>
+      </categories>
+      <tags>
+        <tag>Java内存模型-JMM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>架构设计·互联网电商系统的演进过程</title>
+    <url>/2025/03/15/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E4%BA%92%E8%81%94%E7%BD%91%E7%94%B5%E5%95%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%BC%94%E8%BF%9B%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="电商系统演进">1. 电商系统演进</h1>
+<h2 id="发展历程">1.1 发展历程</h2>
+<h3 id="萌芽期96-99">1.1.1 萌芽期（96-99）</h3>
+<ul>
+<li>96年：国家信息化领导小组成立</li>
+<li>97年4月：各省成立信息化小组</li>
+<li>97年12月：中国化工网B2B上线</li>
+<li>98年3月：第一笔互联网交易完成</li>
+<li>98年11月：腾讯成立</li>
+<li>99年5月：8848网成立</li>
+<li>99年8月：易趣网</li>
+<li>99年9月：阿里巴巴</li>
+<li>99年11月：当当网</li>
+</ul>
+<h3 id="发展期00-10">1.1.2 发展期（00-10）</h3>
+<ul>
+<li>00年4月：慧聪网B2B</li>
+<li>00年5月：卓越网（现：亚马逊中国）开启B2C模式</li>
+<li>00年6月：中国电子商务协会成立</li>
+<li>01年：13所高校开启电子商务专业</li>
+<li>01年11月：8848暂停电子商务</li>
+<li>02年3月：eBay收购易趣33%的股份</li>
+<li>02年10月：阿里实现收支平衡</li>
+<li>03年5月：淘宝网成立，C2C</li>
+<li>03年6月：eBay全盘收购易趣C2C</li>
+<li>03年10月：阿里推出支付宝</li>
+<li>03年12月：慧聪网香港上市</li>
+<li>04年1月：京东涉足电子商务</li>
+<li>04年8月：亚马逊收购卓越</li>
+<li>05年9月：腾讯推出拍拍网</li>
+<li>06年5月：淘宝推出淘宝商城</li>
+<li>07年11月：阿里巴巴登陆香港证券市场</li>
+<li>08年：经济危机部分严重依赖外贸的电商倒闭</li>
+<li>09年6月：当当宣布首季盈利</li>
+<li>10年1月：苏宁易购上线</li>
+<li>10年11月：国美电器控股库巴购物网进军电子商务</li>
+</ul>
+<h3 id="稳定期11-至今">1.1.13 稳定期（11-至今）</h3>
+<ul>
+<li>12年1月：淘宝商城改为天猫</li>
+<li>12年3月：唯品会上市</li>
+<li>19年：天猫双11交易额2684亿</li>
+<li>11年至今：天猫、京东、苏宁、国美、各大电商趋于稳定</li>
+</ul>
+<h2 id="业务模式">1.2 业务模式</h2>
+<ul>
+<li>电商早期多以单体业务为主，逐个业务线扩张。系统也多呈现为多个mvc独立运行状态。下面逐个介绍。各个单体的业务模式，以及他们各自的系统运行特点。<br />
+</li>
+</ul>
+<h3 id="b2c">1.2.1 B2C</h3>
+<ul>
+<li>简介
+<ul>
+<li>Business to
+Consumer（Customer），B2C中的B是Business，意思是企业，2则是to的谐音，C是Customer，意思是消费者，所以B2C是企业对消费者的电子商务模式。这种形式的电子商务一般以网络零售业为主，主要借助于Internet开展在线销售活动。</li>
+</ul></li>
+<li>系统特点
+<ul>
+<li>因为面向大量消费者，网站访问量较大，对网站并发行有一定要求，但交易方式相对简单。</li>
+</ul></li>
+<li>案例
+<ul>
+<li>天猫商城</li>
+<li>京东</li>
+<li>苏宁易购</li>
+<li>国美电器</li>
+</ul></li>
+</ul>
+<h3 id="c2c">1.2.2 C2C</h3>
+<ul>
+<li>简介
+<ul>
+<li>Consumer to Consumer，意思是个人与个人之间的电子商务。 C2C
+商务平台就是通过为买卖双方提供一个在线交易平台，使卖方可以主动提供商品上网拍卖，而买方可以自行选择商品进行竞价。比如一个消费者有一台电脑，通过网络进行交易，把它出售给另外一个消费者。</li>
+</ul></li>
+<li>系统特点
+<ul>
+<li>同B2C一样，网站访问量是重点。</li>
+</ul></li>
+<li>案例
+<ul>
+<li>闲鱼</li>
+<li>58交易</li>
+</ul></li>
+</ul>
+<h3 id="b2b">1.2.3 B2B</h3>
+<ul>
+<li>简介
+<ul>
+<li>Business to
+Business，即企业与企业之间通过互联网进行产品、服务及信息的交换。通俗的说法是指进行电子商务交易的供需双方都是商家（或企业、公司）。一般来讲，过程包括：发布供求信息（现货，期货），订货及确认订货（议价，集采，聚投），支付（先货后款，先款后货，分期支付），票据的签发、传送和接收（验货，验票），确定配送方案（物流），监控配送过程（违约与仲裁）等。</li>
+</ul></li>
+<li>系统特点
+<ul>
+<li>与C端用户不同，B端访问量相对小，但是交易周期的流程，以及交易的监督相对复杂。</li>
+</ul></li>
+<li>案例
+<ul>
+<li>中国化工</li>
+<li>阿里巴巴</li>
+<li>慧聪网</li>
+<li>中国供销电子商务</li>
+<li>中粮我买网</li>
+</ul></li>
+</ul>
+<h3 id="o2o">1.2.4 O2O</h3>
+<ul>
+<li>简介
+<ul>
+<li>Online to Offline，O2O
+是新兴起的一种电子商务新商业模式，即将线下商务的机会与互联网结合在了一起，让互联网成为线下交易的工具。这样线下服务就可以用线上来引流，消费者可以用线上来筛选服务，还有成交可以在线结算，高效完成部分线下的前期环节。</li>
+</ul></li>
+<li>系统特点
+<ul>
+<li>O2O整合了线上购买+线下体验的模式，多为服务性商品，比如餐饮，娱乐等。尤其是移动互联网的接入，对O2O系统就有针对用户做定制化服务的要求，比如位置定位、周边服务、定向推送等。</li>
+</ul></li>
+<li>案例
+<ul>
+<li>各类团购</li>
+<li>外卖网</li>
+<li>打车类</li>
+<li>共享单车</li>
+</ul></li>
+</ul>
+<h3 id="其他">1.2.5 其他</h3>
+<h4 id="abc">1.2.5.1 ABC</h4>
+<ul>
+<li>Agent、Business、Consumer。ABC
+模式是新型电子商务模式的一种，被誉为继阿里巴巴 B2B 模式、京东商城 B2C
+模式以及淘宝 C2C
+模式之后电子商务界的第四大模式。它由代理商、商家和消费者共同搭建的集生产、经营、消费为一体的电子商务平台。</li>
+<li>案例
+<ul>
+<li>安居客</li>
+</ul></li>
+</ul>
+<h4 id="b2m">1.2.5.2 B2M</h4>
+<ul>
+<li>Business to Manager。B2M 相对于 B2B、B2C、C2C
+有着本质的不同，其根本的区别在于目标客户群的性质不同，前三者的目标客户群都是作为一种消费者的身份出现，而
+B2M
+所针对的客户群是该企业或者该产品的销售者或者为其工作者，而不是最终消费者。</li>
+<li>案例
+<ul>
+<li>CRM</li>
+<li>OA</li>
+</ul></li>
+</ul>
+<h4 id="m2c">1.2.5.3 M2C</h4>
+<ul>
+<li>Manager to Consumer。M2C 是针对于 B2M
+的电子商务模式而出现的延伸概念。B2M
+环节中，企业通过网络平台发布该企业的产品或者服务，职业经理人通过网络获取该企业的产品或者服务信息，并且为该企业提供产品销售或者提供企业服务，企业通过经理人的服务达到销售产品或者获得服务的目的。</li>
+</ul>
+<h4 id="b2ab2g">1.2.5.4 B2A/B2G</h4>
+<ul>
+<li>A：Administration，G：Government。是企业与政府管理部门之间的电子商务，如政府采购，海关报税的平台，国税局和地税局报税的平台等。</li>
+</ul>
+<h4 id="c2ac2g">1.2.5.5 C2A/C2G</h4>
+<ul>
+<li>Consumer to Administration。
+消费者对行政机构的电子商务，指的是政府对个人的电子商务活动。例如政府的税务机构通过指定私营税务，或财务会计事务所用电子方式来为个人报税。</li>
+<li>案例
+<ul>
+<li>个税APP</li>
+</ul></li>
+</ul>
+<h2 id="电商中台">1.3 电商中台</h2>
+<h3 id="背景">1.3.1 背景</h3>
+<h4 id="技术架构的需要">1.3.1.1 技术架构的需要</h4>
+<ul>
+<li>烟囱式系统建设：业务部门提出业务需求，信息中心部门进行系统集成，再进入到需求收集、需求分析、开发、测试、上线的项目周期中。每个新系统的上线都预示着一座新的烟囱矗立而成。这种完全基于业务需求建设系统的方式，已经成为过去20多年企业建设IT系统的标准流程，导致IT系统建设早的企业内部系统烟囱林立。</li>
+<li>造成的问题：
+<ul>
+<li>重复功能建设和维护带来的重复投资</li>
+<li>系统间的集成和协作成本高昂</li>
+<li>不利于业务的沉淀和持续发展。</li>
+</ul></li>
+</ul>
+<h4 id="组织架构的需要">1.3.1.2 组织架构的需要</h4>
+<ul>
+<li>IT信息部门在现有模式下往往被定位成了一个服务部门。
+这使得IT信息化部门一直处于『业务支持』的职能位置，即只为了满足业务部门需求而进行IT系统建设的实施和运维部门。这种模式下，
+很多企业的IT信息化部门的员工大多数的工作内容都是开发上线开发上线。而对业务缺乏某一专业领域的经验和沉淀。基于中台下的共享业务技术部，使得核心公共业务沉淀，让IT部门与上层业务更贴近，能够对业务
+的下一步发展有着自己的理解和看法，对业务流程如何进一步优化能更好地提升业务，甚至对企业现有的业务提出创新的想法，为企业带来新的业务增长点。</li>
+</ul>
+<h3 id="概述">1.3.2 概述</h3>
+<ul>
+<li>综合前面的业务模式，各个业务类型中，都具备基本的商品、交易、库存、支付等公共部分。提炼这部分基础内容，进行沉淀，逐步形成中台基础能力层，而个性化的业务流程部分上浮，形成产品层。这样做的好处是，基础能力层聚焦于稳定收敛的业务模型和基础服务本身，不会随着业务和前台产品的调整发生大的变化，平台产品层则专注于通过流程编排类的技术手段，将基础能力构建成业务的解决方案，解决共性和个性化的问题。即大中台，小前端。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_17-23-48.png"/></div></div>
+<h3 id="业务中台">1.3.3 业务中台</h3>
+<ul>
+<li>商品中心：商品、类目、sku、spu</li>
+<li>交易中心：订单、状态流转、条目、支付</li>
+<li>营销中心：促销、优惠券、活动</li>
+<li>会员中心：账户、基本信息、收发货地址、商铺商家信息</li>
+<li>仓储中心：仓库、库存</li>
+<li>物流中心：发货信息、自主物流或外部物流对接</li>
+</ul>
+<h3 id="技术中台">1.3.4 技术中台</h3>
+<ul>
+<li>基础架构：核心类库、公共框架、基础服务、服务治理框架</li>
+<li>中间件：分布式缓存、分布式消息、数据存储（db，nosql）、分布式文件,分布式调度</li>
+<li>自动化运维：监控中心、资源管理、配置中心、发布中心、日志平台</li>
+<li>自动化测试：任务协同、基础测试、性能测试、接口测试、持续集成</li>
+</ul>
+<h3 id="数据中台">1.3.5 数据中台</h3>
+<ul>
+<li>数据抽取：从db，nosql，日志等各个来源提供抽取接口</li>
+<li>数据接口：为上层业务提供需要的定制化业务数据接口</li>
+<li>数据分析：行业分析与决策、数据驱动运营</li>
+<li>人工智能：用户画像、商品推荐</li>
+<li>可视化：数据大屏、信息展示、活动报表</li>
+</ul>
+<h2 id="发展趋势">1.4 发展趋势</h2>
+<h3 id="移动电商">1.4.1 移动电商</h3>
+<ul>
+<li>移动电子商务（M-Commerce），它由电子商务（E-Commerce）的概念衍生出来，传统电子商务以PC机为主要界面，是“有线的电子商务”；而移动电子商务，则是通过智能手机、平板电脑这些可以装在口袋里的终端与我们谋面，无论何时、何地都可以开始。有人预言，移动商务将决定21世纪新企业的风
+貌，也将改变生活与旧商业的地形地貌。</li>
+<li>主要特点：随时随地、实时在线、精准推送营销</li>
+<li>面临挑战：终端的多样化</li>
+</ul>
+<h3 id="社交电商">1.4.2 社交电商</h3>
+<ul>
+<li>电商说到底就是通过线上流量把货卖出去。社交电商顾名思义，与传统电商网站的区别在于流量的导入方式是借助社交圈。社交电商，一般通过点赞、分享、转发、自媒体推荐等通过自己的社会关系
+去制造和产生流量。而传统电商是做平台，借助平台的力量去助推销售。</li>
+<li>传统电商以货为中心，围绕商品、供应链的传统卖货平台。</li>
+<li>社交电商以人为中心，是社交关系形成的电商形态，不以产品搜索、展示为销售模式，而是通过社交，</li>
+<li>用户分享传播，形成口碑效应，从而激发消费需求。</li>
+<li>拼多多历经短短2年3个月的时间就在美国纳斯达克正式上市，而这个成绩，淘宝用了10年，京东用了5年。</li>
+<li>案例：拼多多、有赞、微商、抖音、淘宝直播</li>
+<li>特点：容易形成圈子效应</li>
+<li>面临挑战：对口碑的要求很高、社交和交易的界限不好把控</li>
+</ul>
+<h3 id="新零售">1.4.3 新零售</h3>
+<ul>
+<li>新零售，英文是New
+Retailing，在2016年的10月，马云提出了新零售就是线上、线下、物流相结合。即个人、企业以互联网为依托，通过运用大数据、人工智能等先进技术手段，对商品的生产、流通与销售过程进行升级改造，进而重塑业态结构与生态圈，并对线上服务、线下体验以及现代物流进行深度融合的零售新模式。</li>
+<li>在线上零售的冲击下，传统的纯线下零售在历经了地产整合、渠道升级、品牌崛起等发展阶段后，很难有新突破。而线上零售也逐渐探到传统流量模式的天花板。于是线上、线下、技术、数据、供应链等场景都在寻求相互融合，形成线上交易结合线下体验店的新零售。</li>
+<li>案例：阿里巴巴全面布局”新零售”市场；京东主推”无界零售”；苏宁则依靠”智慧零售”
+迎来九年来最佳业绩</li>
+</ul>
+<h1 id="架构体系演进">2. 架构体系演进</h1>
+<h2 id="概述-1">2.1 概述</h2>
+<ul>
+<li>任何体系的成型不是一蹴而就，随着访问量，数据量的增长，业务需求在推动技术架构的发展变革。下面我们以淘宝的发展历程为例，来看系统架构的演进过程。</li>
+<li>1）架构目标
+<ul>
+<li>高性能：提供快速的访问体验，高并发下的及时响应。</li>
+<li>高可用：网站服务7x24正常访问，可用性达到几个9。</li>
+<li>可伸缩：资源的扩容，应对突发和流量脉冲。</li>
+<li>安全性：提供网站安全访问和数据加密、安全存储等策略。</li>
+<li>扩展性：方便对现有模块做版本升级，新模块的上线，突发活动下的服务降级。</li>
+<li>敏捷性：对系统突发情况的快速排查与应对。</li>
+</ul></li>
+<li>2）演进概述
+<ul>
+<li>部署层面：单机到集群，集中式到分布式，物理部署到云化</li>
+<li>业务层面：单一mvc到垂直拆分，服务治理到微服务</li>
+<li>数据层面：db到集群，单一关系型数据到多样化nosql，搜索引擎，文件服务</li>
+</ul></li>
+</ul>
+<h2 id="单机器时代">2.2 单机器时代</h2>
+<ul>
+<li>小型网站，阿里云小项目还有人在用。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-56-50.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>大型机：引发对单机性能的过度追求，推动高配机器的发展，成本高昂</li>
+<li>调优：jvm单节点调优甚至接近于强迫症的地步</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>部署简单：采用web包部署与发布，db同台机器连接，简单易操作。</li>
+<li>资源争夺：在业务发展的初始阶段尚可支撑，随着访问量的上升，单机性能很快会成为系统瓶颈。</li>
+</ul></li>
+</ul>
+<h2 id="数据分离">2.3 数据分离</h2>
+<ul>
+<li>稍微大一点的系统，dba出现，数据库追逐商业大型db如oracle，如（淘宝v1.1
+， mysql→oracle）</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-58-10.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>多台机器：tomcat与mysql各自独占机器资源</li>
+<li>针对性扩容：tomcat应用机更注重cpu的运算和内存，mysql更注重io与磁盘性能，针对各自情况扩容</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>数据维护：可以抽出单独的dba来维护数据库服务器</li>
+<li>数据安全：需要跨机器访问数据库，链接密码需要注意防范泄漏</li>
+<li>数据库瓶颈：数据库频繁读写，io很快成为瓶颈</li>
+</ul></li>
+</ul>
+<h2 id="数据缓存">2.4 数据缓存</h2>
+<ul>
+<li>2006-2007，淘宝V2.2架构，分布式缓存Tair引入。（08-09创业初期memcache+ssh1时代的故事）</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-59-26.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>数据冷热划分：热点数据如类目、商品基础信息热加载，其他数据延迟加载</li>
+<li>ehcache：非分布式，简单，易维护，可用性一般</li>
+<li>memcache：性能可靠，纯内存，客户端需要自己实现，无持久化</li>
+<li>redis：性能可靠，纯内存，自带分片，集群，哨兵，支持持久化，几乎成为当前的标准方案</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>缓存策略：缓存与db的边界需要架构师去把控，重度依赖可能引发问题（memcache造成db高压案例，模拟请求解决
+→ squid；redis短信平台故障案例）</li>
+<li>缓存陷阱：击穿，穿透，雪崩</li>
+<li>数据一致性：删除、双写</li>
+</ul></li>
+</ul>
+<h2 id="应用集群">2.5 应用集群</h2>
+<ul>
+<li>2004-2005，淘宝V2.0，EJB为核心（2011年间EJB3 pk
+spring3.x选型案例）。V2.1架构下，引入spring框架走向轻量化和集群</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-01-23.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>apache：早期负载均衡方案，性能一般</li>
+<li>nginx：7层代理，性能强悍，配置简洁，可以携带lua完成前端逻辑，当前不二之选</li>
+<li>haproxy：性能没问题，可做7层或4层代理。</li>
+<li>lvs：4层代理，性能最强，linux集成，配置麻烦</li>
+<li>h5：硬件负载，财大气粗的不二选择</li>
+</ul></li>
+<li>2）特点</li>
+<li>session保持：集群环境下，用户登陆及session的保持成为问题，需要分布式session做支撑</li>
+<li>分布式协同：分布式环境下对资源的加锁要超出线程锁的范畴，上升为分布式锁</li>
+<li>调度问题：调度程序跑重复</li>
+<li>机器状态管理：多台应用机的状态检测与替换需要做到及时性</li>
+<li>服务升级：滚动升级成为可能</li>
+<li>日志管理：日志文件分散在各个机器，促进集中式日志平台的产生</li>
+</ul>
+<h2 id="读写分离">2.6 读写分离</h2>
+<ul>
+<li>早在2003-2004淘宝V1.0就使用mysql就使用了读写分离，V1.1换成oracle，直到2007数据库重新往mysql回迁，新东方也是相同经历。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-08-51.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>缓存集群：redis哨兵，集群，分片，pre-sharding，memcache一致性hash</li>
+<li>数据库集群：一主多从、双主单写、灾备 （供销灾备双主单写案例）</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>数据延迟：准实时，单方法内的写入立即读取问题</li>
+<li>开发层面：需要开发框架具备多数据源的支持，以及自动化的数据源切换</li>
+<li>数据分片：memcache需要客户端处理，redis支持集群数据分片</li>
+<li>单库瓶颈：业务越来越多，表数量越来越多。单库成为瓶颈</li>
+<li>数据局限：依然无法解决单表大数据的问题，比如订单积累达到亿级，即使在从库，关联查询依然奇慢无比</li>
+</ul></li>
+</ul>
+<h2 id="分库分表">2.7 分库分表</h2>
+<ul>
+<li>2004-2007，淘宝V2.1，支持分库，抛弃EJB。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-10-14.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>早期分区表：range，list，hash，key，对开发端透明，但分区数有限制，性能提升有天花板。</li>
+<li>业务分库：订单库，产品库，活动库，会员库</li>
+<li>横向分表：3个月内订单，半年内订单，更多订单</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>（恒天集团基金系统从数据库分区表到Mycat）</li>
+<li>分库：无法使用数据库事务保证完整性，而分布式事务的效果并不理想，多采用幂等和最终一致性方案。</li>
+<li>分表：数据聚合矛盾，以订单为例，下单时间维度的分表和用户维度的查询是一对矛盾。排序统计变得异常困难。</li>
+<li>中间件：Sharding-JDBC，Mycat，Atlas</li>
+</ul></li>
+</ul>
+<h2 id="动静分离">2.8 动静分离</h2>
+<ul>
+<li>早年间的Apache+tomcat，后被nginx几乎一统江山。（前后端开发模式的演进：mvc页面嵌套→接口化）</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-12-15.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>静态响应：tomcat对静态文件响应一般，提取静态文件，直接由nginx响应</li>
+<li>动态代理：后端api通过代理转发给tomcat应用机器</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>开发层面调整：项目结构要同步调整，由原来的一体化mvc转换为后端api+前端形式。</li>
+<li>前后协调：前后端的分工变得更明确，互相并行开发，独立部署，但也带来了接口协调与约定等沟通问题</li>
+<li>单层局限：单个nginx代理在并发处理任务时，依然会有上限，静态文件节点需要面临扩容。</li>
+</ul></li>
+</ul>
+<h2 id="多层代理">2.9 多层代理</h2>
+<ul>
+<li>2010-2012
+，新东方网络课堂项目架构，基于springMVC+Mybatis，war包集中式部署。资源不够，机器来凑的时代（30台tomcat）。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-13-43.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>多层代理：在nginx前再加一层lvs做代理，作为流量的统一入口，再分发给下层的多个nginx，静态服务得到扩容</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>机房受限：lvs依然是单一节点，即使keepalived做到高可用，流量仍然需要在唯一入口进入。</li>
+</ul></li>
+</ul>
+<h2 id="跨机房">2.10 跨机房</h2>
+<ul>
+<li>淘宝V2.1时代 ，
+使用自己的TaobaoCDN。中国供销集团两地灾备，DNS轮询北京机房，西安机房</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-15-05.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>dns轮询：通过配置多个ip将服务部署到多个机房，通过dns的策略轮询调用，可以实现机房层面的扩容</li>
+<li>CDN：就近原则，使用户获得就近的机房访问相关资源，自己投资太大，购买他方需要付费。</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>基本解决了机器部署的扩容问题，随着业务的发展，数据呈现多样化发展，底层异构化数据成为新的瓶颈。</li>
+</ul></li>
+</ul>
+<h2 id="异构数据">2.11 异构数据</h2>
+<ul>
+<li>2006-2007，淘宝V2.2，分布式存储TFS，分布式缓存Tair，V3.0 加入 nosql
+Cassandra，搜索引擎升级</li>
+<li>数据库查询调优极限→搜索引擎、本地上传+nfs→文件系统的演进，方案后期均有深入讲解</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-16-23.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>nosql：商品特殊化属性，mongodb，hbase</li>
+<li>搜索引擎：商品信息库，lucene，solr，elasticsearch</li>
+<li>分布式文件存储：商品图片，上传的文件等，hdfs，fastdfs</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>开发框架支持：存储的数据多样化，要求开发框架架构层面要提供多样化的支撑，并确保访问易用性</li>
+<li>数据运维：多种数据服务器对运维的要求提升，机器的数据维护与灾备工作量加大</li>
+<li>数据安全：多种数据存储的权限，授权与访问隔离需要注意</li>
+</ul></li>
+</ul>
+<h2 id="业务线拆分">2.12 业务线拆分</h2>
+<ul>
+<li>以上架构的演进，基础设施层面的优化几乎达到了天花板，接下来，需要从业务和应用层面进行架构上的升级</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-17-38.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>业务分发：代理层设置不同的二级域名，如b2b.abc.com，b2c.abc.com，分发给不同的服务器</li>
+<li>消息互通：服务之间使用mq等异步消息提供通讯。</li>
+<li>跨域问题：因为多个业务线占据不同的域名，出现多个主站，单点登录被推上前线</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>粒度较粗：纯以业务为导向，往往形成业务团队各自为战，新业务线出现时疯狂扩张</li>
+<li>重复开发：相同功能可能在不同业务的项目中被重复开发，比如促销、短信发送、收银台</li>
+</ul></li>
+</ul>
+<h2 id="服务化">2.13 服务化</h2>
+<ul>
+<li>淘宝V3.0，HSF出现，服务化导向，架构师忙于SOA和系统关系的梳理。</li>
+<li>（2015年冬金融项目业务线rest→dubbo2.4.11的引入过程）</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-18-53.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>公共服务：重复开发的基础服务沉淀，形成服务中心，避免重复造轮子，降低成本，架构团队出现。</li>
+<li>独立性：各自服务独立部署升级，粒度更细，低耦合，高内聚</li>
+<li>SOA：服务治理的范畴，重在服务之间的拆分与统一接口</li>
+<li>微服务：可以理解为服务治理的一种手段，趋向于小服务的独立运作与部署。</li>
+<li>技术手段：springcloud，dubbo</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>界限把控：服务的粒度、拆分和公共服务提炼需要架构师的全局把控。设计不好容易引发混乱</li>
+<li>部署升级：服务数量增多，自动化部署面临挑战</li>
+<li>服务可用性：抽调的微服务因需要被多个上层业务共享，可用性等级变高，一旦down机就是灾难</li>
+<li>熔断和限流：做好服务熔断和限流，提防服务单点瓶颈造成整个系统瘫痪。</li>
+</ul></li>
+</ul>
+<h2 id="中台化">2.14 中台化</h2>
+<ul>
+<li>阿里共享业务技术部的发展，中国供销集团，电商平台中台体系的架构模式。</li>
+<li>技术沉积形成了公共服务平台，业务沉积逐步形成共享业务技术部，同时，业务烟囱的壁垒推动业务中台成型。同时组织结构同步升级，以技术共享为核心的技术中台，以数据为中心的数据中台同步建设得到实施。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-20-25.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>业务沉淀形成独立的中心，各个中心之间借助服务总线实现业务协作与服务重组。</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>团队规模：团队规模扩张，人员增多，协调成本上升，组织机构要有配套调整</li>
+<li>接口授权：各个中心的接口授权与开发需要把控</li>
+<li>接口约束：系统增多，各个服务接口的规范化日益重要，要求有统一的服务接口规范，推动企业消息总线的建设</li>
+<li>跨服务令牌：借助oauth2等手段，实现服务之间的权限认证</li>
+</ul></li>
+</ul>
+<h2 id="容器化">2.15 容器化</h2>
+<ul>
+<li>针对中台化的建设及微服务数量的飙升，部署和运维支撑同步进行着变革。面临微服务的快速部署，资源的弹性伸缩等挑战，容器化与云被推进。</li>
+<li>案例：成百上千的服务数量庞大、大促期间某些微服务的临时扩容。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-21-43.png"/></div></div>
+<ul>
+<li>1）方案
+<ul>
+<li>虚拟化：vm方案，Openstack，Vmware，VirtualBox</li>
+<li>容器化：docker</li>
+<li>编排：swarm，k8s，k3s</li>
+<li>云化：容器化解决了资源的快速伸缩，但仍需要企业自备大量预备资源。推动私有云到企业云进化</li>
+</ul></li>
+<li>2）特点
+<ul>
+<li>资源预估：注意资源的回收，降低资源闲置和浪费，例如大促结束后要及时回收。</li>
+<li>运维要求：需要运维层面的高度支撑，门槛比较高</li>
+<li>预估风险：云瘫痪的故障造成的损失不可估量，（openstack垮掉的事故案例）</li>
+</ul></li>
+</ul>
+<h1 id="架构总结">3. 架构总结</h1>
+<ol type="1">
+<li>知行合一，做之前，先考虑意义</li>
+<li>原生优于定制，约定大于配置</li>
+<li>什么都是，最后会沦落到什么都不是</li>
+<li>控制技术欲，不要瞎折腾</li>
+<li>留下扩展，但不要想到100年后</li>
+<li>没有最好的，只有最合适的</li>
+<li>够用就好，玩的越花，风险越大</li>
+<li>简约最美</li>
+</ol>
+]]></content>
+      <categories>
+        <category>架构设计</category>
+      </categories>
+      <tags>
+        <tag>互联网电商系统的演进过程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 恋爱</title>
+    <url>/2025/03/09/%E7%94%9F%E6%B4%BB/%E7%94%9F%E6%B4%BB%C2%B7%E6%81%8B%E7%88%B1/</url>
+    <content><![CDATA[<div class="note info modern"><p>info 恋爱指南</p>
+</div>
+<h1 id="恋爱提升">1. 恋爱提升</h1>
+<ul>
+<li>朋友圈 图片，个人图片，展示区</li>
+<li>健身：腹肌，瘦腿，方便拍照</li>
+<li>穿搭</li>
+<li>发型</li>
+<li>唱歌</li>
+</ul>
+<h1 id="恋爱技巧">2. 恋爱技巧</h1>
+<h2 id="说话">2.1 说话</h2>
+<pre><code>* 说话：传递关系，情绪，态度，需要走心
+* 升级关系：
+    * 日常：1/4 星座，瞎扯，做了什么之类的
+    * 对方的感兴趣点，主动开启的话题 1/4
+    * 自己价值的展示（优秀点，生活，细节） 1/4: 每周半天体验生活，商圈，网红点之类的，装修风格好的地点
+    * 升级关系 1/4
+* 说客套话，认真的话：需要认真走心仔细的解释，走心
+* 所有的拒绝都是在给机会，给你一个解决问题的机会，要不会把你拉黑的</code></pre>
+<h2 id="情感中的升级关系">2.2 情感中的升级关系</h2>
+<ul>
+<li>面子，自尊心，牌坊丢掉，全部给她</li>
+<li>表达好感，解决对方疑虑，解析对方想法，只求过程不求结果的人</li>
+</ul>
+<h1 id="朋友圈建设">3. 朋友圈建设</h1>
+<h2 id="头像建设">3.1 头像建设</h2>
+<ul>
+<li>可以自拍（凸显帅气，稳重）</li>
+<li>可以人物头像</li>
+<li>不要用沙雕头像</li>
+</ul>
+<h2 id="朋友圈背景">3.2 朋友圈背景</h2>
+<ul>
+<li>如果可以炫富，可以放到这里</li>
+<li>人物元素要少</li>
+<li>展示优点</li>
+</ul>
+<h2 id="个性签名">3.3 个性签名</h2>
+<ul>
+<li>可以文艺，幽默</li>
+</ul>
+<h2 id="朋友圈的展示内容">3.4 朋友圈的展示内容</h2>
+<ul>
+<li><p>一个月一条，一周一条</p></li>
+<li><p>美食</p>
+<ul>
+<li>不要有垃圾饮食，需要拍出来好看，价值</li>
+</ul></li>
+<li><p>社交</p>
+<ul>
+<li>展示积极生活状态</li>
+<li>社交合照 合影，最好有女生，生活丰富有趣</li>
+</ul></li>
+<li><p>工作</p>
+<ul>
+<li>展示上进心，表达对未来的期待</li>
+</ul></li>
+<li><p>英文歌+文案（文艺）</p></li>
+<li><p>旅游打卡+定位</p></li>
+<li><p>健身房 对境自拍，撸铁照片</p></li>
+<li><p>路边猫猫狗狗</p></li>
+<li><p>发朋友圈时应该避开的3个坑</p>
+<ul>
+<li>过分浮夸</li>
+<li>太端着装文艺</li>
+<li>用网图照片</li>
+</ul></li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>恋爱</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>架构设计·从架构层面看设计模式</title>
+    <url>/2025/03/21/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E4%BB%8E%E6%9E%B6%E6%9E%84%E5%B1%82%E9%9D%A2%E7%9C%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[
+]]></content>
+      <categories>
+        <category>架构设计</category>
+      </categories>
+      <tags>
+        <tag>从架构层面看设计模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 穿搭指南</title>
+    <url>/2025/03/05/%E7%94%9F%E6%B4%BB/%E7%94%9F%E6%B4%BB%C2%B7%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97/</url>
+    <content><![CDATA[<div class="note info modern"><p>info 是否还不知道应该穿什么样的衣服，是否逛淘宝店看了半天也不满意</p>
+</div>
+<h1 id="购衣指南">1. 购衣指南</h1>
+<ul>
+<li>面料，版型，特点</li>
+<li>面料 <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-06_20-46-16.png"/></div></div>
+<ul>
+<li>牛仔，皮革：材质偏硬，可以用于拔高视觉比例和平衡头肩比</li>
+<li>棉布，亚麻：垂感很强，肩窄不要尝试</li>
+<li>摇粒绒，针织：视觉上给人温暖，可爱，居家</li>
+</ul></li>
+<li>版型
+<ul>
+<li>上身
+<ul>
+<li>背心：阳光</li>
+<li>卫衣：居家</li>
+<li>毛衣：居家</li>
+<li>夹克</li>
+<li>开衫：年少</li>
+<li>冲锋衣</li>
+<li>polo衫：年少</li>
+<li>衬衫</li>
+<li>风衣：时尚</li>
+</ul></li>
+<li>下身
+<ul>
+<li>背带裤</li>
+<li>工装裤</li>
+<li>紧身裤</li>
+<li>灯笼裤</li>
+<li>喇叭裤</li>
+<li>哈伦裤</li>
+<li>裙裤</li>
+</ul></li>
+</ul></li>
+<li>特点
+<ul>
+<li>反光</li>
+<li>防水</li>
+<li>速干</li>
+</ul></li>
+<li>装饰
+<ul>
+<li>铁链</li>
+<li>飘带</li>
+<li>柳钉</li>
+</ul></li>
+</ul>
+<h2 id="购衣">1.1 购衣</h2>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>穿搭指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活 · 烹饪</title>
+    <url>/2025/02/24/%E7%94%9F%E6%B4%BB/%E7%94%9F%E6%B4%BB%C2%B7%E7%83%B9%E9%A5%AA/</url>
+    <content><![CDATA[<h1 id="甜点">1. 甜点</h1>
+<h2 id="蛋糕">1.1 蛋糕</h2>
+<h3 id="工具">1.1.1 工具</h3>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>烹饪</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>架构设计·电商系统在双11大促活动下的架构体系</title>
-    <url>/2025/03/16/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E7%94%B5%E5%95%86%E7%B3%BB%E7%BB%9F%E5%9C%A8%E5%8F%8C11%E5%A4%A7%E4%BF%83%E6%B4%BB%E5%8A%A8%E4%B8%8B%E7%9A%84%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB/</url>
+    <url>/2025/03/16/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E7%94%B5%E5%95%86%E7%B3%BB%E7%BB%9F%E5%9C%A8%E5%8F%8C11%E5%A4%A7%E4%BF%83%E6%B4%BB%E5%8A%A8%E4%B8%8B%E7%9A%84%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB/</url>
     <content><![CDATA[<h1 id="背景与挑战">1. 背景与挑战</h1>
 <h2 id="背景介绍">1.1 背景介绍</h2>
 <h3 id="课程概述">1.1.1 课程概述</h3>
@@ -1078,842 +2249,133 @@ ngx_http_limit_conn_module模块提供了对资源连接数进行限制的功能
       </tags>
   </entry>
   <entry>
-    <title>架构设计·互联网电商系统的演进过程</title>
-    <url>/2025/03/15/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%C2%B7%E4%BA%92%E8%81%94%E7%BD%91%E7%94%B5%E5%95%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%BC%94%E8%BF%9B%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="电商系统演进">1. 电商系统演进</h1>
-<h2 id="发展历程">1.1 发展历程</h2>
-<h3 id="萌芽期96-99">1.1.1 萌芽期（96-99）</h3>
-<ul>
-<li>96年：国家信息化领导小组成立</li>
-<li>97年4月：各省成立信息化小组</li>
-<li>97年12月：中国化工网B2B上线</li>
-<li>98年3月：第一笔互联网交易完成</li>
-<li>98年11月：腾讯成立</li>
-<li>99年5月：8848网成立</li>
-<li>99年8月：易趣网</li>
-<li>99年9月：阿里巴巴</li>
-<li>99年11月：当当网</li>
-</ul>
-<h3 id="发展期00-10">1.1.2 发展期（00-10）</h3>
-<ul>
-<li>00年4月：慧聪网B2B</li>
-<li>00年5月：卓越网（现：亚马逊中国）开启B2C模式</li>
-<li>00年6月：中国电子商务协会成立</li>
-<li>01年：13所高校开启电子商务专业</li>
-<li>01年11月：8848暂停电子商务</li>
-<li>02年3月：eBay收购易趣33%的股份</li>
-<li>02年10月：阿里实现收支平衡</li>
-<li>03年5月：淘宝网成立，C2C</li>
-<li>03年6月：eBay全盘收购易趣C2C</li>
-<li>03年10月：阿里推出支付宝</li>
-<li>03年12月：慧聪网香港上市</li>
-<li>04年1月：京东涉足电子商务</li>
-<li>04年8月：亚马逊收购卓越</li>
-<li>05年9月：腾讯推出拍拍网</li>
-<li>06年5月：淘宝推出淘宝商城</li>
-<li>07年11月：阿里巴巴登陆香港证券市场</li>
-<li>08年：经济危机部分严重依赖外贸的电商倒闭</li>
-<li>09年6月：当当宣布首季盈利</li>
-<li>10年1月：苏宁易购上线</li>
-<li>10年11月：国美电器控股库巴购物网进军电子商务</li>
-</ul>
-<h3 id="稳定期11-至今">1.1.13 稳定期（11-至今）</h3>
-<ul>
-<li>12年1月：淘宝商城改为天猫</li>
-<li>12年3月：唯品会上市</li>
-<li>19年：天猫双11交易额2684亿</li>
-<li>11年至今：天猫、京东、苏宁、国美、各大电商趋于稳定</li>
-</ul>
-<h2 id="业务模式">1.2 业务模式</h2>
-<ul>
-<li>电商早期多以单体业务为主，逐个业务线扩张。系统也多呈现为多个mvc独立运行状态。下面逐个介绍。各个单体的业务模式，以及他们各自的系统运行特点。<br />
-</li>
-</ul>
-<h3 id="b2c">1.2.1 B2C</h3>
-<ul>
-<li>简介
-<ul>
-<li>Business to
-Consumer（Customer），B2C中的B是Business，意思是企业，2则是to的谐音，C是Customer，意思是消费者，所以B2C是企业对消费者的电子商务模式。这种形式的电子商务一般以网络零售业为主，主要借助于Internet开展在线销售活动。</li>
-</ul></li>
-<li>系统特点
-<ul>
-<li>因为面向大量消费者，网站访问量较大，对网站并发行有一定要求，但交易方式相对简单。</li>
-</ul></li>
-<li>案例
-<ul>
-<li>天猫商城</li>
-<li>京东</li>
-<li>苏宁易购</li>
-<li>国美电器</li>
-</ul></li>
-</ul>
-<h3 id="c2c">1.2.2 C2C</h3>
-<ul>
-<li>简介
-<ul>
-<li>Consumer to Consumer，意思是个人与个人之间的电子商务。 C2C
-商务平台就是通过为买卖双方提供一个在线交易平台，使卖方可以主动提供商品上网拍卖，而买方可以自行选择商品进行竞价。比如一个消费者有一台电脑，通过网络进行交易，把它出售给另外一个消费者。</li>
-</ul></li>
-<li>系统特点
-<ul>
-<li>同B2C一样，网站访问量是重点。</li>
-</ul></li>
-<li>案例
-<ul>
-<li>闲鱼</li>
-<li>58交易</li>
-</ul></li>
-</ul>
-<h3 id="b2b">1.2.3 B2B</h3>
-<ul>
-<li>简介
-<ul>
-<li>Business to
-Business，即企业与企业之间通过互联网进行产品、服务及信息的交换。通俗的说法是指进行电子商务交易的供需双方都是商家（或企业、公司）。一般来讲，过程包括：发布供求信息（现货，期货），订货及确认订货（议价，集采，聚投），支付（先货后款，先款后货，分期支付），票据的签发、传送和接收（验货，验票），确定配送方案（物流），监控配送过程（违约与仲裁）等。</li>
-</ul></li>
-<li>系统特点
-<ul>
-<li>与C端用户不同，B端访问量相对小，但是交易周期的流程，以及交易的监督相对复杂。</li>
-</ul></li>
-<li>案例
-<ul>
-<li>中国化工</li>
-<li>阿里巴巴</li>
-<li>慧聪网</li>
-<li>中国供销电子商务</li>
-<li>中粮我买网</li>
-</ul></li>
-</ul>
-<h3 id="o2o">1.2.4 O2O</h3>
-<ul>
-<li>简介
-<ul>
-<li>Online to Offline，O2O
-是新兴起的一种电子商务新商业模式，即将线下商务的机会与互联网结合在了一起，让互联网成为线下交易的工具。这样线下服务就可以用线上来引流，消费者可以用线上来筛选服务，还有成交可以在线结算，高效完成部分线下的前期环节。</li>
-</ul></li>
-<li>系统特点
-<ul>
-<li>O2O整合了线上购买+线下体验的模式，多为服务性商品，比如餐饮，娱乐等。尤其是移动互联网的接入，对O2O系统就有针对用户做定制化服务的要求，比如位置定位、周边服务、定向推送等。</li>
-</ul></li>
-<li>案例
-<ul>
-<li>各类团购</li>
-<li>外卖网</li>
-<li>打车类</li>
-<li>共享单车</li>
-</ul></li>
-</ul>
-<h3 id="其他">1.2.5 其他</h3>
-<h4 id="abc">1.2.5.1 ABC</h4>
-<ul>
-<li>Agent、Business、Consumer。ABC
-模式是新型电子商务模式的一种，被誉为继阿里巴巴 B2B 模式、京东商城 B2C
-模式以及淘宝 C2C
-模式之后电子商务界的第四大模式。它由代理商、商家和消费者共同搭建的集生产、经营、消费为一体的电子商务平台。</li>
-<li>案例
-<ul>
-<li>安居客</li>
-</ul></li>
-</ul>
-<h4 id="b2m">1.2.5.2 B2M</h4>
-<ul>
-<li>Business to Manager。B2M 相对于 B2B、B2C、C2C
-有着本质的不同，其根本的区别在于目标客户群的性质不同，前三者的目标客户群都是作为一种消费者的身份出现，而
-B2M
-所针对的客户群是该企业或者该产品的销售者或者为其工作者，而不是最终消费者。</li>
-<li>案例
-<ul>
-<li>CRM</li>
-<li>OA</li>
-</ul></li>
-</ul>
-<h4 id="m2c">1.2.5.3 M2C</h4>
-<ul>
-<li>Manager to Consumer。M2C 是针对于 B2M
-的电子商务模式而出现的延伸概念。B2M
-环节中，企业通过网络平台发布该企业的产品或者服务，职业经理人通过网络获取该企业的产品或者服务信息，并且为该企业提供产品销售或者提供企业服务，企业通过经理人的服务达到销售产品或者获得服务的目的。</li>
-</ul>
-<h4 id="b2ab2g">1.2.5.4 B2A/B2G</h4>
-<ul>
-<li>A：Administration，G：Government。是企业与政府管理部门之间的电子商务，如政府采购，海关报税的平台，国税局和地税局报税的平台等。</li>
-</ul>
-<h4 id="c2ac2g">1.2.5.5 C2A/C2G</h4>
-<ul>
-<li>Consumer to Administration。
-消费者对行政机构的电子商务，指的是政府对个人的电子商务活动。例如政府的税务机构通过指定私营税务，或财务会计事务所用电子方式来为个人报税。</li>
-<li>案例
-<ul>
-<li>个税APP</li>
-</ul></li>
-</ul>
-<h2 id="电商中台">1.3 电商中台</h2>
-<h3 id="背景">1.3.1 背景</h3>
-<h4 id="技术架构的需要">1.3.1.1 技术架构的需要</h4>
-<ul>
-<li>烟囱式系统建设：业务部门提出业务需求，信息中心部门进行系统集成，再进入到需求收集、需求分析、开发、测试、上线的项目周期中。每个新系统的上线都预示着一座新的烟囱矗立而成。这种完全基于业务需求建设系统的方式，已经成为过去20多年企业建设IT系统的标准流程，导致IT系统建设早的企业内部系统烟囱林立。</li>
-<li>造成的问题：
-<ul>
-<li>重复功能建设和维护带来的重复投资</li>
-<li>系统间的集成和协作成本高昂</li>
-<li>不利于业务的沉淀和持续发展。</li>
-</ul></li>
-</ul>
-<h4 id="组织架构的需要">1.3.1.2 组织架构的需要</h4>
-<ul>
-<li>IT信息部门在现有模式下往往被定位成了一个服务部门。
-这使得IT信息化部门一直处于『业务支持』的职能位置，即只为了满足业务部门需求而进行IT系统建设的实施和运维部门。这种模式下，
-很多企业的IT信息化部门的员工大多数的工作内容都是开发上线开发上线。而对业务缺乏某一专业领域的经验和沉淀。基于中台下的共享业务技术部，使得核心公共业务沉淀，让IT部门与上层业务更贴近，能够对业务
-的下一步发展有着自己的理解和看法，对业务流程如何进一步优化能更好地提升业务，甚至对企业现有的业务提出创新的想法，为企业带来新的业务增长点。</li>
-</ul>
-<h3 id="概述">1.3.2 概述</h3>
-<ul>
-<li>综合前面的业务模式，各个业务类型中，都具备基本的商品、交易、库存、支付等公共部分。提炼这部分基础内容，进行沉淀，逐步形成中台基础能力层，而个性化的业务流程部分上浮，形成产品层。这样做的好处是，基础能力层聚焦于稳定收敛的业务模型和基础服务本身，不会随着业务和前台产品的调整发生大的变化，平台产品层则专注于通过流程编排类的技术手段，将基础能力构建成业务的解决方案，解决共性和个性化的问题。即大中台，小前端。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_17-23-48.png"/></div></div>
-<h3 id="业务中台">1.3.3 业务中台</h3>
-<ul>
-<li>商品中心：商品、类目、sku、spu</li>
-<li>交易中心：订单、状态流转、条目、支付</li>
-<li>营销中心：促销、优惠券、活动</li>
-<li>会员中心：账户、基本信息、收发货地址、商铺商家信息</li>
-<li>仓储中心：仓库、库存</li>
-<li>物流中心：发货信息、自主物流或外部物流对接</li>
-</ul>
-<h3 id="技术中台">1.3.4 技术中台</h3>
-<ul>
-<li>基础架构：核心类库、公共框架、基础服务、服务治理框架</li>
-<li>中间件：分布式缓存、分布式消息、数据存储（db，nosql）、分布式文件,分布式调度</li>
-<li>自动化运维：监控中心、资源管理、配置中心、发布中心、日志平台</li>
-<li>自动化测试：任务协同、基础测试、性能测试、接口测试、持续集成</li>
-</ul>
-<h3 id="数据中台">1.3.5 数据中台</h3>
-<ul>
-<li>数据抽取：从db，nosql，日志等各个来源提供抽取接口</li>
-<li>数据接口：为上层业务提供需要的定制化业务数据接口</li>
-<li>数据分析：行业分析与决策、数据驱动运营</li>
-<li>人工智能：用户画像、商品推荐</li>
-<li>可视化：数据大屏、信息展示、活动报表</li>
-</ul>
-<h2 id="发展趋势">1.4 发展趋势</h2>
-<h3 id="移动电商">1.4.1 移动电商</h3>
-<ul>
-<li>移动电子商务（M-Commerce），它由电子商务（E-Commerce）的概念衍生出来，传统电子商务以PC机为主要界面，是“有线的电子商务”；而移动电子商务，则是通过智能手机、平板电脑这些可以装在口袋里的终端与我们谋面，无论何时、何地都可以开始。有人预言，移动商务将决定21世纪新企业的风
-貌，也将改变生活与旧商业的地形地貌。</li>
-<li>主要特点：随时随地、实时在线、精准推送营销</li>
-<li>面临挑战：终端的多样化</li>
-</ul>
-<h3 id="社交电商">1.4.2 社交电商</h3>
-<ul>
-<li>电商说到底就是通过线上流量把货卖出去。社交电商顾名思义，与传统电商网站的区别在于流量的导入方式是借助社交圈。社交电商，一般通过点赞、分享、转发、自媒体推荐等通过自己的社会关系
-去制造和产生流量。而传统电商是做平台，借助平台的力量去助推销售。</li>
-<li>传统电商以货为中心，围绕商品、供应链的传统卖货平台。</li>
-<li>社交电商以人为中心，是社交关系形成的电商形态，不以产品搜索、展示为销售模式，而是通过社交，</li>
-<li>用户分享传播，形成口碑效应，从而激发消费需求。</li>
-<li>拼多多历经短短2年3个月的时间就在美国纳斯达克正式上市，而这个成绩，淘宝用了10年，京东用了5年。</li>
-<li>案例：拼多多、有赞、微商、抖音、淘宝直播</li>
-<li>特点：容易形成圈子效应</li>
-<li>面临挑战：对口碑的要求很高、社交和交易的界限不好把控</li>
-</ul>
-<h3 id="新零售">1.4.3 新零售</h3>
-<ul>
-<li>新零售，英文是New
-Retailing，在2016年的10月，马云提出了新零售就是线上、线下、物流相结合。即个人、企业以互联网为依托，通过运用大数据、人工智能等先进技术手段，对商品的生产、流通与销售过程进行升级改造，进而重塑业态结构与生态圈，并对线上服务、线下体验以及现代物流进行深度融合的零售新模式。</li>
-<li>在线上零售的冲击下，传统的纯线下零售在历经了地产整合、渠道升级、品牌崛起等发展阶段后，很难有新突破。而线上零售也逐渐探到传统流量模式的天花板。于是线上、线下、技术、数据、供应链等场景都在寻求相互融合，形成线上交易结合线下体验店的新零售。</li>
-<li>案例：阿里巴巴全面布局”新零售”市场；京东主推”无界零售”；苏宁则依靠”智慧零售”
-迎来九年来最佳业绩</li>
-</ul>
-<h1 id="架构体系演进">2. 架构体系演进</h1>
-<h2 id="概述-1">2.1 概述</h2>
-<ul>
-<li>任何体系的成型不是一蹴而就，随着访问量，数据量的增长，业务需求在推动技术架构的发展变革。下面我们以淘宝的发展历程为例，来看系统架构的演进过程。</li>
-<li>1）架构目标
-<ul>
-<li>高性能：提供快速的访问体验，高并发下的及时响应。</li>
-<li>高可用：网站服务7x24正常访问，可用性达到几个9。</li>
-<li>可伸缩：资源的扩容，应对突发和流量脉冲。</li>
-<li>安全性：提供网站安全访问和数据加密、安全存储等策略。</li>
-<li>扩展性：方便对现有模块做版本升级，新模块的上线，突发活动下的服务降级。</li>
-<li>敏捷性：对系统突发情况的快速排查与应对。</li>
-</ul></li>
-<li>2）演进概述
-<ul>
-<li>部署层面：单机到集群，集中式到分布式，物理部署到云化</li>
-<li>业务层面：单一mvc到垂直拆分，服务治理到微服务</li>
-<li>数据层面：db到集群，单一关系型数据到多样化nosql，搜索引擎，文件服务</li>
-</ul></li>
-</ul>
-<h2 id="单机器时代">2.2 单机器时代</h2>
-<ul>
-<li>小型网站，阿里云小项目还有人在用。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-56-50.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>大型机：引发对单机性能的过度追求，推动高配机器的发展，成本高昂</li>
-<li>调优：jvm单节点调优甚至接近于强迫症的地步</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>部署简单：采用web包部署与发布，db同台机器连接，简单易操作。</li>
-<li>资源争夺：在业务发展的初始阶段尚可支撑，随着访问量的上升，单机性能很快会成为系统瓶颈。</li>
-</ul></li>
-</ul>
-<h2 id="数据分离">2.3 数据分离</h2>
-<ul>
-<li>稍微大一点的系统，dba出现，数据库追逐商业大型db如oracle，如（淘宝v1.1
-， mysql→oracle）</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-58-10.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>多台机器：tomcat与mysql各自独占机器资源</li>
-<li>针对性扩容：tomcat应用机更注重cpu的运算和内存，mysql更注重io与磁盘性能，针对各自情况扩容</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>数据维护：可以抽出单独的dba来维护数据库服务器</li>
-<li>数据安全：需要跨机器访问数据库，链接密码需要注意防范泄漏</li>
-<li>数据库瓶颈：数据库频繁读写，io很快成为瓶颈</li>
-</ul></li>
-</ul>
-<h2 id="数据缓存">2.4 数据缓存</h2>
-<ul>
-<li>2006-2007，淘宝V2.2架构，分布式缓存Tair引入。（08-09创业初期memcache+ssh1时代的故事）</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_18-59-26.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>数据冷热划分：热点数据如类目、商品基础信息热加载，其他数据延迟加载</li>
-<li>ehcache：非分布式，简单，易维护，可用性一般</li>
-<li>memcache：性能可靠，纯内存，客户端需要自己实现，无持久化</li>
-<li>redis：性能可靠，纯内存，自带分片，集群，哨兵，支持持久化，几乎成为当前的标准方案</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>缓存策略：缓存与db的边界需要架构师去把控，重度依赖可能引发问题（memcache造成db高压案例，模拟请求解决
-→ squid；redis短信平台故障案例）</li>
-<li>缓存陷阱：击穿，穿透，雪崩</li>
-<li>数据一致性：删除、双写</li>
-</ul></li>
-</ul>
-<h2 id="应用集群">2.5 应用集群</h2>
-<ul>
-<li>2004-2005，淘宝V2.0，EJB为核心（2011年间EJB3 pk
-spring3.x选型案例）。V2.1架构下，引入spring框架走向轻量化和集群</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-01-23.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>apache：早期负载均衡方案，性能一般</li>
-<li>nginx：7层代理，性能强悍，配置简洁，可以携带lua完成前端逻辑，当前不二之选</li>
-<li>haproxy：性能没问题，可做7层或4层代理。</li>
-<li>lvs：4层代理，性能最强，linux集成，配置麻烦</li>
-<li>h5：硬件负载，财大气粗的不二选择</li>
-</ul></li>
-<li>2）特点</li>
-<li>session保持：集群环境下，用户登陆及session的保持成为问题，需要分布式session做支撑</li>
-<li>分布式协同：分布式环境下对资源的加锁要超出线程锁的范畴，上升为分布式锁</li>
-<li>调度问题：调度程序跑重复</li>
-<li>机器状态管理：多台应用机的状态检测与替换需要做到及时性</li>
-<li>服务升级：滚动升级成为可能</li>
-<li>日志管理：日志文件分散在各个机器，促进集中式日志平台的产生</li>
-</ul>
-<h2 id="读写分离">2.6 读写分离</h2>
-<ul>
-<li>早在2003-2004淘宝V1.0就使用mysql就使用了读写分离，V1.1换成oracle，直到2007数据库重新往mysql回迁，新东方也是相同经历。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-08-51.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>缓存集群：redis哨兵，集群，分片，pre-sharding，memcache一致性hash</li>
-<li>数据库集群：一主多从、双主单写、灾备 （供销灾备双主单写案例）</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>数据延迟：准实时，单方法内的写入立即读取问题</li>
-<li>开发层面：需要开发框架具备多数据源的支持，以及自动化的数据源切换</li>
-<li>数据分片：memcache需要客户端处理，redis支持集群数据分片</li>
-<li>单库瓶颈：业务越来越多，表数量越来越多。单库成为瓶颈</li>
-<li>数据局限：依然无法解决单表大数据的问题，比如订单积累达到亿级，即使在从库，关联查询依然奇慢无比</li>
-</ul></li>
-</ul>
-<h2 id="分库分表">2.7 分库分表</h2>
-<ul>
-<li>2004-2007，淘宝V2.1，支持分库，抛弃EJB。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-10-14.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>早期分区表：range，list，hash，key，对开发端透明，但分区数有限制，性能提升有天花板。</li>
-<li>业务分库：订单库，产品库，活动库，会员库</li>
-<li>横向分表：3个月内订单，半年内订单，更多订单</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>（恒天集团基金系统从数据库分区表到Mycat）</li>
-<li>分库：无法使用数据库事务保证完整性，而分布式事务的效果并不理想，多采用幂等和最终一致性方案。</li>
-<li>分表：数据聚合矛盾，以订单为例，下单时间维度的分表和用户维度的查询是一对矛盾。排序统计变得异常困难。</li>
-<li>中间件：Sharding-JDBC，Mycat，Atlas</li>
-</ul></li>
-</ul>
-<h2 id="动静分离">2.8 动静分离</h2>
-<ul>
-<li>早年间的Apache+tomcat，后被nginx几乎一统江山。（前后端开发模式的演进：mvc页面嵌套→接口化）</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-12-15.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>静态响应：tomcat对静态文件响应一般，提取静态文件，直接由nginx响应</li>
-<li>动态代理：后端api通过代理转发给tomcat应用机器</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>开发层面调整：项目结构要同步调整，由原来的一体化mvc转换为后端api+前端形式。</li>
-<li>前后协调：前后端的分工变得更明确，互相并行开发，独立部署，但也带来了接口协调与约定等沟通问题</li>
-<li>单层局限：单个nginx代理在并发处理任务时，依然会有上限，静态文件节点需要面临扩容。</li>
-</ul></li>
-</ul>
-<h2 id="多层代理">2.9 多层代理</h2>
-<ul>
-<li>2010-2012
-，新东方网络课堂项目架构，基于springMVC+Mybatis，war包集中式部署。资源不够，机器来凑的时代（30台tomcat）。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-13-43.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>多层代理：在nginx前再加一层lvs做代理，作为流量的统一入口，再分发给下层的多个nginx，静态服务得到扩容</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>机房受限：lvs依然是单一节点，即使keepalived做到高可用，流量仍然需要在唯一入口进入。</li>
-</ul></li>
-</ul>
-<h2 id="跨机房">2.10 跨机房</h2>
-<ul>
-<li>淘宝V2.1时代 ，
-使用自己的TaobaoCDN。中国供销集团两地灾备，DNS轮询北京机房，西安机房</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-15-05.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>dns轮询：通过配置多个ip将服务部署到多个机房，通过dns的策略轮询调用，可以实现机房层面的扩容</li>
-<li>CDN：就近原则，使用户获得就近的机房访问相关资源，自己投资太大，购买他方需要付费。</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>基本解决了机器部署的扩容问题，随着业务的发展，数据呈现多样化发展，底层异构化数据成为新的瓶颈。</li>
-</ul></li>
-</ul>
-<h2 id="异构数据">2.11 异构数据</h2>
-<ul>
-<li>2006-2007，淘宝V2.2，分布式存储TFS，分布式缓存Tair，V3.0 加入 nosql
-Cassandra，搜索引擎升级</li>
-<li>数据库查询调优极限→搜索引擎、本地上传+nfs→文件系统的演进，方案后期均有深入讲解</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-16-23.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>nosql：商品特殊化属性，mongodb，hbase</li>
-<li>搜索引擎：商品信息库，lucene，solr，elasticsearch</li>
-<li>分布式文件存储：商品图片，上传的文件等，hdfs，fastdfs</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>开发框架支持：存储的数据多样化，要求开发框架架构层面要提供多样化的支撑，并确保访问易用性</li>
-<li>数据运维：多种数据服务器对运维的要求提升，机器的数据维护与灾备工作量加大</li>
-<li>数据安全：多种数据存储的权限，授权与访问隔离需要注意</li>
-</ul></li>
-</ul>
-<h2 id="业务线拆分">2.12 业务线拆分</h2>
-<ul>
-<li>以上架构的演进，基础设施层面的优化几乎达到了天花板，接下来，需要从业务和应用层面进行架构上的升级</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-17-38.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>业务分发：代理层设置不同的二级域名，如b2b.abc.com，b2c.abc.com，分发给不同的服务器</li>
-<li>消息互通：服务之间使用mq等异步消息提供通讯。</li>
-<li>跨域问题：因为多个业务线占据不同的域名，出现多个主站，单点登录被推上前线</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>粒度较粗：纯以业务为导向，往往形成业务团队各自为战，新业务线出现时疯狂扩张</li>
-<li>重复开发：相同功能可能在不同业务的项目中被重复开发，比如促销、短信发送、收银台</li>
-</ul></li>
-</ul>
-<h2 id="服务化">2.13 服务化</h2>
-<ul>
-<li>淘宝V3.0，HSF出现，服务化导向，架构师忙于SOA和系统关系的梳理。</li>
-<li>（2015年冬金融项目业务线rest→dubbo2.4.11的引入过程）</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-18-53.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>公共服务：重复开发的基础服务沉淀，形成服务中心，避免重复造轮子，降低成本，架构团队出现。</li>
-<li>独立性：各自服务独立部署升级，粒度更细，低耦合，高内聚</li>
-<li>SOA：服务治理的范畴，重在服务之间的拆分与统一接口</li>
-<li>微服务：可以理解为服务治理的一种手段，趋向于小服务的独立运作与部署。</li>
-<li>技术手段：springcloud，dubbo</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>界限把控：服务的粒度、拆分和公共服务提炼需要架构师的全局把控。设计不好容易引发混乱</li>
-<li>部署升级：服务数量增多，自动化部署面临挑战</li>
-<li>服务可用性：抽调的微服务因需要被多个上层业务共享，可用性等级变高，一旦down机就是灾难</li>
-<li>熔断和限流：做好服务熔断和限流，提防服务单点瓶颈造成整个系统瘫痪。</li>
-</ul></li>
-</ul>
-<h2 id="中台化">2.14 中台化</h2>
-<ul>
-<li>阿里共享业务技术部的发展，中国供销集团，电商平台中台体系的架构模式。</li>
-<li>技术沉积形成了公共服务平台，业务沉积逐步形成共享业务技术部，同时，业务烟囱的壁垒推动业务中台成型。同时组织结构同步升级，以技术共享为核心的技术中台，以数据为中心的数据中台同步建设得到实施。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-20-25.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>业务沉淀形成独立的中心，各个中心之间借助服务总线实现业务协作与服务重组。</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>团队规模：团队规模扩张，人员增多，协调成本上升，组织机构要有配套调整</li>
-<li>接口授权：各个中心的接口授权与开发需要把控</li>
-<li>接口约束：系统增多，各个服务接口的规范化日益重要，要求有统一的服务接口规范，推动企业消息总线的建设</li>
-<li>跨服务令牌：借助oauth2等手段，实现服务之间的权限认证</li>
-</ul></li>
-</ul>
-<h2 id="容器化">2.15 容器化</h2>
-<ul>
-<li>针对中台化的建设及微服务数量的飙升，部署和运维支撑同步进行着变革。面临微服务的快速部署，资源的弹性伸缩等挑战，容器化与云被推进。</li>
-<li>案例：成百上千的服务数量庞大、大促期间某些微服务的临时扩容。</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-15_19-21-43.png"/></div></div>
-<ul>
-<li>1）方案
-<ul>
-<li>虚拟化：vm方案，Openstack，Vmware，VirtualBox</li>
-<li>容器化：docker</li>
-<li>编排：swarm，k8s，k3s</li>
-<li>云化：容器化解决了资源的快速伸缩，但仍需要企业自备大量预备资源。推动私有云到企业云进化</li>
-</ul></li>
-<li>2）特点
-<ul>
-<li>资源预估：注意资源的回收，降低资源闲置和浪费，例如大促结束后要及时回收。</li>
-<li>运维要求：需要运维层面的高度支撑，门槛比较高</li>
-<li>预估风险：云瘫痪的故障造成的损失不可估量，（openstack垮掉的事故案例）</li>
-</ul></li>
-</ul>
-<h1 id="架构总结">3. 架构总结</h1>
-<ol type="1">
-<li>知行合一，做之前，先考虑意义</li>
-<li>原生优于定制，约定大于配置</li>
-<li>什么都是，最后会沦落到什么都不是</li>
-<li>控制技术欲，不要瞎折腾</li>
-<li>留下扩展，但不要想到100年后</li>
-<li>没有最好的，只有最合适的</li>
-<li>够用就好，玩的越花，风险越大</li>
-<li>简约最美</li>
-</ol>
-]]></content>
-      <categories>
-        <category>架构设计</category>
-      </categories>
-      <tags>
-        <tag>互联网电商系统的演进过程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Git</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Git/</url>
-    <content><![CDATA[<h1 id="windows安装git">1. Windows安装Git</h1>
-<h2 id="下载git">1.1 下载Git</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://git-scm.com/">
+    <title>项目学习 · 小谷充电宝</title>
+    <url>/2025/03/21/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%C2%B7%E5%B0%8F%E8%B0%B7%E5%85%85%E7%94%B5%E5%AE%9D/</url>
+    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
+<h2 id="项目学习链接">1.1 项目学习链接</h2>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1HCQBYUERb">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://git-scm.com/images/logo@2x.png)">
-          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
         </div>
         <div class="tag-link-right">
-            <div class="tag-link-title">Git官网</div>
-            <div class="tag-link-sitename">提供了各个平台(Windows、Mac、Linux)的安装程序。 </div>
+            <div class="tag-link-title">小谷充电宝</div>
+            <div class="tag-link-sitename">https://www.bilibili.com/video/BV1HCQBYUERb</div>
         </div>
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
     </a></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-11-21.png"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-02-24_22-13-20.png"/></div></div>
-<h2 id="安装git">1.2 安装Git</h2>
+<h2 id="代码仓库链接">1.2 代码仓库链接</h2>
+<h2 id="项目简介">1.3 项目简介</h2>
 <ul>
-<li>双击git-xx-bit.exe开始安装,点击next进行下一步安装</li>
-<li>安装目录：建议其他盘(除C盘以外)</li>
-<li>后续操作选择默认即可</li>
+<li>共享充电宝是基于若依微服务版本框架开发的一个共享系统，项目包含平台管理端与微信小程序端，是一个前后端分离的项目。共享充电宝分为后台系统和前台微信小程序。</li>
+<li>后台系统功能：用户登录、系统管理员列表、角色管理、权限规则管理、柜机管理、柜机分类、充电宝管理…</li>
+<li>前台微信小程序功能：首页、附近门店、门店信息、登录功能、扫码、Mqtt通信、我的订单、微信支付…</li>
+<li>其中覆盖了分布式文件系统、高速缓存、消息队列等多种业务场景和技术实现。</li>
 </ul>
+<h2 id="技术栈清单">1.4 技术栈清单</h2>
+<ul>
+<li>Java体系
+<ul>
+<li>SpringBoot</li>
+<li>SpringCloud</li>
+<li>MyBatisPlus</li>
+<li>Redis</li>
+<li>RabbitMQ</li>
+<li>MySQL</li>
+<li>MongoDB</li>
+<li>MinlO</li>
+<li>微信支付</li>
+</ul></li>
+<li>嵌入式技术
+<ul>
+<li>MQTT</li>
+</ul></li>
+<li>AI部分技术
+<ul>
+<li>Spring AI</li>
+<li>DeepSeek</li>
+</ul></li>
+<li>前端技术
+<ul>
+<li>Vue3:Vue.js的最新版本</li>
+<li>Element Plus:一个基于Vue.js 3.0的组件库，它是Element
+UI的升级版本</li>
+<li>Vite：一种新型前端构建工具</li>
+<li>Node.js:JavaScript运行环境</li>
+<li>uni-app:前端应用框架</li>
+</ul></li>
+</ul>
+<h2 id="技术架构图">1.5 技术架构图</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/share-jgt.png"/></div></div>
+<h1 id="系分设计">2. 系分设计</h1>
+<h2 id="业务流程图">2.1 业务流程图</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/share-lct.png"/></div></div>
+<h1 id="项目环境">3. 项目环境</h1>
+<h2 id="准备软件环境请参考本博客内容">3.1
+准备软件环境（请参考本博客内容）</h2>
+<ul>
+<li>docker</li>
+<li>mysql</li>
+<li>minio</li>
+<li>nacos</li>
+<li>rabbitmq</li>
+<li>redis</li>
+<li>mongoDB</li>
+</ul>
+<h2 id="搭建项目后端环境">3.2 搭建项目后端环境</h2>
+<h2 id="搭建项目前端环境">3.3 搭建项目前端环境</h2>
 ]]></content>
       <categories>
-        <category>环境安装</category>
+        <category>项目学习</category>
       </categories>
       <tags>
-        <tag>Git</tag>
+        <tag>小谷充电宝</tag>
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · Docker</title>
-    <url>/2025/03/21/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Docker/</url>
-    <content><![CDATA[<h1 id="linux系统安装docker">1. Linux系统安装Docker</h1>
-<p>环境安装：</p>
-<blockquote>
-<p>yum -y install gcc-c++</p>
-</blockquote>
-<p>第一步：安装必要的一些系统工具</p>
-<blockquote>
-<p>yum install -y yum-utils device-mapper-persistent-data lvm2</p>
-</blockquote>
-<p>第二步：添加软件源信息</p>
-<blockquote>
-<p>yum-config-manager –add-repo <a
-href="http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo"
-title="http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo">http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</a></p>
-</blockquote>
-<p>第三步：更新并安装Docker-CE</p>
-<blockquote>
-<p>yum makecache fast yum -y install docker-ce</p>
-</blockquote>
-<p>第四步：开启Docker服务</p>
-<blockquote>
-<p>service docker start systemctl enable docker</p>
-</blockquote>
-<p>第五步：测试是否安装成功</p>
-<blockquote>
-<p>docker -v</p>
-</blockquote>
-<p>第六步：配置镜像加速器</p>
-<p>您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器</p>
-<blockquote>
-<p>sudo mkdir -p /etc/docker</p>
-</blockquote>
-<p>新建daemon.json文件内容如下：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;registry-mirrors&quot;</span>:[<span class="string">&quot;https://docker.mirrors.ustc.edu.cn&quot;</span>,<span class="string">&quot;http://hubmirror.c.163.com&quot;</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>如果以上镜像不能使用了，可以使用阿里云的镜像！ <a
-href="https://help.aliyun.com/document_detail/60750.html?spm=a2c4g.60743.0.i1">官方镜像加速
-(aliyun.com)</a></p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/docker001.png"/></div></div>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;registry-mirrors&quot;:[&quot;https://q0awbeqk.mirror.aliyuncs.com&quot;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>sudo systemctl daemon-reload sudo systemctl daemon-reload sudo
-systemctl restart docker</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Minio</title>
-    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Minio/</url>
-    <content><![CDATA[<h1 id="linux系统安装miniodocker版">1. Linux系统安装Minio(Docker版)</h1>
-<h2 id="minio介绍">1.1 Minio介绍</h2>
-<p>官网：https://www.minio.org.cn/</p>
-<p>MinIO是一个开源的分布式对象存储服务器，支持S3协议并且可以在多节点上实现数据的高可用和容错。它采用Go语言开发，拥有轻量级、高性能、</p>
-<p>易部署等特点，并且可以自由选择底层存储介质。</p>
-<p>MinIO的主要特点包括：</p>
-<p>1、高性能：MinIO基于GO语言编写，具有高速、轻量级、高并发等性能特点，还支持多线程和缓存等机制进行优化，可以快速地处理大规模数据。</p>
-<p>2、可扩展性：MinIO采用分布式存储模式，支持水平扩展，通过增加节点数量来扩展存储容量和性能，支持自动数据迁移和负载均衡。</p>
-<p>3、安全性：MinIO提供了多种安全策略，如访问控制列表（ACL）、服务端加密（SSE）、传输层安全性（TLS）等，可以保障数据安全和隐私。</p>
-<p>4、兼容性：MinIO兼容AWS S3
-API，还支持其他云服务提供商的API，比如GCP、Azure等，可以通过简单的配置实现互操作性。</p>
-<p>5、简单易用：MinIO的部署和管理非常简单，只需要运行一个二进制包即可启动服务，同时提供了Web界面和命令行工具等方便的管理工具。</p>
-<p><strong>S3协议</strong>是Amazon Web Services (AWS)
-提供的对象存储服务（Simple Storage Service）的API协议。它是一种
-RESTful风格的Web服务接口，使</p>
-<p>用HTTP/HTTPS协议进行通信，支持多种编程语言和操作系统，并实现了数据的可靠存储、高扩展性以及良好的可用性。</p>
-<p>已安装或能访问忽略</p>
-<h2 id="minio安装docker版">1.2 Minio安装（Docker版）</h2>
-<p>第一步：拉取镜像</p>
-<blockquote>
-<p>docker pull minio/minio</p>
-</blockquote>
-<p>第二步：启动</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run \</span><br><span class="line">-p 9000:9000 \</span><br><span class="line">-p 9001:9001 \</span><br><span class="line">--name=share_minio \</span><br><span class="line">-d --restart=always \</span><br><span class="line">-e &quot;MINIO_ROOT_USER=admin&quot; \</span><br><span class="line">-e &quot;MINIO_ROOT_PASSWORD=admin123456&quot; \</span><br><span class="line">-v share_minio-data:/data \</span><br><span class="line">-v share_minio-config:/root/.minio \</span><br><span class="line">minio/minio server /data --console-address &quot;:9001&quot;</span><br></pre></td></tr></table></figure>
-<p>浏览器访问：<a
-href="http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录"
-title="http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录">http://IP:9001/minio/login，登录使用自定义账户密码admin/admin123456登录</a></p>
-<p><strong>注意</strong>：文件上传时，需要调整一下linux
-服务器的时间与windows 时间一致！</p>
-<blockquote>
-<p>第一步：安装ntp服务 yum -y install ntp 第二步：开启开机启动服务
-systemctl enable ntpd 第三步：启动服务 systemctl start ntpd
-第四步：更改时区 timedatectl set-timezone Asia/Shanghai
-第五步：启用ntp同步 timedatectl set-ntp yes 第六步：同步时间 ntpq -p</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Minio</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · MySQL</title>
-    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Mysql/</url>
-    <content><![CDATA[<h1 id="linux系统安装mysqldocker版">1. Linux系统安装MySQL(Docker版)</h1>
-<p>第一步：拉取镜像</p>
-<blockquote>
-<p>docker pull mysql:8.0.29</p>
-</blockquote>
-<p>第二步：启动</p>
-<blockquote>
-<p>docker run –name share_mysql –restart=always -v
-mysql-data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d
-mysql:8.0.29</p>
-</blockquote>
-<p>第三步：测试mysql</p>
-<p>进入容器：</p>
-<blockquote>
-<p>docker exec -it share_mysql /bin/bash</p>
-</blockquote>
-<p>登录mysql：</p>
-<blockquote>
-<p>mysql -u root -p</p>
-<p>输入密码：root</p>
-</blockquote>
-<p>如果顺利进入，安装成功</p>
-<blockquote>
-<p>#修改默认密码校验方式 ALTER USER ‘root’@‘%’ IDENTIFIED WITH
-mysql_native_password BY ‘root’;</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Node.js</title>
-    <url>/2025/02/23/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Node.js/</url>
+    <title>项目实践 · 图床GitHub+PicGo</title>
+    <url>/2025/03/01/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7GitHub%E5%9B%BE%E5%BA%8A/</url>
     <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
 <ul>
-<li>Nodejs安装教程：<a
-href="https://blog.csdn.net/weixin_42474607/article/details/140769161">https://blog.csdn.net/weixin_42474607/article/details/140769161</a></li>
+<li>GitHub+PicGo搭建免费图床：<a
+href="https://zhuanlan.zhihu.com/p/616138380">https://zhuanlan.zhihu.com/p/616138380</a></li>
 </ul>
 </div>
 ]]></content>
       <categories>
-        <category>环境安装</category>
+        <category>项目实践</category>
       </categories>
       <tags>
-        <tag>Node.js</tag>
+        <tag>图床GitHub+PicGo</tag>
       </tags>
   </entry>
   <entry>
-    <title>环境安装 · MongoDB</title>
-    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7MongoDB/</url>
-    <content><![CDATA[<h1 id="linux系统安装mongodbdocker版">1.
-Linux系统安装MongoDB(Docker版)</h1>
-<p><strong>第一步 拉取镜像</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull mongo:7.0.0</span><br></pre></td></tr></table></figure>
-<p><strong>第二步 创建和启动容器</strong></p>
-<p>需要在宿主机建立文件夹</p>
-<blockquote>
-<p>rm -rf /opt/mongo</p>
-<p>mkdir -p /opt/mongo/data/db</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d --restart=always -p 27017:27017 --name mongo -v /opt/mongo/data/db:/data/db mongo:7.0.0</span><br></pre></td></tr></table></figure>
-<p><strong>第三步 进入容器</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker exec -it mongo mongosh</span><br><span class="line">docker exec -it mongo-yapi mongo -- 现有的容器</span><br></pre></td></tr></table></figure>
-<h3 id="环境测试">3.8、环境测试</h3>
-<p>使用mysql/redis客户端工具远程连接mysql/redis测试</p>
-<p>nacos控制台访问测试: <code>http://虚拟机IP:8848/nacos</code>
-账号密码：nacos/nacos</p>
-<p>rabbitmq控制台访问测试：<code>http://虚拟机IP:15672</code>
-账号密码：guest/guest</p>
-<p>minio控制台访问测试：<code>http://虚拟机IP:9001</code>
-账号密码：admin/admin123456</p>
-<p><strong>注意：如果访问失败</strong></p>
-<p>1、检查容器是否创建启动成功，可能是端口号占用导致，需要先关闭占用端口号的进程或修改当前容器的端口号</p>
-<p>2、检查防火墙是否关闭，如果未关闭，可以执行<code>systemctl  stop firewalld.service</code>,
-<code>systemctl disable firewalld.service</code> 关闭</p>
-<p>3、配置虚拟机允许IPv4地址跳转</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">修改配置文件：</span></span><br><span class="line">vim /usr/lib/sysctl.d/00-system.conf</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">添加</span></span><br><span class="line">net.ipv4.ip_forward=1</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">保存退出 重启网络</span></span><br><span class="line">systemctl restart network</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">重启docker</span></span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
+    <title>项目实践 · Aurora电商</title>
+    <url>/2025/02/27/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7%E7%94%B5%E5%95%86mall/</url>
+    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
+<h2 id="项目选取原因">1.1 项目选取原因</h2>
+<ul>
+<li>电商系统复杂度足够（大促，双11，秒杀）</li>
+<li>市场覆盖面广（商业化就会用到）</li>
+</ul>
+<h2 id="项目背景介绍">1.2 项目背景介绍</h2>
+<ul>
+<li>包含个人，线下商家(售卖物品，售卖服务)，线下工厂，线下厂商，线上商家，线上工厂，线上厂商</li>
+</ul>
+<h2 id="技术栈清单">1.3 技术栈清单</h2>
 ]]></content>
       <categories>
-        <category>环境安装</category>
+        <category>项目实践</category>
       </categories>
       <tags>
-        <tag>MongoDB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · Nacos</title>
-    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7Nacos/</url>
-    <content><![CDATA[<h1 id="linux系统安装nacosdocker版">1. Linux系统安装Nacos(Docker版)</h1>
-<p>第一步：拉取镜像</p>
-<blockquote>
-<p>docker pull nacos/nacos-server:v2.1.1</p>
-</blockquote>
-<p>第二步：启动</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">-e MODE=standalone \</span><br><span class="line">-p 8848:8848 \</span><br><span class="line">-p 9848:9848 \</span><br><span class="line">-p 9849:9849 \</span><br><span class="line">--name share_nacos2.1.1 \</span><br><span class="line">--restart=always \</span><br><span class="line">nacos/nacos-server:v2.1.1</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>Nacos</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>环境安装 · RabbitMQ</title>
-    <url>/2025/03/22/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%C2%B7RabbitMQ/</url>
-    <content><![CDATA[<h1 id="linux系统安装rabbitmqdocker版">1.
-Linux系统安装RabbitMQ(Docker版)</h1>
-<p>第一步：拉取镜像</p>
-<blockquote>
-<p>docker pull rabbitmq:3.12.0-management</p>
-</blockquote>
-<p>第二步：启动</p>
-<blockquote>
-<p>docker run -d –name=share_rabbitmq -p 5672:5672 -p 15672:15672
-rabbitmq:3.12.0-management</p>
-</blockquote>
-<p>第三步：安装延迟队列插件</p>
-<ol type="1">
-<li><p>首先下载rabbitmq_delayed_message_exchange-3.12.0.ez文件上传到RabbitMQ所在服务器，下载地址：https://www.rabbitmq.com/community-plugins.html</p>
-<p><strong>注意：也可以使用课件资料/rabbitmq插件目录中下载好的</strong></p></li>
-<li><p>切换到插件所在目录，执行<code>docker cp rabbitmq_delayed_message_exchange-3.12.0.ez share_rabbitmq:/plugins</code>命令，将刚插件拷贝到容器内plugins目录下</p></li>
-<li><p>执行<code>docker exec -it share_rabbitmq /bin/bash</code>命令进入到容器内部</p></li>
-<li><p>执行<code>cd plugins</code>进入plugins目录,然后执行<code>ls -l|grep delay</code>命令查看插件是否copy成功</p></li>
-<li><p>在容器内plugins目录下，执行<code>rabbitmq-plugins enable rabbitmq_delayed_message_exchange</code>命令启用插件</p></li>
-<li><p>exit命令退出RabbitMQ容器内部，然后执行<code>docker restart share_rabbitmq</code>命令重启RabbitMQ容器</p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>环境安装</category>
-      </categories>
-      <tags>
-        <tag>RabbitMQ</tag>
+        <tag>Aurora电商</tag>
       </tags>
   </entry>
   <entry>
     <title>理论知识 · ElementPlus</title>
-    <url>/2025/03/08/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Element%20Plus/</url>
+    <url>/2025/03/08/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Element%20Plus/</url>
     <content><![CDATA[<h1 id="什么是elementplus">1. 什么是ElementPlus</h1>
 <ul>
 <li>Element:是饿了么团队研发的，基于Vue3，面向设计师和开发者的<span class='p red'>组件</span>库</li>
@@ -1953,56 +2415,8 @@ rabbitmq:3.12.0-management</p>
       </tags>
   </entry>
   <entry>
-    <title>理论知识 · Git</title>
-    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Git/</url>
-    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/en9rln9lktsw5nhc">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Git-韩顺平</div>
-            <div class="tag-link-sitename">https://www.yuque.com/u21711743/wol4hq/en9rln9lktsw5nhc </div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理论知识 · Maven</title>
-    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Maven/</url>
-    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/qfpw6y6kblqncb0l">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Maven-韩顺平</div>
-            <div class="tag-link-sitename">https://www.yuque.com/u21711743/wol4hq/qfpw6y6kblqncb0l </div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-]]></content>
-      <categories>
-        <category>理论知识</category>
-      </categories>
-      <tags>
-        <tag>Maven</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理论知识 · JavaSE</title>
-    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaSE/</url>
+    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaSE/</url>
     <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/rqr9xuk5dpenb0dv">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
@@ -2026,7 +2440,7 @@ rabbitmq:3.12.0-management</p>
   </entry>
   <entry>
     <title>理论知识 · JavaWeb</title>
-    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaWeb/</url>
+    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7JavaWeb/</url>
     <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/rf8ibc7z8663u0md">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
@@ -2049,8 +2463,86 @@ rabbitmq:3.12.0-management</p>
       </tags>
   </entry>
   <entry>
+    <title>理论知识 · Git</title>
+    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Git/</url>
+    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/en9rln9lktsw5nhc">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git-韩顺平</div>
+            <div class="tag-link-sitename">https://www.yuque.com/u21711743/wol4hq/en9rln9lktsw5nhc </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>理论知识</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论知识 · Maven</title>
+    <url>/2025/03/17/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Maven/</url>
+    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/qfpw6y6kblqncb0l">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Maven-韩顺平</div>
+            <div class="tag-link-sitename">https://www.yuque.com/u21711743/wol4hq/qfpw6y6kblqncb0l </div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>理论知识</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面试宝典 · JavaSE</title>
+    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
+    <content><![CDATA[<h1 id="基础概念与常识">1. 基础概念与常识</h1>
+<h2 id="java语言有哪些特点">1.1 Java语言有哪些特点？</h2>
+<details class="folding-tag" cyan><summary> Java语言有哪些特点？ </summary>
+              <div class='content'>
+              <ul><li>简单易学（语法简单，上手容易）；</li><li>面向对象（封装，继承，多态）；</li><li>平台无关性（ Java 虚拟机实现平台无关性）；</li><li>支持多线程（ C++语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而Java 语言却提供了多线程支持）；</li><li>可靠性（具备异常处理和自动内存管理机制）；</li><li>安全性（Java语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；</li><li>高效性（通过 Just In Time 编译器等技术的优化，Java语言的运行效率还是非常不错的）；</li><li>支持网络编程并且很方便；</li><li>编译与解释并存；</li></ul>
+              </div>
+            </details>
+<h2 id="javase-vs-javaee">1.2 JavaSE vs JavaEE</h2>
+<details class="folding-tag" cyan><summary> JavaSE vs JavaEE </summary>
+              <div class='content'>
+              <ul><li>Java SE（Java Platform，Standard Edition）: Java 平台标准版，Java编程语言的基础，它包含了支持 Java应用程序开发和运行的核心类库以及虚拟机等核心组件。Java SE可以用于构建桌面应用程序或简单的服务器应用程序。</li><li>Java EE（Java Platform, Enterprise Edition ）：Java平台企业版，建立在 Java SE的基础上，包含了支持企业级应用程序开发和部署的标准和规范（比如Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java应用程序，例如 Web 应用程序。</li><li>简单来说，Java SE 是 Java 的基础版本，Java EE 是 Java的高级版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，JavaEE 更适合开发复杂的企业级应用程序或 Web 应用程序。</li><li>除了 Java SE 和 Java EE，还有一个 Java ME（Java Platform，MicroEdition）。Java ME 是 Java的微型版本，主要用于开发嵌入式消费电子设备的应用程序，例如手机、PDA、机顶盒、冰箱、空调等。JavaME 无需重点关注，知道有这个东西就好了，现在已经用不上了。</li></ul>
+              </div>
+            </details>
+<h2 id="jvm-vs-jdk-vs-jre">1.3 JVM vs JDK vs JRE</h2>
+<details class="folding-tag" cyan><summary> JVM vs JDK vs JRE </summary>
+              <div class='content'>
+              <h1 id="jvm">1. JVM</h1><ul><li>Java 虚拟机（Java Virtual Machine, JVM）是运行 Java字节码的虚拟机。JVM有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。字节码和不同系统的JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。</li><li>如下图所示，不同编程语言（Java、Groovy、Kotlin、JRuby、Clojure…）通过各自的编译器编译成 .class 文件，并最终通过 JVM在不同平台（Windows、Mac、Linux）上运行。</li></ul><h1 id="jdk-和-jre">2. JDK 和 JRE</h1><ul><li>JDK（Java Development Kit）是一个功能齐全的 Java开发工具包，供开发者使用，用于创建和编译 Java 程序。它包含了 JRE（JavaRuntime Environment），以及编译器 javac 和其他工具，如javadoc（文档生成器）、jdb（调试器）、jconsole（监控工具）、javap（反编译工具）等。</li><li>JRE 是运行已编译 Java 程序所需的环境，主要包含以下两个部分：</li></ul><ol type="1"><li>JVM : 也就是我们上面提到的 Java 虚拟机。</li><li>Java 基础类库（Class Library）：一组标准的类库，提供常用的功能和API（如 I/O 操作、网络通信、数据结构等）。</li></ol>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>面试宝典</category>
+      </categories>
+      <tags>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理论知识 · SpringBoot</title>
-    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7SpringBoot/</url>
+    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7SpringBoot/</url>
     <content><![CDATA[<h1 id="springboot介绍">1. SpringBoot介绍</h1>
 <h2 id="概述">1.1 概述</h2>
 <ul>
@@ -2206,7 +2698,7 @@ META-INF/spring/xxx.imports</li>
   </entry>
   <entry>
     <title>理论知识 · MySQL</title>
-    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
+    <url>/2025/02/27/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7MySQL/</url>
     <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.yuque.com/u21711743/wol4hq/ub8e2xuaoizm0cys">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
@@ -2242,8 +2734,25 @@ META-INF/spring/xxx.imports</li>
       </tags>
   </entry>
   <entry>
+    <title>面试宝典 · MySQL</title>
+    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7MySQL/</url>
+    <content><![CDATA[<h1 id="mysql中有哪几种锁">1. MySQL中有哪几种锁?</h1>
+<details class="folding-tag" cyan><summary> MySQL中有哪几种锁? </summary>
+              <div class='content'>
+              <h1 id="mysql中的锁机制">MySQL中的锁机制</h1><p>MySQL的锁机制用于确保数据一致性和并发控制，主要根据<strong>锁的粒度</strong>、<strong>兼容性</strong>和<strong>用途</strong>进行分类。</p><hr /><h2 id="一按锁的粒度分类">一、按锁的粒度分类</h2><h3 id="表级锁table-level-locks">1. 表级锁（Table-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定整张表，并发性能低，但开销小。</li><li><strong>适用场景</strong><br />MyISAM引擎默认使用表级锁；InnoDB执行DDL（如<code>ALTER TABLE</code>）时也会加表锁。</li><li><strong>常见类型</strong><ul><li><strong>表共享读锁（S锁）</strong>：允许多个会话读表，阻塞写操作。</li><li><strong>表独占写锁（X锁）</strong>：独占锁，阻塞其他会话的读写操作。</li></ul></li></ul><h3 id="行级锁row-level-locks">2. 行级锁（Row-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定单行或多行，并发性能高，但开销大（依赖索引）。</li><li><strong>适用场景</strong><br />Inno引擎默认支持行级锁。</li><li><strong>细分类型</strong><ul><li><strong>记录锁（Record Locks）</strong>：锁定索引中的某一行。</li><li><strong>间隙锁（GapLocks）</strong>：锁定索引记录之间的间隙，防止幻读（如<code>id BETWEEN 5 AND 10</code>的间隙）。</li><li><strong>临键锁（Next-Key Locks）</strong>：记录锁 +间隙锁，锁定左开右闭区间（如<code>(5, 10]</code>），InnoDB默认行锁算法。</li></ul></li></ul><h3 id="页级锁page-level-locks">3. 页级锁（Page-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定数据页（如4KB），粒度介于表锁和行锁之间。</li><li><strong>适用场景</strong><br />BDB引擎支持，但已逐渐被淘汰。</li></ul><hr /><h2 id="二按锁的兼容性分类">二、按锁的兼容性分类</h2><h3 id="共享锁shared-lock-s锁">1. 共享锁（Shared Lock, S锁）</h3><ul><li><strong>特点</strong><br />允许其他事务读同一数据，阻塞写操作。</li><li><strong>加锁方式</strong><br /><code>SELECT ... LOCK IN SHARE MODE</code>。</li></ul><h3 id="排他锁exclusive-lock-x锁">2. 排他锁（Exclusive Lock, X锁）</h3><ul><li><strong>特点</strong><br />禁止其他事务读写被锁数据。</li><li><strong>加锁方式</strong><br /><code>SELECT ... FOR UPDATE</code>，或自动由<code>UPDATE</code>/<code>DELETE</code>添加。</li></ul><h3 id="意向锁intention-locks">3. 意向锁（Intention Locks）</h3><ul><li><strong>作用</strong><br />快速判断表级锁和行级锁的冲突。</li><li><strong>类型</strong><ul><li><strong>意向共享锁（IS锁）</strong>：事务计划对某些行加S锁。</li><li><strong>意向排他锁（IX锁）</strong>：事务计划对某些行加X锁。</li></ul></li><li><strong>兼容性</strong><br />IS与IX互相兼容，但会与表级X锁冲突。</li></ul><hr /><h2 id="三按特殊用途分类">三、按特殊用途分类</h2><h3 id="自增锁auto-inc-lock">1. 自增锁（AUTO-INC Lock）</h3><ul><li><strong>作用</strong><br />确保自增列（<code>AUTO_INCREMENT</code>）的值连续唯一。</li><li><strong>特点</strong><br />默认模式为表级锁，MySQL 8.0引入轻量级锁优化（“交错模式”）。</li></ul><h3 id="元数据锁metadata-lock-mdl">2. 元数据锁（Metadata Lock,MDL）</h3><ul><li><strong>作用</strong><br />保护表结构（如防止查询时执行<code>ALTER TABLE</code>）。</li><li><strong>加锁方式</strong><br />读操作加MDL读锁，结构修改加MDL写锁。</li></ul><h3 id="插入意向锁insert-intention-lock">3. 插入意向锁（Insert IntentionLock）</h3><ul><li><strong>作用</strong><br />标记间隙内的插入意向，优化并发插入。</li><li><strong>特点</strong><br />允许多个事务在同一间隙的不同位置插入数据。</li></ul><hr /><h2 id="四存储引擎与锁的支持">四、存储引擎与锁的支持</h2><table><colgroup><col style="width: 9%" /><col style="width: 47%" /><col style="width: 42%" /></colgroup><thead><tr><th>引擎</th><th>支持的锁类型</th><th>特点</th></tr></thead><tbody><tr><td>InnoDB</td><td>行级锁（记录锁、间隙锁、临键锁）、表级锁（意向锁、自增锁）</td><td>默认支持可重复读隔离级别，解决幻读问题</td></tr><tr><td>MyISAM</td><td>表级锁（S锁、X锁）</td><td>适合读多写少场景，不支持事务</td></tr></tbody></table><hr /><h2 id="五锁的兼容性矩阵">五、锁的兼容性矩阵</h2><table><thead><tr><th>当前锁  请求锁</th><th>S锁</th><th>X锁</th><th>IS锁</th><th>IX锁</th></tr></thead><tbody><tr><td>S锁</td><td>✔️</td><td>❌</td><td>✔️</td><td>❌</td></tr><tr><td>X锁</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>IS锁</td><td>✔️</td><td>❌</td><td>✔️</td><td>✔️</td></tr><tr><td>IX锁</td><td>❌</td><td>❌</td><td>✔️</td><td>✔️</td></tr></tbody></table><hr /><h2 id="六示例场景">六、示例场景</h2><h3 id="共享锁s锁">1. 共享锁（S锁）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：对id=1的行加共享锁</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> LOCK <span class="keyword">IN</span> SHARE MODE;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：可以读取该行，但写操作会被阻塞</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;          <span class="comment">-- 允许执行</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Alice&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>; <span class="comment">-- 阻塞，直到会话1释放锁</span></span><br></pre></td></tr></table></figure><h3 id="排他锁x锁">2. 排他锁（X锁）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：对id=1的行加排他锁</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：读写该行均会被阻塞</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> LOCK <span class="keyword">IN</span> SHARE MODE; <span class="comment">-- 阻塞</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> age <span class="operator">=</span> <span class="number">30</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;              <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="间隙锁gap-lock">3. 间隙锁（Gap Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 假设表中存在id=5和id=10的记录</span></span><br><span class="line"><span class="comment">-- 会话1：锁定id=5到id=10之间的间隙</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="keyword">BETWEEN</span> <span class="number">5</span> <span class="keyword">AND</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：尝试插入id=7的记录会被阻塞</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">7</span>, <span class="string">&#x27;Bob&#x27;</span>); <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="临键锁next-key-lock">4. 临键锁（Next-Key Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：锁定id&gt;10的所有记录及后续间隙（如(10, +∞)）</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">&gt;</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：插入或修改id&gt;10的记录均会被阻塞</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">15</span>, <span class="string">&#x27;Charlie&#x27;</span>); <span class="comment">-- 阻塞</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Dave&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">12</span>;         <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="插入意向锁insert-intention-lock-1">5. 插入意向锁（InsertIntention Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：锁定id=5到id=10的间隙</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="keyword">BETWEEN</span> <span class="number">5</span> <span class="keyword">AND</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：尝试在间隙内插入id=8的记录会触发插入意向锁</span></span><br><span class="line"><span class="comment">-- （实际会阻塞，直到会话1释放锁）</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">8</span>, <span class="string">&#x27;Eve&#x27;</span>);</span><br></pre></td></tr></table></figure><p>说明</p><ul><li><p>上述示例需在事务中执行（如BEGIN; …COMMIT;），否则锁会立即释放。</p></li><li><p>不同事务隔离级别（如READ COMMITTED和REPEATABLEREAD）会影响锁的行为，例如间隙锁在READ COMMITTED下可能不生效。</p></li></ul>
+              </div>
+            </details>
+]]></content>
+      <categories>
+        <category>面试宝典</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>理论知识 · Vue</title>
-    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
+    <url>/2025/03/02/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86/%E7%90%86%E8%AE%BA%E7%9F%A5%E8%AF%86%C2%B7Vue/</url>
     <content><![CDATA[<div class="note info modern"><p>前置知识：HTML,CSS,JS</p>
 </div>
 <h1 id="什么是vue">1. 什么是Vue</h1>
@@ -2435,388 +2944,8 @@ Components）。</li>
       </tags>
   </entry>
   <entry>
-    <title>生活 · 烹饪</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E7%83%B9%E9%A5%AA/</url>
-    <content><![CDATA[<h1 id="甜点">1. 甜点</h1>
-<h2 id="蛋糕">1.1 蛋糕</h2>
-<h3 id="工具">1.1.1 工具</h3>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>烹饪</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 健康指南</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%81%A5%E5%BA%B7%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<div class="note info modern"><p>info
-作为长期加班的程序员，健康管理尤为重要。以下的养生方案，兼顾实用性和效率，帮助您在工作中保持身体和心理的平衡</p>
-</div>
-<h1 id="饮食">1. 饮食</h1>
-<h2 id="喝茶">1.1 喝茶</h2>
-<ul>
-<li>茶叶中含有多种有益物质，如咖啡碱、维生素C、茶多酚等，这些物质具有<span class='p green'>提神醒脑、清热解毒、软化血管、减肥</span>等功效。此外，茶叶还具有<span class='p green'>抗氧化、抗衰老、增加免疫力</span>等作用。长期喝茶水，能消除疲劳、增强记忆力等。
-<div class="note warning flat"><p>但请注意，茶叶中的咖啡因含量较高，过量饮用可能会引起<span
-class="p red">心悸</span>、<span
-class="p red">失眠</span>等不良反应。因此，建议适量饮用茶水，每天不要超过3-5杯。</p>
-</div> <p class='p center logo large'>茶的种类</p></li>
-</ul>
-<ol type="1">
-<li><p>绿茶：绿茶富含儿茶素、茶氨酸和茶多酚等抗氧化剂，可以提高新陈代谢、降低胆固醇、减缓衰老等。绿茶具有防癌、降血脂、降血压的功效，非常适合中年男性、肥胖的人进行服用。</p></li>
-<li><p>白茶：白茶含有丰富的茶多酚，具有抗氧化、抗癌、强化免疫系统、降低血糖、调节血脂等功能。白茶具有明目、保肝、护肝的功效，经常饮酒的人，经常发脾气的人，总是坐在办公室的人，视力下降的人是比较适合应用的。</p></li>
-<li><p>黑茶：黑茶中含有的茶黄素和茶红素具有较高的抗氧化性能，能够降低胆固醇，调节肠道菌群，促进消化等。黑茶也是发酵茶，具有更加明显的降低血脂、解除油腻的功效，总是吃大鱼大肉的人比较适合饮用黑茶。</p></li>
-<li><p>乌龙茶：乌龙茶中含有的茶多酚和儿茶素具有抗氧化、降低血脂、防治肥胖、抑制致癌物质等多种功能。</p></li>
-<li><p>紫砂茶：紫砂茶中有丰富的多酚类物质和微量元素，这些物质可以清除自由基、降低血压、降血脂等功能。</p></li>
-<li><p>黄茶，黄茶属于发酵茶，有益脾胃，有利于消化，对于身体虚弱、消化不良的人可以应用。</p></li>
-<li><p>青茶，青茶属于半发酵茶，又称为乌龙茶，可以很好的降低血脂、抗衰老，对于老年男性是很适合的。</p></li>
-<li><p>红茶，红茶是全发酵茶，可以很好的调养脾胃，特别是对于胃寒患者，长时间吃东西不消化的患者，比较适合。</p></li>
-</ol>
-<h1 id="行为习惯">2. 行为习惯</h1>
-<h2 id="番茄钟工作法">2.1 番茄钟工作法</h2>
-<ol type="1">
-<li><p>每25分钟强制休息5分钟，用物理计时器（非手机）提醒</p></li>
-<li><p>休息时做「20-20-20护眼法则」：看20英尺外20秒+闭眼转动眼球</p></li>
-<li><p>每小时做3分钟颈椎米字操（用下巴写米字）</p></li>
-<li><p>每25分钟站立办公替代坐姿</p></li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>健康指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 恋爱</title>
-    <url>/2025/03/09/%E7%94%9F%E6%B4%BB%C2%B7%E6%81%8B%E7%88%B1/</url>
-    <content><![CDATA[<div class="note info modern"><p>info 恋爱指南</p>
-</div>
-<h1 id="恋爱提升">1. 恋爱提升</h1>
-<ul>
-<li>朋友圈 图片，个人图片，展示区</li>
-<li>健身：腹肌，瘦腿，方便拍照</li>
-<li>穿搭</li>
-<li>发型</li>
-<li>唱歌</li>
-</ul>
-<h1 id="恋爱技巧">2. 恋爱技巧</h1>
-<h2 id="说话">2.1 说话</h2>
-<pre><code>* 说话：传递关系，情绪，态度，需要走心
-* 升级关系：
-    * 日常：1/4 星座，瞎扯，做了什么之类的
-    * 对方的感兴趣点，主动开启的话题 1/4
-    * 自己价值的展示（优秀点，生活，细节） 1/4: 每周半天体验生活，商圈，网红点之类的，装修风格好的地点
-    * 升级关系 1/4
-* 说客套话，认真的话：需要认真走心仔细的解释，走心
-* 所有的拒绝都是在给机会，给你一个解决问题的机会，要不会把你拉黑的</code></pre>
-<h2 id="情感中的升级关系">2.2 情感中的升级关系</h2>
-<ul>
-<li>面子，自尊心，牌坊丢掉，全部给她</li>
-<li>表达好感，解决对方疑虑，解析对方想法，只求过程不求结果的人</li>
-</ul>
-<h1 id="朋友圈建设">3. 朋友圈建设</h1>
-<h2 id="头像建设">3.1 头像建设</h2>
-<ul>
-<li>可以自拍（凸显帅气，稳重）</li>
-<li>可以人物头像</li>
-<li>不要用沙雕头像</li>
-</ul>
-<h2 id="朋友圈背景">3.2 朋友圈背景</h2>
-<ul>
-<li>如果可以炫富，可以放到这里</li>
-<li>人物元素要少</li>
-<li>展示优点</li>
-</ul>
-<h2 id="个性签名">3.3 个性签名</h2>
-<ul>
-<li>可以文艺，幽默</li>
-</ul>
-<h2 id="朋友圈的展示内容">3.4 朋友圈的展示内容</h2>
-<ul>
-<li><p>一个月一条，一周一条</p></li>
-<li><p>美食</p>
-<ul>
-<li>不要有垃圾饮食，需要拍出来好看，价值</li>
-</ul></li>
-<li><p>社交</p>
-<ul>
-<li>展示积极生活状态</li>
-<li>社交合照 合影，最好有女生，生活丰富有趣</li>
-</ul></li>
-<li><p>工作</p>
-<ul>
-<li>展示上进心，表达对未来的期待</li>
-</ul></li>
-<li><p>英文歌+文案（文艺）</p></li>
-<li><p>旅游打卡+定位</p></li>
-<li><p>健身房 对境自拍，撸铁照片</p></li>
-<li><p>路边猫猫狗狗</p></li>
-<li><p>发朋友圈时应该避开的3个坑</p>
-<ul>
-<li>过分浮夸</li>
-<li>太端着装文艺</li>
-<li>用网图照片</li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>恋爱</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 头发呵护指南</title>
-    <url>/2025/02/24/%E7%94%9F%E6%B4%BB%C2%B7%E5%A4%B4%E5%8F%91%E5%91%B5%E6%8A%A4%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1 id="洗发水">1. 洗发水</h1>
-<ul>
-<li>短发，每天洗（建议2-3天洗）：成分推荐：第二位：月桂醇XX胺，XXX牛磺酸钠，月桂酰肌氨酸钠，月桂酰胺丙基甜菜碱
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_20-21-03.png"/></div></div>
-<ul>
-<li>超级种子-雪松头皮清洁洗发水</li>
-<li>施华蔻-氨基酸赋活修复洗发露</li>
-<li>缕灵-丰盈蓬松空气感洗发水</li>
-</ul></li>
-<li>短发（2-3天洗）：
-<ul>
-<li>丝蓓绮的沁润臻致修护洗发露</li>
-<li>滋源的无患子控油轻盈洗头水(油性)</li>
-<li>卡诗的耀光凝色晶透洗发水（价格高）</li>
-<li>爱马仕橘绿之泉二合一洗发沐浴啫喱（价格高）</li>
-</ul></li>
-<li>短发（2-3天洗）+头屑多
-<ul>
-<li>珂岸的氨基酸控油净澈洗发水</li>
-<li>海飞丝头皮专研洗发露控油抑屑型</li>
-</ul></li>
-<li>长发（&lt;3天洗/油性）
-<ul>
-<li>蓝吕舒爽清润净澈去屑洗发水</li>
-</ul></li>
-<li>长发（&gt;=3天洗/干性）
-<ul>
-<li>水之密语浸润臻养洗发露(倍润型) <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-11_21-02-05.png"/></div></div></li>
-</ul></li>
-</ul>
-<h1 id="洗面奶">2. 洗面奶</h1>
-<ul>
-<li>氨基酸洗面奶
-<ul>
-<li>Xx酰xX氨酸钠/钾</li>
-<li>前四位：Xx酰xX氨酸钠/钾</li>
-<li>干皮：最好后面也 Xx酰xX氨酸钠/钾</li>
-<li>油皮：椰油酰股丙基甜菜碱</li>
-</ul></li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>头发呵护指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>面试宝典 · JavaSE</title>
-    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7JavaSE%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/</url>
-    <content><![CDATA[<h1 id="基础概念与常识">1. 基础概念与常识</h1>
-<h2 id="java语言有哪些特点">1.1 Java语言有哪些特点？</h2>
-<details class="folding-tag" cyan><summary> Java语言有哪些特点？ </summary>
-              <div class='content'>
-              <ul><li>简单易学（语法简单，上手容易）；</li><li>面向对象（封装，继承，多态）；</li><li>平台无关性（ Java 虚拟机实现平台无关性）；</li><li>支持多线程（ C++语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而Java 语言却提供了多线程支持）；</li><li>可靠性（具备异常处理和自动内存管理机制）；</li><li>安全性（Java语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；</li><li>高效性（通过 Just In Time 编译器等技术的优化，Java语言的运行效率还是非常不错的）；</li><li>支持网络编程并且很方便；</li><li>编译与解释并存；</li></ul>
-              </div>
-            </details>
-<h2 id="javase-vs-javaee">1.2 JavaSE vs JavaEE</h2>
-<details class="folding-tag" cyan><summary> JavaSE vs JavaEE </summary>
-              <div class='content'>
-              <ul><li>Java SE（Java Platform，Standard Edition）: Java 平台标准版，Java编程语言的基础，它包含了支持 Java应用程序开发和运行的核心类库以及虚拟机等核心组件。Java SE可以用于构建桌面应用程序或简单的服务器应用程序。</li><li>Java EE（Java Platform, Enterprise Edition ）：Java平台企业版，建立在 Java SE的基础上，包含了支持企业级应用程序开发和部署的标准和规范（比如Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java应用程序，例如 Web 应用程序。</li><li>简单来说，Java SE 是 Java 的基础版本，Java EE 是 Java的高级版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，JavaEE 更适合开发复杂的企业级应用程序或 Web 应用程序。</li><li>除了 Java SE 和 Java EE，还有一个 Java ME（Java Platform，MicroEdition）。Java ME 是 Java的微型版本，主要用于开发嵌入式消费电子设备的应用程序，例如手机、PDA、机顶盒、冰箱、空调等。JavaME 无需重点关注，知道有这个东西就好了，现在已经用不上了。</li></ul>
-              </div>
-            </details>
-<h2 id="jvm-vs-jdk-vs-jre">1.3 JVM vs JDK vs JRE</h2>
-<details class="folding-tag" cyan><summary> JVM vs JDK vs JRE </summary>
-              <div class='content'>
-              <h1 id="jvm">1. JVM</h1><ul><li>Java 虚拟机（Java Virtual Machine, JVM）是运行 Java字节码的虚拟机。JVM有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。字节码和不同系统的JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。</li><li>如下图所示，不同编程语言（Java、Groovy、Kotlin、JRuby、Clojure…）通过各自的编译器编译成 .class 文件，并最终通过 JVM在不同平台（Windows、Mac、Linux）上运行。</li></ul><h1 id="jdk-和-jre">2. JDK 和 JRE</h1><ul><li>JDK（Java Development Kit）是一个功能齐全的 Java开发工具包，供开发者使用，用于创建和编译 Java 程序。它包含了 JRE（JavaRuntime Environment），以及编译器 javac 和其他工具，如javadoc（文档生成器）、jdb（调试器）、jconsole（监控工具）、javap（反编译工具）等。</li><li>JRE 是运行已编译 Java 程序所需的环境，主要包含以下两个部分：</li></ul><ol type="1"><li>JVM : 也就是我们上面提到的 Java 虚拟机。</li><li>Java 基础类库（Class Library）：一组标准的类库，提供常用的功能和API（如 I/O 操作、网络通信、数据结构等）。</li></ol>
-              </div>
-            </details>
-]]></content>
-      <categories>
-        <category>面试宝典</category>
-      </categories>
-      <tags>
-        <tag>JavaSE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>面试宝典 · MySQL</title>
-    <url>/2025/02/27/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7MySQL/</url>
-    <content><![CDATA[<h1 id="mysql中有哪几种锁">1. MySQL中有哪几种锁?</h1>
-<details class="folding-tag" cyan><summary> MySQL中有哪几种锁? </summary>
-              <div class='content'>
-              <h1 id="mysql中的锁机制">MySQL中的锁机制</h1><p>MySQL的锁机制用于确保数据一致性和并发控制，主要根据<strong>锁的粒度</strong>、<strong>兼容性</strong>和<strong>用途</strong>进行分类。</p><hr /><h2 id="一按锁的粒度分类">一、按锁的粒度分类</h2><h3 id="表级锁table-level-locks">1. 表级锁（Table-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定整张表，并发性能低，但开销小。</li><li><strong>适用场景</strong><br />MyISAM引擎默认使用表级锁；InnoDB执行DDL（如<code>ALTER TABLE</code>）时也会加表锁。</li><li><strong>常见类型</strong><ul><li><strong>表共享读锁（S锁）</strong>：允许多个会话读表，阻塞写操作。</li><li><strong>表独占写锁（X锁）</strong>：独占锁，阻塞其他会话的读写操作。</li></ul></li></ul><h3 id="行级锁row-level-locks">2. 行级锁（Row-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定单行或多行，并发性能高，但开销大（依赖索引）。</li><li><strong>适用场景</strong><br />Inno引擎默认支持行级锁。</li><li><strong>细分类型</strong><ul><li><strong>记录锁（Record Locks）</strong>：锁定索引中的某一行。</li><li><strong>间隙锁（GapLocks）</strong>：锁定索引记录之间的间隙，防止幻读（如<code>id BETWEEN 5 AND 10</code>的间隙）。</li><li><strong>临键锁（Next-Key Locks）</strong>：记录锁 +间隙锁，锁定左开右闭区间（如<code>(5, 10]</code>），InnoDB默认行锁算法。</li></ul></li></ul><h3 id="页级锁page-level-locks">3. 页级锁（Page-Level Locks）</h3><ul><li><strong>特点</strong><br />锁定数据页（如4KB），粒度介于表锁和行锁之间。</li><li><strong>适用场景</strong><br />BDB引擎支持，但已逐渐被淘汰。</li></ul><hr /><h2 id="二按锁的兼容性分类">二、按锁的兼容性分类</h2><h3 id="共享锁shared-lock-s锁">1. 共享锁（Shared Lock, S锁）</h3><ul><li><strong>特点</strong><br />允许其他事务读同一数据，阻塞写操作。</li><li><strong>加锁方式</strong><br /><code>SELECT ... LOCK IN SHARE MODE</code>。</li></ul><h3 id="排他锁exclusive-lock-x锁">2. 排他锁（Exclusive Lock, X锁）</h3><ul><li><strong>特点</strong><br />禁止其他事务读写被锁数据。</li><li><strong>加锁方式</strong><br /><code>SELECT ... FOR UPDATE</code>，或自动由<code>UPDATE</code>/<code>DELETE</code>添加。</li></ul><h3 id="意向锁intention-locks">3. 意向锁（Intention Locks）</h3><ul><li><strong>作用</strong><br />快速判断表级锁和行级锁的冲突。</li><li><strong>类型</strong><ul><li><strong>意向共享锁（IS锁）</strong>：事务计划对某些行加S锁。</li><li><strong>意向排他锁（IX锁）</strong>：事务计划对某些行加X锁。</li></ul></li><li><strong>兼容性</strong><br />IS与IX互相兼容，但会与表级X锁冲突。</li></ul><hr /><h2 id="三按特殊用途分类">三、按特殊用途分类</h2><h3 id="自增锁auto-inc-lock">1. 自增锁（AUTO-INC Lock）</h3><ul><li><strong>作用</strong><br />确保自增列（<code>AUTO_INCREMENT</code>）的值连续唯一。</li><li><strong>特点</strong><br />默认模式为表级锁，MySQL 8.0引入轻量级锁优化（“交错模式”）。</li></ul><h3 id="元数据锁metadata-lock-mdl">2. 元数据锁（Metadata Lock,MDL）</h3><ul><li><strong>作用</strong><br />保护表结构（如防止查询时执行<code>ALTER TABLE</code>）。</li><li><strong>加锁方式</strong><br />读操作加MDL读锁，结构修改加MDL写锁。</li></ul><h3 id="插入意向锁insert-intention-lock">3. 插入意向锁（Insert IntentionLock）</h3><ul><li><strong>作用</strong><br />标记间隙内的插入意向，优化并发插入。</li><li><strong>特点</strong><br />允许多个事务在同一间隙的不同位置插入数据。</li></ul><hr /><h2 id="四存储引擎与锁的支持">四、存储引擎与锁的支持</h2><table><colgroup><col style="width: 9%" /><col style="width: 47%" /><col style="width: 42%" /></colgroup><thead><tr><th>引擎</th><th>支持的锁类型</th><th>特点</th></tr></thead><tbody><tr><td>InnoDB</td><td>行级锁（记录锁、间隙锁、临键锁）、表级锁（意向锁、自增锁）</td><td>默认支持可重复读隔离级别，解决幻读问题</td></tr><tr><td>MyISAM</td><td>表级锁（S锁、X锁）</td><td>适合读多写少场景，不支持事务</td></tr></tbody></table><hr /><h2 id="五锁的兼容性矩阵">五、锁的兼容性矩阵</h2><table><thead><tr><th>当前锁  请求锁</th><th>S锁</th><th>X锁</th><th>IS锁</th><th>IX锁</th></tr></thead><tbody><tr><td>S锁</td><td>✔️</td><td>❌</td><td>✔️</td><td>❌</td></tr><tr><td>X锁</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>IS锁</td><td>✔️</td><td>❌</td><td>✔️</td><td>✔️</td></tr><tr><td>IX锁</td><td>❌</td><td>❌</td><td>✔️</td><td>✔️</td></tr></tbody></table><hr /><h2 id="六示例场景">六、示例场景</h2><h3 id="共享锁s锁">1. 共享锁（S锁）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：对id=1的行加共享锁</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> LOCK <span class="keyword">IN</span> SHARE MODE;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：可以读取该行，但写操作会被阻塞</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;          <span class="comment">-- 允许执行</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Alice&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>; <span class="comment">-- 阻塞，直到会话1释放锁</span></span><br></pre></td></tr></table></figure><h3 id="排他锁x锁">2. 排他锁（X锁）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：对id=1的行加排他锁</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：读写该行均会被阻塞</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span> LOCK <span class="keyword">IN</span> SHARE MODE; <span class="comment">-- 阻塞</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> age <span class="operator">=</span> <span class="number">30</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;              <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="间隙锁gap-lock">3. 间隙锁（Gap Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 假设表中存在id=5和id=10的记录</span></span><br><span class="line"><span class="comment">-- 会话1：锁定id=5到id=10之间的间隙</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="keyword">BETWEEN</span> <span class="number">5</span> <span class="keyword">AND</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：尝试插入id=7的记录会被阻塞</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">7</span>, <span class="string">&#x27;Bob&#x27;</span>); <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="临键锁next-key-lock">4. 临键锁（Next-Key Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：锁定id&gt;10的所有记录及后续间隙（如(10, +∞)）</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="operator">&gt;</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：插入或修改id&gt;10的记录均会被阻塞</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">15</span>, <span class="string">&#x27;Charlie&#x27;</span>); <span class="comment">-- 阻塞</span></span><br><span class="line"><span class="keyword">UPDATE</span> users <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Dave&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">12</span>;         <span class="comment">-- 阻塞</span></span><br></pre></td></tr></table></figure><h3 id="插入意向锁insert-intention-lock-1">5. 插入意向锁（InsertIntention Lock）</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- 会话1：锁定id=5到id=10的间隙</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> users <span class="keyword">WHERE</span> id <span class="keyword">BETWEEN</span> <span class="number">5</span> <span class="keyword">AND</span> <span class="number">10</span> <span class="keyword">FOR</span> <span class="keyword">UPDATE</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 会话2：尝试在间隙内插入id=8的记录会触发插入意向锁</span></span><br><span class="line"><span class="comment">-- （实际会阻塞，直到会话1释放锁）</span></span><br><span class="line"><span class="keyword">INSERT INTO</span> users (id, name) <span class="keyword">VALUES</span> (<span class="number">8</span>, <span class="string">&#x27;Eve&#x27;</span>);</span><br></pre></td></tr></table></figure><p>说明</p><ul><li><p>上述示例需在事务中执行（如BEGIN; …COMMIT;），否则锁会立即释放。</p></li><li><p>不同事务隔离级别（如READ COMMITTED和REPEATABLEREAD）会影响锁的行为，例如间隙锁在READ COMMITTED下可能不生效。</p></li></ul>
-              </div>
-            </details>
-]]></content>
-      <categories>
-        <category>面试宝典</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活 · 穿搭指南</title>
-    <url>/2025/03/05/%E7%94%9F%E6%B4%BB%C2%B7%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<div class="note info modern"><p>info 是否还不知道应该穿什么样的衣服，是否逛淘宝店看了半天也不满意</p>
-</div>
-<h1 id="购衣指南">1. 购衣指南</h1>
-<ul>
-<li>面料，版型，特点</li>
-<li>面料 <div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/Snipaste_2025-03-06_20-46-16.png"/></div></div>
-<ul>
-<li>牛仔，皮革：材质偏硬，可以用于拔高视觉比例和平衡头肩比</li>
-<li>棉布，亚麻：垂感很强，肩窄不要尝试</li>
-<li>摇粒绒，针织：视觉上给人温暖，可爱，居家</li>
-</ul></li>
-<li>版型
-<ul>
-<li>上身
-<ul>
-<li>背心：阳光</li>
-<li>卫衣：居家</li>
-<li>毛衣：居家</li>
-<li>夹克</li>
-<li>开衫：年少</li>
-<li>冲锋衣</li>
-<li>polo衫：年少</li>
-<li>衬衫</li>
-<li>风衣：时尚</li>
-</ul></li>
-<li>下身
-<ul>
-<li>背带裤</li>
-<li>工装裤</li>
-<li>紧身裤</li>
-<li>灯笼裤</li>
-<li>喇叭裤</li>
-<li>哈伦裤</li>
-<li>裙裤</li>
-</ul></li>
-</ul></li>
-<li>特点
-<ul>
-<li>反光</li>
-<li>防水</li>
-<li>速干</li>
-</ul></li>
-<li>装饰
-<ul>
-<li>铁链</li>
-<li>飘带</li>
-<li>柳钉</li>
-</ul></li>
-</ul>
-<h2 id="购衣">1.1 购衣</h2>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>穿搭指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>项目学习 · 小谷充电宝</title>
-    <url>/2025/03/21/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%C2%B7%E5%B0%8F%E8%B0%B7%E5%85%85%E7%94%B5%E5%AE%9D/</url>
-    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
-<h2 id="项目学习链接">1.1 项目学习链接</h2>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1HCQBYUERb">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="">
-          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
-        </div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">小谷充电宝</div>
-            <div class="tag-link-sitename">https://www.bilibili.com/video/BV1HCQBYUERb</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<h2 id="代码仓库链接">1.2 代码仓库链接</h2>
-<h2 id="项目简介">1.3 项目简介</h2>
-<ul>
-<li>共享充电宝是基于若依微服务版本框架开发的一个共享系统，项目包含平台管理端与微信小程序端，是一个前后端分离的项目。共享充电宝分为后台系统和前台微信小程序。</li>
-<li>后台系统功能：用户登录、系统管理员列表、角色管理、权限规则管理、柜机管理、柜机分类、充电宝管理…</li>
-<li>前台微信小程序功能：首页、附近门店、门店信息、登录功能、扫码、Mqtt通信、我的订单、微信支付…</li>
-<li>其中覆盖了分布式文件系统、高速缓存、消息队列等多种业务场景和技术实现。</li>
-</ul>
-<h2 id="技术栈清单">1.4 技术栈清单</h2>
-<ul>
-<li>Java体系
-<ul>
-<li>SpringBoot</li>
-<li>SpringCloud</li>
-<li>MyBatisPlus</li>
-<li>Redis</li>
-<li>RabbitMQ</li>
-<li>MySQL</li>
-<li>MongoDB</li>
-<li>MinlO</li>
-<li>微信支付</li>
-</ul></li>
-<li>嵌入式技术
-<ul>
-<li>MQTT</li>
-</ul></li>
-<li>AI部分技术
-<ul>
-<li>Spring AI</li>
-<li>DeepSeek</li>
-</ul></li>
-<li>前端技术
-<ul>
-<li>Vue3:Vue.js的最新版本</li>
-<li>Element Plus:一个基于Vue.js 3.0的组件库，它是Element
-UI的升级版本</li>
-<li>Vite：一种新型前端构建工具</li>
-<li>Node.js:JavaScript运行环境</li>
-<li>uni-app:前端应用框架</li>
-</ul></li>
-</ul>
-<h2 id="技术架构图">1.5 技术架构图</h2>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/share-jgt.png"/></div></div>
-<h1 id="系分设计">2. 系分设计</h1>
-<h2 id="业务流程图">2.1 业务流程图</h2>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="/images/page_img/share-lct.png"/></div></div>
-<h1 id="项目环境">3. 项目环境</h1>
-<h2 id="准备软件环境请参考本博客内容">3.1
-准备软件环境（请参考本博客内容）</h2>
-<ul>
-<li>docker</li>
-<li>mysql</li>
-<li>minio</li>
-<li>nacos</li>
-<li>rabbitmq</li>
-<li>redis</li>
-<li>mongoDB</li>
-</ul>
-<h2 id="搭建项目后端环境">3.2 搭建项目后端环境</h2>
-<h2 id="搭建项目前端环境">3.3 搭建项目前端环境</h2>
-]]></content>
-      <categories>
-        <category>项目学习</category>
-      </categories>
-      <tags>
-        <tag>小谷充电宝</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>面试宝典 · 面试算法题库</title>
-    <url>/2025/03/13/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7%E9%9D%A2%E8%AF%95%E7%AE%97%E6%B3%95%E9%A2%98%E5%BA%93/</url>
+    <url>/2025/03/13/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8/%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%C2%B7%E9%9D%A2%E8%AF%95%E7%AE%97%E6%B3%95%E9%A2%98%E5%BA%93/</url>
     <content><![CDATA[<div class="note red anzhiyufont anzhiyu-icon-fan modern"><p>本文章记录面试算法题库内容，包含各类题库</p>
 </div>
 <h1 id="难度简单">1.难度：简单</h1>
@@ -2842,45 +2971,6 @@ UI的升级版本</li>
       </categories>
       <tags>
         <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>项目实践 · 图床GitHub+PicGo</title>
-    <url>/2025/03/01/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7GitHub%E5%9B%BE%E5%BA%8A/</url>
-    <content><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn flat"><p><mark class="hl-label orange">引用文章</mark></p>
-<ul>
-<li>GitHub+PicGo搭建免费图床：<a
-href="https://zhuanlan.zhihu.com/p/616138380">https://zhuanlan.zhihu.com/p/616138380</a></li>
-</ul>
-</div>
-]]></content>
-      <categories>
-        <category>项目实践</category>
-      </categories>
-      <tags>
-        <tag>图床GitHub+PicGo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>项目实践 · Aurora电商</title>
-    <url>/2025/02/27/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%C2%B7%E7%94%B5%E5%95%86mall/</url>
-    <content><![CDATA[<h1 id="项目介绍">1. 项目介绍</h1>
-<h2 id="项目选取原因">1.1 项目选取原因</h2>
-<ul>
-<li>电商系统复杂度足够（大促，双11，秒杀）</li>
-<li>市场覆盖面广（商业化就会用到）</li>
-</ul>
-<h2 id="项目背景介绍">1.2 项目背景介绍</h2>
-<ul>
-<li>包含个人，线下商家(售卖物品，售卖服务)，线下工厂，线下厂商，线上商家，线上工厂，线上厂商</li>
-</ul>
-<h2 id="技术栈清单">1.3 技术栈清单</h2>
-]]></content>
-      <categories>
-        <category>项目实践</category>
-      </categories>
-      <tags>
-        <tag>Aurora电商</tag>
       </tags>
   </entry>
 </search>
